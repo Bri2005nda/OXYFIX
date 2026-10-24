@@ -1,0 +1,14 @@
+phase3_categorie,phase3_action,label_texte,n
+multi_coherent_anaerobie,candidat_etendu,anaerobie,61
+multi_coherent_aerobie,candidat_etendu,aerobie,9
+facultatif,exclure,aerobie,69
+manquant,exclure,aerobie,59
+multi_ambigu,exclure,aerobie,42
+manquant,exclure,anaerobie,18
+microaerophile,exclure,aerobie,16
+multi_ambigu,exclure,anaerobie,12
+conflit_bacdive_anaerobe,exclure,aerobie,9
+a_verifier_autre,exclure,aerobie,2
+conflit_bacdive_aerobe,exclure,anaerobie,1
+documente,garder_strict,anaerobie,339
+documente,garder_strict,aerobie,150

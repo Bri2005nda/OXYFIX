@@ -1,0 +1,11 @@
+=== RÉCONCILIATION COMPTAGES (Phase 0) ===
+FASTA aéro: 356 | anaéro: 431 | total: 787
+table_labels: 787 | aéro(1): 356 | anaéro(0): 431
+table_provenance: 787
+statut_provenance
+documente     489
+a_verifier    211
+manquant       70
+partiel        17
+Cible projet: 787 / 356 aéro / 431 anaéro
+Écart labels vs cible: total 0, aéro 0, anaéro 0

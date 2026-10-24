@@ -1,0 +1,24 @@
+PHASE 6d — COVARIABLE GC % GÉNOMIQUE (GTDB)
+GC du génome représentatif GTDB apparié (espèce ou genre), 746/787 souches.
+
+AUC moyenne (20 splits) :
+  GC_only      full        aléatoire=0.785 | genre=0.617
+  GC_only      strict_489  aléatoire=0.776 | genre=0.745
+  GC_len_AAC   full        aléatoire=0.963 | genre=0.931
+  GC_len_AAC   strict_489  aléatoire=0.972 | genre=0.956
+
+LECTURE :
+- GC seul : modéré en aléatoire (Full 0,785 ; Strict 0,776), faible en
+  genre Full (0,617), intermédiaire en genre Strict (0,745). Un seul
+  nombre lié à la lignée porte donc une information réelle mais incomplète.
+- GC+longueur+AAC (Full 0,963/0,931 ; Strict 0,972/0,956) égale presque
+  la baseline longueur+AAC (0,959/0,919 ; 0,970/0,946) et reste proche de
+  CKSAAP : l'apport propre du GC est marginal, l'essentiel du score trivial
+  vient de la composition globale. CKSAAP garde un supplément limité.
+- GC représentatif GTDB (espèce/genre), pas le génome exact de chaque souche :
+  à formuler comme covariable approchée, couverture 746/787.
+
+Durée totale : 126s
+Par répétition : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6d_gc_per_repeat.csv
+Synthèse : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6d_gc_summary.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase6d_gc_vs_trivial_cksaap.png

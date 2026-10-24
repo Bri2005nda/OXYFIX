@@ -1,0 +1,40 @@
+Lot 3 — genre Paraburkholderia — 30 souches
+Fichier: C:\Users\MK COMPUTER\Desktop\projet\results\provenance\bacdive_lot3.csv
+table_provenance.csv NON modifié
+
+statut_propose
+documente     14
+partiel       10
+a_verifier     6
+
+                                                                        souche label_texte  n_bacdive_hits bacdive_id_propose         oxygen_tol statut_propose                                                           commentaire
+                                              Paraburkholderia_aromaticivorans     aerobie               1             158708 facultative aerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon)
+                                                    Paraburkholderia_atlantica     aerobie               1             166311             aerobe      documente                                                                 taxon
+                                                  Paraburkholderia_azotifigens     aerobie               1             158593             aerobe      documente                                                                 taxon
+                                                 Paraburkholderia_caballeronis     aerobie               1             132166    obligate aerobe      documente                                                                 taxon
+                                                   Paraburkholderia_caribensis     aerobie               2             150958                        a_verifier                                             Ambigu: 2 souches BacDive
+                                                Paraburkholderia_diazotrophica     aerobie               1             130228             aerobe      documente                                                                 taxon
+                                                   Paraburkholderia_dioscoreae     aerobie               1             166838                           partiel                                  Pas de champ oxygen tolerance; taxon
+                                                    Paraburkholderia_dipogonis     aerobie               1             168132                           partiel                                  Pas de champ oxygen tolerance; taxon
+                                                    Paraburkholderia_ferrariae     aerobie               1               1969             aerobe      documente                                                                 taxon
+                                                    Paraburkholderia_franconis     aerobie               1             166312             aerobe      documente                                                                 taxon
+                                                Paraburkholderia_guartelaensis     aerobie               1             166943                           partiel                                  Pas de champ oxygen tolerance; taxon
+                                                  Paraburkholderia_kururiensis     aerobie               1               1943             aerobe      documente                                                                 taxon
+                                                  Paraburkholderia_lycopersici     aerobie               1             167929     microaerophile     a_verifier     À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon)
+                                               Paraburkholderia_phenoliruptrix     aerobie               1               1967             aerobe      documente                                                                 taxon
+                                       Paraburkholderia_phenoliruptrix_BR3459a     aerobie               1               1967             aerobe      documente                                                                 taxon
+                                                     Paraburkholderia_phymatum     aerobie               2             100240                        a_verifier                                             Ambigu: 2 souches BacDive
+Paraburkholderia_phymatum_(strain_DSM_17167___CIP_108236___LMG_21445___STM815)     aerobie               1               1960             aerobe      documente                      culturecollection:DSM 17167,CIP 108236,LMG 21445
+                                                  Paraburkholderia_piptadeniae     aerobie               1             133350                           partiel                                  Pas de champ oxygen tolerance; taxon
+                                                   Paraburkholderia_podalyriae     aerobie               0                                              partiel                                       Aucun hit taxon/culture BacDive
+                                                  Paraburkholderia_rhynchosiae     aerobie               1             133968                           partiel                                  Pas de champ oxygen tolerance; taxon
+                                                   Paraburkholderia_ribeironis     aerobie               1             133351                           partiel                                  Pas de champ oxygen tolerance; taxon
+                                                       Paraburkholderia_sabiae     aerobie               1               1988             aerobe      documente                                                                 taxon
+                                                Paraburkholderia_silvatlantica     aerobie               1               1973             aerobe      documente                                                                 taxon
+                                            Paraburkholderia_sprentiae_WSM5005     aerobie               1             133969                           partiel                                  Pas de champ oxygen tolerance; taxon
+                                                      Paraburkholderia_steynii     aerobie               1             167653                           partiel                                  Pas de champ oxygen tolerance; taxon
+                                                      Paraburkholderia_tropica     aerobie               1               1944             aerobe      documente                                                                 taxon
+                                                      Paraburkholderia_tuberum     aerobie               1               1971             aerobe      documente                                                                 taxon
+                                                       Paraburkholderia_unamae     aerobie               3             139568    obligate aerobe     a_verifier                                             Ambigu: 3 souches BacDive
+                                    Paraburkholderia_xenovorans_(strain_LB400)     aerobie               3             152503             aerobe     a_verifier                                             Ambigu: 3 souches BacDive
+                                                      Paraburkholderia_youngii     aerobie               1             166988                           partiel                                  Pas de champ oxygen tolerance; taxon

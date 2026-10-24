@@ -1,0 +1,24 @@
+souche,label_texte,species_query,culture_codes,n_bacdive_hits,bacdive_id_propose,ncbi_taxid_propose,oxygen_tol,statut_propose,preuve_proposee,commentaire,label_alida_inchange
+Azospirillum_himalayense,aerobie,Azospirillum himalayense,,1,155665,654847,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 155665),taxon,True
+Azospirillum_humicireducens,aerobie,Azospirillum humicireducens,,1,140653,1226968,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 140653),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Azospirillum_melinis,aerobie,Azospirillum melinis,,1,134169,328839,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 134169),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Azospirillum_oleiclasticum,aerobie,Azospirillum oleiclasticum,,1,170908,2735135,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 170908),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Azospirillum_oryzae,aerobie,Azospirillum oryzae,,1,134118,286727,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 134118),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Azospirillum_palustre,aerobie,Azospirillum palustre,,1,166212,2044885,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166212),taxon,True
+Azospirillum_picis,aerobie,Azospirillum picis,,1,13999,488438,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 13999),taxon,True
+Azospirillum_ramasamyi,aerobie,Azospirillum ramasamyi,,1,166472,682998,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166472),taxon,True
+Azospirillum_rugosum,aerobie,Azospirillum rugosum,,1,13998,416170,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 13998),taxon,True
+Azospirillum_thermophilum,aerobie,Azospirillum thermophilum,,1,167820,2202148,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 167820),taxon,True
+Azospirillum_thiophilum,aerobie,Azospirillum thiophilum,,1,14000,528244,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 14000),taxon,True
+Klebsiella_electrica,aerobie,Klebsiella electrica,,1,132164,1259973,,partiel,"BacDive ID 132164 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Klebsiella_grimontii,aerobie,Klebsiella grimontii,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Klebsiella_indica,aerobie,Klebsiella indica,,1,164637,2582917,,partiel,"BacDive ID 164637 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Klebsiella_michiganensis,aerobie,Klebsiella michiganensis,,7,,,,a_verifier,BacDive multi-hits (7) oxygen_tol diverge ou absente,Ambigu: 7 souches BacDive,True
+Klebsiella_michiganensis_(strain_ATCC_8724___DSM_4798___JCM_20051___NBRC_3318___NRRL_B-199___KCTC_1686___BUCSAV_143___CCM_1901),aerobie,Klebsiella michiganensis,ATCC 8724;DSM 4798;JCM 20051;NBRC 3318;KCTC 1686,1,4940,576,,partiel,"BacDive ID 4940 trouvé, oxygen tolerance absente","Pas de champ oxygen tolerance; culturecollection:ATCC 8724,DSM 4798,JCM 20051",True
+Klebsiella_pasteurii,aerobie,Klebsiella pasteurii,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Klebsiella_pneumoniae,aerobie,Klebsiella pneumoniae,,100,,,,a_verifier,BacDive multi-hits (100) oxygen_tol diverge ou absente,Ambigu: 100 souches BacDive,True
+Klebsiella_quasipneumoniae,aerobie,Klebsiella quasipneumoniae,,12,173521,1463165,,a_verifier,BacDive oxygen tolerance=None (ID 173521; 12 hits espèce),Ambigu: 12 souches BacDive,True
+Klebsiella_quasipneumoniae_subsp__quasipneumoniae,aerobie,Klebsiella quasipneumoniae,,12,173521,1463165,,a_verifier,BacDive oxygen tolerance=None (ID 173521; 12 hits espèce),Ambigu: 12 souches BacDive,True
+Klebsiella_quasivariicola,aerobie,Klebsiella quasivariicola,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Klebsiella_variicola,aerobie,Klebsiella variicola,,14,,,,a_verifier,BacDive multi-hits (14) oxygen_tol diverge ou absente,Ambigu: 14 souches BacDive,True
+Klebsiella_variicola_(strain_342),aerobie,Klebsiella variicola,,14,,,,a_verifier,BacDive multi-hits (14) oxygen_tol diverge ou absente,Ambigu: 14 souches BacDive,True

@@ -1,0 +1,25 @@
+PHASE 5 — ETAPE 1 : SPLITS REPETES (20) + IC BOOTSTRAP + MCC/AUPRC
+Classifieur HGB, CKSAAP, SMOTE train uniquement, graines 42..61.
+
+AUC moyenne +/- ecart-type (20 splits) :
+  full        aleatoire  Nif=0.974+/-0.007 | RecA=0.973 GyrB=0.977 RpoB=0.982 | ecart Nif-meilleur controle=-0.008
+  full        genre      Nif=0.945+/-0.030 | RecA=0.911 GyrB=0.916 RpoB=0.916 | ecart Nif-meilleur controle=+0.029
+  strict_489  aleatoire  Nif=0.982+/-0.015 | RecA=0.982 GyrB=0.982 RpoB=0.986 | ecart Nif-meilleur controle=-0.004
+  strict_489  genre      Nif=0.970+/-0.025 | RecA=0.927 GyrB=0.947 RpoB=0.941 | ecart Nif-meilleur controle=+0.022
+
+LOGO Full (moyenne sur genres, bootstrap sur les folds) :
+  Nif_CKSAAP   folds=8 AUC=0.549 IC95[0.364;0.754]
+  RecA_CKSAAP  folds=8 AUC=0.560 IC95[0.270;0.835]
+
+LECTURE :
+- Si les ecarts-types se chevauchent entre Nif et controles, la parite
+  controles ~ Nif n'est pas un effet d'un seul decoupage.
+- Les chiffres a rapporter dans le manuscrit = moyennes +/- ecart-type
+  (tableau de synthese), plus IC bootstrap par split (colonnes auc_boot_*).
+
+Duree totale : 20430 s
+Par repetition : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase5_repeated_splits_per_repeat.csv
+Synthese       : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase5_repeated_splits_summary.csv
+LOGO folds     : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase5_logo_per_fold.csv
+LOGO synthese  : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase5_logo_summary.csv
+Figure         : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase5_repeated_auc.png

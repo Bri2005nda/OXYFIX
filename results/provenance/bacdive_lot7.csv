@@ -1,0 +1,41 @@
+souche,label_texte,species_query,culture_codes,n_bacdive_hits,bacdive_id_propose,ncbi_taxid_propose,oxygen_tol,statut_propose,preuve_proposee,commentaire,label_alida_inchange
+Brenneria_alni,aerobie,Brenneria alni,,1,4309,71656,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 4309),taxon,True
+Brenneria_corticis,aerobie,Brenneria corticis,,1,166420,2173106,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 166420),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Brenneria_goodwinii,aerobie,Brenneria goodwinii,,1,22995,1109412,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 22995),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Brenneria_nigrifluens_DSM_30175_=_ATCC_13028,aerobie,Brenneria nigrifluens,DSM 30175;ATCC 13028,1,4306,55210,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 4306),"culturecollection:DSM 30175,ATCC 13028",True
+Brenneria_populi,aerobie,Brenneria populi,,2,140740,2036006,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 140740; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Brenneria_rubrifaciens,aerobie,Brenneria rubrifaciens,,1,4307,55213,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 4307),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Magnetospirillum_gryphiswaldense,aerobie,Magnetospirillum gryphiswaldense,,1,13944,55518,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 13944),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Magnetospirillum_gryphiswaldense_(strain_DSM_6361___JCM_21280___NBRC_15271___MSR-1),aerobie,Magnetospirillum gryphiswaldense,DSM 6361;JCM 21280;NBRC 15271,1,13944,55518,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 13944),"À vérifier: label Alida=aerobie vs BacDive=microaerophile (culturecollection:DSM 6361,JCM 21280,NBRC 15271)",True
+Magnetospirillum_moscoviense,aerobie,Magnetospirillum moscoviense,,1,132531,1437059,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 132531),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Rhodoplanes_azumiensis,aerobie,Rhodoplanes azumiensis,,1,158540,1897628,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 158540),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Rhodoplanes_serenus,aerobie,Rhodoplanes serenus,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Rhodopseudomonas_telluris,aerobie,Rhodopseudomonas telluris,,1,140728,644215,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 140728),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Vibrio_aerogenes_CECT_7868,aerobie,Vibrio aerogenes,,1,17291,92172,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 17291),taxon,True
+Vibrio_agarivorans,aerobie,Vibrio agarivorans,,2,17281,153622,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 17281; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Vibrio_albus,aerobie,Vibrio albus,,1,166140,2200953,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 166140),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Vibrio_hangzhouensis,aerobie,Vibrio hangzhouensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Vibrio_xiamenensis,aerobie,Vibrio xiamenensis,,1,17368,861298,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 17368),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Magnetospirillum_fulvum,anaerobie,Magnetospirillum fulvum,,6,13953,1082,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13953; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Magnetospirillum_fulvum_MGU-K5,anaerobie,Magnetospirillum fulvum,,6,13953,1082,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13953; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Magnetospirillum_molischianum_DSM_120,anaerobie,Magnetospirillum molischianum,DSM 120,1,13956,1083,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 13956),culturecollection:DSM 120,True
+Rhodoplanes_elegans,anaerobie,Rhodoplanes elegans,,1,6189,29408,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6189),taxon,True
+Rhodoplanes_roseus,anaerobie,Rhodoplanes roseus,,2,6188,29409,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 6188; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhodoplanes_tepidamans,anaerobie,Rhodoplanes tepidamans,,1,1825,200616,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 1825),taxon,True
+Rhodopseudomonas_julia,anaerobie,Rhodopseudomonas julia,,1,1826,200617,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 1826),taxon,True
+Rhodopseudomonas_pentothenatexigens,anaerobie,Rhodopseudomonas pentothenatexigens,,1,133803,999699,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 133803),taxon,True
+Rhodopseudomonas_pseudopalustris,anaerobie,Rhodopseudomonas pseudopalustris,,1,1828,1513892,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 1828),taxon,True
+Rhodopseudomonas_rhenobacensis,anaerobie,Rhodopseudomonas rhenobacensis,,1,1827,87461,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 1827),taxon,True
+Rhodopseudomonas_thermotolerans,anaerobie,Rhodopseudomonas thermotolerans,,1,133804,999700,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 133804),taxon,True
+Solidesulfovibrio_aerotolerans,anaerobie,Solidesulfovibrio aerotolerans,,1,4152,295255,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4152),taxon,True
+Solidesulfovibrio_carbinolicus,anaerobie,Solidesulfovibrio carbinolicus,,1,4072,296842,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4072),taxon,True
+Solidesulfovibrio_carbinoliphilus_subsp__oakridgensis,anaerobie,Solidesulfovibrio carbinoliphilus,,1,4154,345370,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4154),taxon,True
+Solidesulfovibrio_fructosivorans_JJ],anaerobie,Solidesulfovibrio fructosivorans,,1,4080,878,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4080),taxon,True
+Solidesulfovibrio_magneticus_(strain_ATCC_700980___DSM_13731___RS-1),anaerobie,Solidesulfovibrio magneticus,ATCC 700980;DSM 13731,1,4140,184917,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4140),"culturecollection:ATCC 700980,DSM 13731",True
+Solidesulfovibrio_magneticus_str__Maddingley_MBC34,anaerobie,Solidesulfovibrio magneticus,,1,4140,184917,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4140),taxon,True
+Sporomusa_acidovorans_(strain_ATCC_49682___DSM_3132___Mol),anaerobie,Sporomusa acidovorans,ATCC 49682;DSM 3132,1,17188,112900,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17188),"culturecollection:ATCC 49682,DSM 3132",True
+Sporomusa_malonica,anaerobie,Sporomusa malonica,,1,17199,112901,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17199),taxon,True
+Sporomusa_ovata,anaerobie,Sporomusa ovata,,3,17191,2378,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 17191; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Sporomusa_silvacetica_DSM_10669,anaerobie,Sporomusa silvacetica,DSM 10669,1,17200,55504,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17200),culturecollection:DSM 10669,True
+Sporomusa_sphaeroides_DSM_2875,anaerobie,Sporomusa sphaeroides,DSM 2875,1,17197,47679,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17197),culturecollection:DSM 2875,True
+Sporomusa_termitida,anaerobie,Sporomusa termitida,,1,17198,2377,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17198),taxon,True

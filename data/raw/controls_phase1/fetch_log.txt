@@ -1,0 +1,5 @@
+status   ok  ok_cache
+gene                 
+GyrB    681       106
+RecA    681       106
+RpoB    681       106

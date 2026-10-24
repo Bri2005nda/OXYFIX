@@ -1,0 +1,19 @@
+PHASE 2 — COURBE DE DECROISSANCE
+
+Niveaux: Aleatoire -> Split genre -> Leave-one-genus-out
+
+Nif AUC:
+  Aleatoire              0.971
+  Split genre            0.856
+  Leave-one-genus-out    0.549
+RecA AUC:
+  Aleatoire              0.969
+  Split genre            0.723
+  Leave-one-genus-out    0.560
+
+LECTURE:
+- Si Nif et RecA chutent ensemble: signal surtout taxonomique.
+- Si Nif reste au-dessus de RecA aux niveaux durs: residu nif possible.
+
+CSV   : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase2_decay_curve.csv
+Figure: C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase2_decay_curve.png

@@ -1,0 +1,26 @@
+PHASE 5b — LOGO PAR GENRE + CALIBRATION (+ permutation deja acquise)
+HGB, CKSAAP, SMOTE train uniquement.
+
+LOGO (moyenne sur genres mixtes + AUC poolee) :
+  Nif_CKSAAP   full        genres=328 folds>=3=69 folds mixtes=8 | AUC moyenne/genres=0.549 (bootstrap IC95 [0.367;0.753]) | AUC poolee=0.969 (IC95 [0.955;0.981])
+  RecA_CKSAAP  full        genres=328 folds>=3=69 folds mixtes=8 | AUC moyenne/genres=0.560 (bootstrap IC95 [0.263;0.832]) | AUC poolee=0.911 (IC95 [0.886;0.936])
+  Nif_CKSAAP   strict_489  genres=260 folds>=3=41 folds mixtes=0 | AUC moyenne/genres=nan (bootstrap IC95 [nan;nan]) | AUC poolee=0.990 (IC95 [0.979;0.997])
+  RecA_CKSAAP  strict_489  genres=260 folds>=3=41 folds mixtes=0 | AUC moyenne/genres=nan (bootstrap IC95 [nan;nan]) | AUC poolee=0.931 (IC95 [0.893;0.961])
+
+Calibration (5 splits pooles ; Brier bas = meilleur, ECE bas = meilleur) : voir
+  C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase5b_calibration_summary.csv
+
+Permutation (deja realisee, Phase 1 premium, regression logistique CV3) :
+  Nif_CKSAAP: vraie AUC(CV3)=0.958, perm. moyenne=0.481, p=0.0010 (n=1000) ; RecA_CKSAAP: vraie AUC(CV3)=0.925, perm. moyenne=0.489, p=0.0010 (n=1000)
+  Lecture : p~0,001 pour Nif ET RecA = significatif ne veut pas dire mecanistique.
+
+Duree : 4265 s
+LOGO folds      : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase5b_logo_per_fold.csv
+LOGO predictions: C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase5b_logo_predictions.csv
+LOGO synthese   : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase5b_logo_summary.csv
+Calibration bins: C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase5b_calibration_bins.csv
+Figures         : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase5b_logo_auc_distribution.png ; C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase5b_calibration.png
+
+ATTENTION LOGO (ajout apres verification) :
+- Moyenne par genre (chiffre manuscrit) calculable sur 8 genres mixtes seulement sur Full, 0 sur Strict : fragile, IC tres large.
+- AUC poolee LOGO elevee (~0,97) : NE PAS la presenter comme performance LOGO (compare des genres mono-classe via des modeles differents).

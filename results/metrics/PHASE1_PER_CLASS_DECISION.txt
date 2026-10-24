@@ -1,0 +1,20 @@
+METRIQUES PAR CLASSE — Phase 1 (complement)
+Date: calcul pour repondre a la question encadreur
+
+Classes: aerobie (label=1) | anaerobie (label=0)
+
+Nif CKSAAP — Recall (rappel)
+  Aleatoire : aerobie=0.930 | anaerobie=0.897
+  Genre     : aerobie=0.685 | anaerobie=0.833
+  Chute recall aerobie   : +0.245
+  Chute recall anaerobie : +0.063
+
+LECTURE:
+- La baisse touche surtout la classe AEROBIE (rappel).
+- La baisse sous split genre reste d'abord un effet de PROTOCOLE (perte du raccourci taxonomique), visible sur le score global.
+- Le detail par classe precise si une des deux etiquettes souffre plus.
+
+Fichiers:
+- C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase1_per_class_metrics.csv
+- C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase1_per_class_nif_wide.csv
+- C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase1_per_class_recall.png

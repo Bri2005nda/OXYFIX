@@ -1,0 +1,26 @@
+Lot 12 — genres ['ALL_PARTIAL'] — 17 souches
+Fichier: C:\Users\MK COMPUTER\Desktop\projet\results\provenance\bacdive_lot12.csv
+table_provenance.csv NON modifié
+
+statut_propose
+a_verifier    10
+partiel        7
+
+                         souche label_texte  n_bacdive_hits bacdive_id_propose           oxygen_tol statut_propose                                                             commentaire
+    Acidithiobacillus_ferrianus     aerobie               1             160797 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+         Brenneria_rubrifaciens     aerobie               1               4307 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+        Corallincola_platygyrae     aerobie               1             162297                             partiel                                    Pas de champ oxygen tolerance; taxon
+                   Dickeya_zeae     aerobie               1               4352 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+     Gynuella_sunshinyii_YC6258     aerobie               1             140661 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+              Klebsiella_indica     aerobie               1             164637                             partiel                                    Pas de champ oxygen tolerance; taxon
+          Labilibaculum_euxinus     aerobie               1             164274 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+  Labilibaculum_manganireducens     aerobie               1             158271                             partiel                                    Pas de champ oxygen tolerance; taxon
+   Mangrovibacter_plantisponsor     aerobie               1               5243 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+            Marinilabilia_rubra     aerobie               1             166463 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+           Paenibacillus_faecis     aerobie               1             131549 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+         Paenibacillus_jilunlii     aerobie               1              11658                             partiel                                    Pas de champ oxygen tolerance; taxon
+       Paenibacillus_kribbensis     aerobie               1              24279 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+        Paenibacillus_monticola     aerobie               1             169919                             partiel                                    Pas de champ oxygen tolerance; taxon
+      Paenibacillus_sabinae_T27     aerobie               1              11620             anaerobe     a_verifier             À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon)
+           Sinorhizobium_saheli     aerobie               1              13551                             partiel                                    Pas de champ oxygen tolerance; taxon
+Sinorhizobium_sojae_CCBAU_05684     aerobie               1              13562                             partiel                                    Pas de champ oxygen tolerance; taxon

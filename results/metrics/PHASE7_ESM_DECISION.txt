@@ -1,0 +1,21 @@
+PHASE 7 — EMBEDDINGS ESM-2 650M (gelés) CONTRE CKSAAP
+Protocole Phase 5 répété ; moyenne des embeddings par souche.
+
+AUC moyenne (20 splits) :
+  Nif_ESM    full        aléatoire=0.946 | genre=0.915
+  Nif_ESM    strict_489  aléatoire=0.959 | genre=0.934
+  RecA_ESM   full        aléatoire=0.965 | genre=0.874
+  RecA_ESM   strict_489  aléatoire=0.966 | genre=0.875
+
+LECTURE :
+- Comparer Nif_ESM à RecA_ESM (contrôle) avant de comparer à CKSAAP :
+  un gain qui touche aussi le contrôle est un gain de lecture de
+  l'organisme, pas un signal propre à la nitrogénase.
+- Embeddings gelés (pas de fine-tuning) ; modèle préentraîné sur des
+  protéines publiques, sans nos étiquettes : pas de fuite d'étiquettes,
+  mais les représentations contiennent l'histoire évolutive des protéines.
+
+Durée totale : 56973s
+Par répétition : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase7_esm_per_repeat.csv
+Synthèse : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase7_esm_summary.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase7_esm_vs_cksaap.png

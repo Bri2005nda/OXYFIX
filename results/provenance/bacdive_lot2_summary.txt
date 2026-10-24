@@ -1,0 +1,55 @@
+Lot 2 — genre Paenibacillus — 45 souches
+Fichier: C:\Users\MK COMPUTER\Desktop\projet\results\provenance\bacdive_lot2.csv
+table_provenance.csv NON modifié
+
+statut_propose
+a_verifier    27
+partiel       14
+documente      4
+
+                               souche label_texte  n_bacdive_hits bacdive_id_propose           oxygen_tol statut_propose                                                                                    commentaire
+           Paenibacillus_abekawaensis     aerobie               0                                                partiel                                                                Aucun hit taxon/culture BacDive
+                Paenibacillus_albidus     aerobie               1             158574 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+            Paenibacillus_anaericanus     aerobie               3             169918                          a_verifier                                                                      Ambigu: 3 souches BacDive
+                   Paenibacillus_apii     aerobie               1             160177                             partiel                                                           Pas de champ oxygen tolerance; taxon
+                   Paenibacillus_apis     aerobie               2             164102                          a_verifier                                                                      Ambigu: 2 souches BacDive
+            Paenibacillus_auburnensis     aerobie               1             170432                             partiel                                                           Pas de champ oxygen tolerance; taxon
+               Paenibacillus_borealis     aerobie               1              11552               aerobe      documente                                                                                          taxon
+            Paenibacillus_brasilensis     aerobie               1              11557                             partiel                                                           Pas de champ oxygen tolerance; taxon
+            Paenibacillus_donghaensis     aerobie               1              11638               aerobe      documente                                                                                          taxon
+                  Paenibacillus_durus     aerobie               1              11503             anaerobe     a_verifier                                    À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon)
+       Paenibacillus_durus_ATCC_35681     aerobie               1              11504 facultative anaerobe     a_verifier À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (culturecollection:ATCC 35681)
+                 Paenibacillus_faecis     aerobie               1             131549 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+             Paenibacillus_forsythiae     aerobie               1              11628   facultative aerobe     a_verifier                          À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon)
+              Paenibacillus_fujiensis     aerobie               0                                                partiel                                                                Aucun hit taxon/culture BacDive
+               Paenibacillus_graminis     aerobie               1              11559 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+             Paenibacillus_haidiansis     aerobie               0                                                partiel                                                                Aucun hit taxon/culture BacDive
+              Paenibacillus_helianthi     aerobie               1             168760                             partiel                                                           Pas de champ oxygen tolerance; taxon
+               Paenibacillus_jilunlii     aerobie               1              11658                             partiel                                                           Pas de champ oxygen tolerance; taxon
+             Paenibacillus_kribbensis     aerobie               1              24279 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+               Paenibacillus_macerans     aerobie              11                                             a_verifier                                                                     Ambigu: 11 souches BacDive
+           Paenibacillus_massiliensis     aerobie               3             137952 facultative anaerobe     a_verifier                                                                      Ambigu: 3 souches BacDive
+       Paenibacillus_mesotrionivorans     aerobie               0                                                partiel                                                                Aucun hit taxon/culture BacDive
+              Paenibacillus_monticola     aerobie               1             169919                             partiel                                                           Pas de champ oxygen tolerance; taxon
+               Paenibacillus_odorifer     aerobie               2             161342                          a_verifier                                                                      Ambigu: 2 souches BacDive
+                 Paenibacillus_oralis     aerobie               1             164567 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+                Paenibacillus_peoriae     aerobie               2              11507                          a_verifier                                                                      Ambigu: 2 souches BacDive
+          Paenibacillus_phytohabitans     aerobie               1             167166                             partiel                                                           Pas de champ oxygen tolerance; taxon
+               Paenibacillus_polymyxa     aerobie              37             139222                          a_verifier                                                                     Ambigu: 37 souches BacDive
+            Paenibacillus_rhizophilus     aerobie               0                                                partiel                                                                Aucun hit taxon/culture BacDive
+            Paenibacillus_rhizoplanae     aerobie               1             133089               aerobe      documente                                                                                          taxon
+          Paenibacillus_riograndensis     aerobie               2                                             a_verifier                                                                      Ambigu: 2 souches BacDive
+     Paenibacillus_riograndensis_SBR5     aerobie               2                                             a_verifier                                                                      Ambigu: 2 souches BacDive
+                Paenibacillus_sabinae     aerobie               1              11620             anaerobe     a_verifier                                    À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon)
+            Paenibacillus_sabinae_T27     aerobie               1              11620             anaerobe     a_verifier                                    À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon)
+                Paenibacillus_silagei     aerobie               1             132640 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+                 Paenibacillus_sonchi     aerobie               2                                             a_verifier                                                                      Ambigu: 2 souches BacDive
+               Paenibacillus_sophorae     aerobie               1              11656 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+               Paenibacillus_spiritus     aerobie               0                                                partiel                                                                Aucun hit taxon/culture BacDive
+              Paenibacillus_stellifer     aerobie              10             153135               aerobe     a_verifier                                                                     Ambigu: 10 souches BacDive
+Paenibacillus_terrae_(strain_HPL-003)     aerobie               2             135094 facultative anaerobe     a_verifier                                                                      Ambigu: 2 souches BacDive
+           Paenibacillus_tianjinensis     aerobie               1             168398                             partiel                                                           Pas de champ oxygen tolerance; taxon
+             Paenibacillus_timonensis     aerobie               1              11580 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+                Paenibacillus_tritici     aerobie               1             140529               aerobe      documente                                                                                          taxon
+                 Paenibacillus_typhae     aerobie               1              23180 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)
+                 Paenibacillus_wynnii     aerobie               1              11601 facultative anaerobe     a_verifier                        À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon)

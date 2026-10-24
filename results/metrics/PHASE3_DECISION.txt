@@ -1,0 +1,48 @@
+PHASE 3 — RAFFINEMENT LABELS / CORPUS PROPRES
+Principe: labels Alida NON modifies automatiquement.
+
+REGLES:
+  garder_strict   = statut documente (BacDive coherent)
+  candidat_etendu = multi-hits BacDive mais oxygen coherent avec Alida
+  exclure         = facultatif, microaerophile, manquant, ambigu, conflit
+
+EFFECTIFS:
+  Full 787              : 787
+  Strict (documente)    : 489
+  Etendu (strict+cand.) : 559
+  Exclus                : 228
+
+CATEGORIES (top):
+  documente                    489
+  manquant                     77
+  facultatif                   69
+  multi_coherent_anaerobie     61
+  multi_ambigu                 54
+  microaerophile               16
+  conflit_bacdive_anaerobe     9
+  multi_coherent_aerobie       9
+  a_verifier_autre             2
+  conflit_bacdive_aerobe       1
+
+EVALUATION Nif CKSAAP (AUC HGB):
+  Full    aleatoire=0.971 | genre=0.856
+  Strict  aleatoire=0.955 | genre=0.978
+  Etendu  aleatoire=0.987 | genre=0.918
+
+LECTURE:
+- Phase 3 separe ce qui est DEFENDABLE (preuve BacDive) du reste.
+- Le corpus STRICT est la base recommandee pour l'article / suite.
+- Le corpus ETENDU teste un compromis taille vs confiance.
+- Si les conclusions Phase1/2 tiennent sur STRICT, elles sont plus robustes.
+- Les exclus (facultatif/microaero/manquant/conflit) restent documentes
+  mais hors analyses principales.
+
+ORIENTATION:
+- Ne pas re-labeler automatiquement en aerobie/anaerobie les facultatifs.
+- Pour la suite (Phase 4 / article): analyses principales sur STRICT;
+  sensibilite eventuelle sur ETENDU.
+
+Table : C:\Users\MK COMPUTER\Desktop\projet\data\raw\metadata\table_provenance_phase3.csv
+Counts: C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase3_corpus_counts.csv
+Eval  : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase3_eval_nif.csv
+Figure: C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase3_corpus_and_eval.png

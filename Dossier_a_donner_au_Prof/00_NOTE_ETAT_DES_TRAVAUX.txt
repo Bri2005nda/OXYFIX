@@ -1,0 +1,89 @@
+DOSSIER DE SUIVI OXYFIX — à l'attention du Pr A. B. BOMGNI
+==========================================================
+Objet : état d'avancement des travaux demandés en Annexe B du manuscrit
+« Confusion phylogénétique dans la prédiction de la niche en oxygène
+des diazotrophes à partir des séquences : un benchmark contrôlé ».
+Étudiante : LEMOGUE JIOFACK Brinda (M2 IA, URIFIA, Université de Dschang).
+
+CONTENU DU DOSSIER
+------------------
+01_Presentation_Manuscrit_FR_v4.pptx : présentation du manuscrit
+  (19 diapositives) suivie des 25 figures du projet, une par
+  diapositive (figure plein écran + phrase-message).
+02_table_provenance_complete.csv : les 787 souches, identifiant
+  BacDive (711 renseignés), chaîne d'oxygène retrouvée (678),
+  décision, type de preuve. Aucune étiquette réécrite.
+03_RECONCILIATION_SEQUENCES.txt : comptage direct = 6 710 séquences
+  (3 426 aérobies / 3 284 anaérobies), écart 0 avec le comptage
+  hérité A ; le second comptage hérité (6 335) diffère de 375
+  séquences, filtre non documenté, signalé [À VÉRIFIER].
+04_Decisions_Phases5_a_11/ : un fichier de décision par phase
+  (résultats et lecture honnête).
+05_Figures_principales/ : décroissances, permutations, LOGO,
+  baselines GTDB et triviales, familles Nif.
+
+TERMINÉ DEPUIS LE MANUSCRIT (Phases 5 à 11)
+-------------------------------------------
+- Découpages répétés 20 fois + MCC/AUPRC (Phase 5) ; LOGO par genre
+  et calibration (Phase 5b : 8 genres mixtes sur 328 seulement).
+- Baselines : plus proche voisin GTDB, AUC 0,972 en aléatoire
+  (Phase 6) ; covariables triviales GC + longueur + composition,
+  0,96 (Phases 6b/6d) ; NifH, NifD, NifK séparément, aucune ne se
+  détache (Phase 6c).
+- Statistiques complètes (Phase 8) : bootstrap 10 000 (16
+  configurations) ; permutations 1 000 x 8, toutes à p = 0,001,
+  sous deux nulles — la nulle par blocs de genres monte à ~0,60
+  (la taxonomie fabrique une partie du score, pour Nif comme pour
+  le contrôle RecA) ; validation croisée imbriquée par genres :
+  Nif 0,951 (Full) / 0,972 (Strict), RecA 0,891 / 0,914.
+- Découpages famille et ordre (Phase 9) : Nif famille 0,946 / ordre
+  0,910 (Full) ; mais 89 à 95 % des familles et ordres du corpus
+  sont mono-classe — le découpage n'y est guère plus dur que le
+  genre, ce qui illustre la leçon de la section 3.7 du manuscrit.
+- POINT DE VIGILANCE (Phase 10, MMseqs) : le split par cluster
+  construit sur les 6 705 séquences du cluster complet est
+  dégénéré (une composante géante réunit 99,9 % des souches aux
+  seuils 30 % et 50 %). Les AUC de 0,500 obtenues sont un artefact
+  de ce découpage et ne sont pas citées. Le protocole corrigé
+  (clustering par protéine : NifH, NifD, NifK, RecA séparément)
+  est prêt et attend votre validation pour être lancé.
+
+TERMINÉ DEPUIS LA PREMIÈRE VERSION DE CETTE NOTE
+------------------------------------------------
+- Embeddings ESM-2 650M (Phase 7, protocole identique) : Nif
+  aléatoire 0,946 / genre 0,915 (Full) ; RecA 0,965 / 0,874. La
+  représentation riche ne dépasse pas CKSAAP et, en aléatoire, le
+  contrôle RecA dépasse encore la cible : un plongement plus riche
+  ne sépare pas le signal du trait de celui de la phylogénie.
+- Variantes de rééchantillonnage (Phase 10b) : SMOTE, sans
+  rééchantillonnage, class_weight et XGBoost scale_pos_weight
+  donnent les mêmes AUC au millième près. SMOTE n'apporte rien
+  dans ce protocole et peut être abandonné (justification
+  demandée en Annexe B).
+Tous les calculs planifiés sont désormais terminés ; ne restent
+que le split MMseqs par protéine (point 1 ci-dessous), la table
+à quatre niveaux, le dépôt et la réécriture.
+
+RESTE À FAIRE / À DÉCIDER
+-------------------------
+1. Split MMseqs par protéine (protocole corrigé) — calcul prêt.
+2. Étiquette de condition de fixation à quatre niveaux (au moins
+   Strict) : les catégories BacDive sont récupérées ; la preuve de
+   fixation souche par souche reste à consigner sans l'inventer.
+3. Dépôt Zenodo (DOI) + miroir GitHub : archive prête à constituer,
+   publication à faire avec les comptes de l'étudiante.
+4. Réécriture du manuscrit avec les chiffres des Phases 5 à 11
+   (notamment : l'écart Nif/contrôles en split genre passe de
+   +0,116 en tirage unique à environ +0,03 en 20 tirages répétés),
+   contributions CRediT, références à vérifier, remerciements,
+   confirmation de co-signature de J. A. Tankeu Kuebove.
+Non retenu : ProtT5 (l'Annexe B prévoit ESM-2 « et/ou » ProtT5) ;
+validation externe (Annexe A, relèvement de cible éventuel).
+
+LECTURE D'ENSEMBLE INCHANGÉE
+----------------------------
+La parité Nif/contrôles en aléatoire, la décroissance taxonomique
+et le verrou du LOGO sur genres mixtes (8 seulement) demeurent les
+résultats porteurs. Aucun des résultats nouveaux ne soutient une
+interprétation mécanistique ; ils renforcent le positionnement de
+l'article comme benchmark contrôlé.

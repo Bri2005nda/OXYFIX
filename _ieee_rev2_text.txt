@@ -1,0 +1,929 @@
+===== PAGE 1 =====
+What Does a Nitrogenase-Based Oxygen-Niche
+Classifier Learn? Matched Controls, Phylogenetic
+Baselines and Language-Model Embeddings in
+Diazotrophs (OXYFIX)
+1st Alain Bertrand Bomgni
+Math, Science and Technology
+Oglala Lakota College
+Kyle, SD, USA
+abomgni@olc.edu
+2nd Brinda Lemogue Jiofack
+Dept. of Mathematics and Computer Science
+University of Dschang
+Dschang, Cameroon
+lemoguebrinda@gmail.com
+3rd Justine Alida Tankeu Kuebove
+Dept. of Mathematics and Computer Science
+University of Dschang
+Dschang, Cameroon
+alidatankeu01@gmail.com
+4th Nick Klein
+Math, Science and Technology
+Oglala Lakota College
+Kyle, SD, USA
+nklein@olc.edu
+5th Etienne Gnimpieba Zohim
+Dept. of Biomedical Engineering
+University of South Dakota
+Sioux Falls, SD, USA
+etienne.gnimpieba@usd.edu
+Abstract—A recent model built on composition-based de-
+scriptors (CKSAAP) of nitrogenase proteins (NifH, NifD, NifK)
+reported an accuracy of 0.92 and an AUC of 0.98 for classifying
+diazotrophs as aerobic or anaerobic, and interpreted its features
+as determinants of oxygen tolerance. Because oxygen niche is
+strongly conserved within bacterial clades, such scores may reflect
+lineage recognition rather than any oxygen-related property
+of nitrogenase. We re-evaluated this task on 787 diazotrophic
+strains (356 aerobic, 431 anaerobic) under a protocol designed
+to make that question decidable: a label-provenance audit against
+BacDive; matched negative-control proteins with no expected link
+to oxygen tolerance (RecA, GyrB, RpoB) through the identical
+pipeline; splits of increasing strictness (random, genus-, family-
+and order-disjoint, leave-one-genus-out) repeated 20 times with
+bootstrap intervals and a permutation test; and two reference
+baselines, a phylogenetic nearest neighbour on GTDB distances
+and 22 trivial covariates. Only 489 of 787 labels (62%) were
+supported by a matching BacDive record. Under a random
+split, nitrogenase (AUC 0.974 ± 0.007) was indistinguishable
+from housekeeping controls ( 0.973–0.982); under genus-disjoint
+splitting a small advantage appeared ( 0.945 ± 0.030 vs. 0.911–
+0.916); under leave-one-genus-out both target and control re-
+turned to chance (0.549 [0.367, 0.753] and 0.560), on the only
+8 of 328 genera that contain both classes. The phylogenetic
+nearest neighbour alone reached 0.972, and 22 trivial covariates
+reached 0.96, leaving about one AUC point for the 1 600 CKSAAP
+dimensions; frozen ESM-2 650M embeddings did not reverse
+the comparison, the RecA control scoring above the target. In
+this benchmark, the reported accuracy is reproducible but is
+explained by phylogenetic structure rather than by an oxygen-
+specific signal in nitrogenase; a weak target-specific component
+of 0.03–0.06 AUC remains neither confirmed nor excluded. We
+propose a reusable five-item minimum evaluation standard for
+This work was carried out within the URIFIA Research Unit, University
+of Dschang, in collaboration with Oglala Lakota College and the University
+of South Dakota.
+phylogenetically conserved microbial traits.
+Keywords—nitrogen fixation, nitrogenase, oxygen tolerance,
+phenotype prediction, phylogenetic confounding, data leakage,
+negative controls, protein language models, benchmark, BacDive
+I. I NTRODUCTION
+A. Sequence-based phenotype prediction has outrun its own
+evaluation standards
+Predicting microbial phenotypes directly from sequence is
+now routine, with reported accuracies above 0.90 for oxygen
+requirement, temperature and pH optima, carbon-source use
+and many other traits. Oxygen requirement is among the most
+frequently modelled because it is biologically fundamental and
+because BacDive provides curated annotations at scale [1].
+The difficulty is that almost every microbial trait of eco-
+logical interest is phylogenetically structured. Martiny et
+al. showed with the consenTRAIT metric that 93% of 89
+functional traits examined were non-randomly distributed
+across the bacterial and archaeal tree [2]. Any sequence-
+derived feature — amino-acid composition, k-mers, gene
+presence/absence, language-model embeddings — also carries
+phylogenetic signal, because sequences are inherited verti-
+cally. When a conserved trait is predicted from a phylogeny-
+correlated feature set under a random train/test split, the model
+can score very well simply by recognising which clade a
+sequence belongs to.
+The better papers in this area already guard against
+this: Flamholz et al. withhold whole taxonomic groups [3],
+GenomeSPOT applies phylogenetic balancing and family-level
+
+===== PAGE 2 =====
+partitioning [4], and Liao et al. compare curated oxygen-
+related gene families against phylogenetically selected ones
+[5] — a comparison between gene sets, not between a target
+protein and a matched housekeeping protein from the same
+strain. These safeguards are applied unevenly: a substantial
+body of applied work, particularly work that targets a specific
+protein family and interprets feature importances mechanisti-
+cally, still reports random-split performance as if it measured
+a biological signal.
+B. The specific case: oxygen niche predicted from nitrogenase
+sequences
+Nitrogenase is irreversibly inactivated by oxygen within
+minutes, yet diazotrophs occupy the full range of oxygen
+niches, from obligate anaerobes to the obligate aerobe Azoto-
+bacter vinelandii. Aerobic diazotrophs solve the conflict with
+protection strategies that are largely not encoded in the nitroge-
+nase structural subunits: respiratory protection, conformational
+protection by the Shethna FeSII protein, heterocyst differ-
+entiation, temporal separation, and leghaemoglobin-buffered
+microaerobiosis in legume nodules. Comparative genomics
+places the signal in the accessory repertoire: NifW, NifX/NafY
+and NifZ are essential for diazotrophic growth in Leptolyngbya
+boryana whereas HesA and HesB are not [6], and machine-
+learning work on Anabaena concentrates FOX (fixation in the
+presence of oxygen) gene candidates in envelope, redox and
+metallocluster-maturation functions rather than in NifHDK [7].
+There is nevertheless a real, documented structural correlate
+inside nitrogenase itself: Cuevas-Zuvir ´ıa et al. report that the
+NifK N-terminal extension is predominantly found in oxygen-
+tolerant aerobic and facultative diazotrophs, while a NifD
+insertion characteristic of Nif-II is mostly found in anaerobes
+[8]. That observation is itself clade-structured, which sharpens
+the identifiability question rather than settling it.
+Against this background, a prior Master’s thesis from our
+laboratory [9] trained composition-based descriptors (CK-
+SAAP [10], computed with iFeatureOmega [11]) of NifH,
+NifD and NifK on 787 diazotrophic strains and reported
+an accuracy of 0.9225 and an AUC of 0.9772 for aerobic-
+versus-anaerobic classification under a random split, with
+SHAP analysis [12] interpreted as pointing to physicochemical
+determinants of oxygen tolerance. Related recent models —
+Carmna [13] and NFEmbed [14] for nitrogenase activity —
+follow the same template: protein features of a nif -related
+target, a classical or embedding-based classifier, SHAP inter-
+pretation, random splits.
+C. The gap
+None of this applied work answers the question that de-
+cides what such a model means: does the sequence of the
+nitrogenase structural subunits carry information about
+oxygen niche beyond what any conserved protein from the
+same organism carries? The question is cheaply answerable
+and has not been asked for this trait. Four components are
+missing. Matched protein negative controls : the right control
+is not a shuffled label but the same pipeline applied to an
+unrelated protein from the same strain, and if a housekeeping
+protein predicts oxygen niche as well as nitrogenase does,
+the model is reading the organism rather than the enzyme.
+A taxonomic decay curve rather than a single split , which
+turns the confound into a measurable quantity. Reference
+baselines that cost nothing — a nearest-neighbour classifier
+on a published phylogeny, and a handful of trivial covariates
+— which bound what a sequence descriptor may claim. Label
+provenance as a reported quantity : BacDive lists more than
+one oxygen state for 7.1% of strains [15], and the usual
+diazotroph label conflates the organism’s oxygen relationship
+with the conditions under which it fixes nitrogen — rhizobia
+are aerobes that fix in microaerobic nodules, Azospirillum fixes
+under reduced O 2, heterocystous cyanobacteria are aerobes
+whose fixing cell is anoxic. Papers in this area report a strain
+count, not an evidence level.
+D. Contributions
+This paper is a controlled re-evaluation, not a performance
+paper. We make five contributions.
+(i) A label-provenance audit of a published diazotroph
+dataset, traced strain by strain against BacDive and released
+as a provenance table, filtering rather than rewriting to produce
+a 489-strain documented subset (Section IV-A). (ii) The first
+matched-housekeeping-protein control for a nitrogenase-
+based trait model , repeated over 20 splits with bootstrap in-
+tervals and a two-null permutation test (Sections IV-B, IV-C).
+(iii) A taxonomic decay curve over random, genus-, family-
+and order-disjoint and leave-one-genus-out protocols, which
+locates where the reported performance lives (Section IV-D).
+(iv) Reference baselines and a richer representation : a
+GTDB nearest-neighbour classifier, 22 trivial covariates and
+frozen ESM-2 650M embeddings, all under the identical
+protocol, which jointly bound the contribution of the sequence
+descriptor and rule out the objection that the diagnosis is an
+artefact of a weak feature set (Sections IV-E, IV-F). (v) A
+transferable minimum evaluation standard for phylogenet-
+ically conserved microbial traits, stated as a five-item protocol
+(Section V-D).
+We also report an instructive negative lesson about the
+protocol itself: the strength of a taxonomic or sequence-
+identity split is a property of the corpus, not only of the
+splitting rule. In this corpus 98% of genera, 89% of families
+and 95% of orders are single-class, and MMseqs2 clustering at
+30% identity leaves a single giant component, so withholding
+a group removes almost no decision boundary while scores
+stay high.
+II. R ELATED WORK
+Table I places OXYFIX against the studies defining the
+current state of practice, and two groups are visible. Studies
+working at genome or proteome scale have largely inter-
+nalised phylogeny-aware evaluation: Flamholz et al. report
+about 80% class-balanced accuracy on a ternary O 2-utilisation
+task (chance 33%) and retain better-than-random accuracy on
+withheld phylogenetic groups [3]; GenomeSPOT curates 7,293
+
+===== PAGE 3 =====
+787 diazotroph strains
+(356 aer. / 431 anaer.)
+BacDive provenance audit
+711 IDs, 678 O2 strings
+ Strict: 489 strains
+Target
+NifH, NifD, NifK
+Matched controls
+RecA, GyrB, RpoB
+(no O2 mechanism)
+CKSAAP (1 600 d)
+iFeatureOmega
+ESM-2 650M
+frozen embeddings
+Baselines
+GTDB nearest neighbour
+22 trivial covariates
+Random split
+Genus / family / order
+disjoint
+Leave-one-genus-out
+MMseqs2 identity clusters
+20 repetitions, bootstrap CI
+1 000-permutation test
+1. Corpus 2. Target vs. control 3. Representations 4. Protocols
+Fig. 1. OXYFIX experimental design. One pipeline is applied to the nitrogenase structural subunits (target) and to three housekeeping proteins with no
+mechanistic link to oxygen tolerance (controls) from the same strains, under two representations, two reference baselines and a ladder of split protocols, with
+20 repetitions and a permutation test at every cell. Only the protein, the representation and the split vary, so any difference in score is attributable to one of
+those three factors.
+genomes and evaluates on phylogenetically novel organisms
+[4]; Liao et al. compare curated with phylogenetically selected
+marker sets [5]. Studies that target a single protein family —
+the group this paper belongs to — have not: Carmna [13],
+NFEmbed [14] and the source thesis [9] report random-split
+performance on nif -derived features with mechanistic interpre-
+tation of feature importances, and none reports a phylogeny-
+blocked evaluation or a control protein. The contribution of
+OXYFIX is therefore not the discovery that phylogeny con-
+founds microbial trait prediction, but the supply, to the protein-
+family-targeted branch of this literature, of the instruments the
+genome-scale branch already uses plus one that neither uses: a
+matched control protein that isolates the target’s contribution
+directly rather than inferring it from a performance drop.
+III. M ATERIALS AND METHODS
+Fig. 1 summarises the design.
+A. Strain set and phenotype labels
+We reuse the strain collection of the prior study [9]: 787
+diazotrophic bacterial strains with binary oxygen-relationship
+labels (356 aerobic, 431 anaerobic). Reusing the exact collec-
+tion is deliberate — the question is what that dataset supports,
+so changing it would make the comparison uninterpretable.
+A direct recount of the source FASTA files gives 6,710
+sequences (3,426 aerobic, 3,284 anaerobic), matching one of
+the two inherited counts exactly; the second inherited count
+(6,335) differs by 375 sequences with no recorded filter, and
+is reported as unresolved rather than reconciled by conjecture.
+The label is the organism’s oxygen relationship as recorded
+in the source study, not an assay of nitrogen fixation under
+defined pO 2. This conflation is a known weakness of the trait
+definition and we return to it in Section V-C.
+B. Label provenance audit
+Each strain was queried against BacDive [1] by strain
+name; a BacDive identifier was obtained for 711 strains and
+an oxygen-tolerance string recovered verbatim for 678. The
+retrieved field was compared with the inherited label, giving
+three classes. Documented — a record exists and its oxygen
+state agrees with the inherited label; retained in the Strict
+corpus. To verify — a record exists but states a different or
+intermediate category (facultative anaerobe, microaerophile),
+or multiple conflicting states; excluded. Missing — no record
+retrieved; excluded.
+We filter; we never rewrite a label. A strain whose Bac-
+Dive entry reads “facultative anaerobe” against an inherited
+“aerobic” is removed rather than relabelled, because its true
+state under nitrogen-fixing conditions is unresolved by the
+evidence at hand. From the same strings we also derived
+a four-level oxygen-relationship label (aerobic, facultative,
+microaerophilic, anaerobic), used here descriptively.
+C. Target and control proteins
+Target. NifH, NifD and NifK protein sequences per strain,
+as in the source study, evaluated jointly and, for the ablation
+of Section IV-E, one subunit at a time.
+Controls. RecA, GyrB and RpoB retrieved from UniProt
+[16] for the same strains. They are present in essentially
+all bacteria, widely used as phylogenetic marker genes, and
+without established mechanistic link to oxygen tolerance. The
+second property is the point: they carry taxonomic signal
+and nothing else relevant to the trait, so they measure what
+a phylogeny-driven classifier can achieve here. A control
+that matches the target is not a failed control — it is the
+measurement.
+D. Representations and baselines
+CKSAAP [10], computed with iFeatureOmegaCLI [11] un-
+der the settings of the source study, yielding 1,600 dimensions
+per protein; the target/control comparison therefore differs in
+the protein and in nothing else. ESM-2 650M [20], frozen,
+residue vectors mean-pooled per sequence and then per strain,
+under the strictly identical downstream protocol. GTDB near-
+est neighbour: a k-NN classifier ( k = 5) on patristic distances
+from the GTDB reference tree [22], 746 of 787 strains matched
+— a model that sees relatedness and nothing else. Trivial
+
+===== PAGE 4 =====
+TABLE I
+COMPARISON WITH REPRESENTATIVE PRIOR WORK ON SEQUENCE -BASED PREDICTION OF MICROBIAL OXYGEN PHENOTYPE .
+Study Scale Features Phylogeny control Negative control Headline result
+Flamholz et al. 2024
+[3]
+103–104 genomes AA and NT k-mers,
+embeddings
+Withheld phylogenetic
+groups
+Random-relative
+baseline
+≈80% balanced acc.
+(ternary); retains accuracy
+out-of-clade
+GenomeSPOT [4] 7,293 genomes
+(oxygen)
+AA composition,
+protein-level
+descriptors
+Phylogenetic balancing +
+partitioning
+Closest-relative
+baseline
+Prediction for phylogeneti-
+cally novel taxa
+Carmna [13],
+NFEmbed [14]
+nif -targeted Pretrained protein
+LM embeddings
+None reported None High reported performance
+on nitrogenase activity
+Source thesis [9] 787 strains,
+NifHDK
+CKSAAP None (random split) None Acc. 0.9225, AUC 0.9772;
+SHAP read mechanistically
+OXYFIX (this
+work)
+787 / 489 strains,
+4 proteins
+CKSAAP and ESM-2
+650M (identical
+pipeline)
+Graded curve: random /
+genus / family / order /
+LOGO,×20
+3 matched
+housekeeping
+proteins; GTDB
+k-NN; 22 trivial
+covariates
+Target–control parity;
+0.974 ± 0.007 →
+0.945± 0.030 → 0.549;
+phylogeny alone 0.972
+covariates: 22 numbers per strain (protein lengths, global
+amino-acid composition, genome GC content).
+E. Split protocols
+Random: stratified 80/20, a genus may appear on both
+sides — the protocol of the source study and most
+comparable papers. Genus-, family- and order-disjoint :
+GroupShuffleSplit grouped on the GTDB rank. Leave-
+one-genus-out (LOGO): one entire genus forms the test set;
+because AUC is undefined on a single-class test set, LOGO
+is evaluated only on genera containing both classes, and per-
+genus AUCs are reported rather than pooled, pooling being
+exactly the between-genus comparison the protocol exists to
+block. Sequence-identity clustering with MMseqs2 [21] at 30%
+and 50%, corpus-wide and protein by protein.
+F . Models, imbalance and statistics
+Five classifier families were compared — histogram-based
+gradient boosting (HGB), XGBoost [17], ExtraTrees, Random
+Forest and a multilayer perceptron — with scikit-learn [18].
+This is not a search for the best model: it tests whether the
+diagnosis depends on the learner. HGB is used throughout
+unless stated. Four treatments of class imbalance were com-
+pared: SMOTE [19] on training folds only, no resampling,
+class weighting, and scale_pos_weight.
+Every configuration was repeated over 20 splits (seeds 42–
+61) and is reported as mean ± SD, with MCC and AUPRC
+alongside AUC and accuracy, and bootstrap 95% confidence
+intervals (10,000 resamples). A permutation test (1,000 permu-
+tations) was run under two nulls: a global label shuffle, and a
+shuffle that permutes labels between genus blocks, preserving
+the taxonomic structure of the labels.
+G. Availability
+Code, the provenance table and all result tables are de-
+posited on Zenodo with a DOI and mirrored on GitHub, with
+a frozen environment specification.
+TABLE II
+LABEL PROVENANCE OF THE 787- STRAIN CORPUS AGAINST BACDIVE .
+Provenance Total Aerobic Anaerobic
+Documented 489 150 339
+To verify 221 147 74
+Missing 77 59 18
+Total 787 356 431
+IV. R ESULTS
+A. Only 62% of labels are supported by an independent record
+Of 787 strains, 489 (62.1%) had a BacDive record agreeing
+with the inherited label; 221 (28.1%) had a record that
+disagreed or reported an intermediate state; 77 (9.8%) had
+no retrievable record (Table II).
+The attrition is strongly class-asymmetric: 58% of aero-
+bic strains (206 of 356) fail documentation, against 21%
+of anaerobic strains (92 of 431). This is not random noise
+but the biology of the trait: the ambiguous categories —
+facultative anaerobe, microaerophile — sit between “aerobic”
+and “anaerobic”, and the organisms that occupy them are
+disproportionately those labelled aerobic in a binary scheme.
+Acidithiobacillus ferrianus (BacDive 160797), inherited as
+aerobic and recorded as a facultative anaerobe, is a typical
+exclusion. The four-level label makes the cost explicit: on the
+documented subset the intermediate levels are empty by con-
+struction, so curation removes precisely the physiologies most
+informative about nitrogenase protection. The excluded strains
+are not biologically defective but evidentially unresolved under
+a binary label.
+B. Housekeeping proteins predict oxygen niche as well as
+nitrogenase
+Under a random split repeated 20 times, all four proteins lie
+within 0.009 AUC of each other on the Full corpus and within
+0.004 on the Strict corpus, and in both cases the best score
+belongs to a control (Table III, Fig. 2a,b). The target–control
+gap is smaller than one standard deviation across splits.
+The pipeline reproduces the published performance level,
+and reproduces it just as well on proteins with no mechanistic
+
+===== PAGE 5 =====
+Nif (HDK)
+RecA
+GyrB
+RpoB
+0.974 ± 0.007
+0.973 ± 0.010
+0.977 ± 0.011
+0.982 ± 0.008
+(a) Full (787) -- random split
+Nif (HDK)
+RecA
+GyrB
+RpoB
+0.982 ± 0.015
+0.982 ± 0.009
+0.982 ± 0.012
+0.986 ± 0.009
+(b) Strict (489) -- random split
+0.85 0.90 0.95 1.00 1.05
+AUC, mean ± SD over 20 splits
+Nif (HDK)
+RecA
+GyrB
+RpoB
+0.945 ± 0.030
+0.911 ± 0.058
+0.916 ± 0.065
+0.916 ± 0.060
+(c) Full (787) -- genus-disjoint
+0.85 0.90 0.95 1.00 1.05
+AUC, mean ± SD over 20 splits
+Nif (HDK)
+RecA
+GyrB
+RpoB
+0.970 ± 0.025
+0.927 ± 0.030
+0.947 ± 0.043
+0.941 ± 0.038
+(d) Strict (489) -- genus-disjoint
+Fig. 2. Target and matched controls over 20 repeated splits. (a, b) Under random splitting the four proteins are indistinguishable on both corpora, and the
+best score belongs to a control. (c, d) Under genus-disjoint splitting a small advantage appears for the target on both corpora, roughly 0.03–0.04 AUC and
+comparable to the dispersion across splits. Repetition is what makes the comparison readable: a single draw can place any of the four proteins first.
+TABLE III
+TARGET –CONTROL COMPARISON , MEAN± SD OVER 20 SPLITS (HGB,
+CKSAAP).
+Protein Split AUC, Full (787) AUC, Strict (489)
+Nif (HDK) Random 0.974± 0.007 0 .982± 0.015
+RecA Random 0.973± 0.010 0 .982± 0.009
+GyrB Random 0.977± 0.011 0 .982± 0.012
+RpoB Random 0.982± 0.008 0 .986± 0.009
+Nif (HDK) Genus 0.945± 0.030 0 .970± 0.025
+RecA Genus 0.911± 0.058 0 .927± 0.030
+GyrB Genus 0.916± 0.065 0 .947± 0.043
+RpoB Genus 0.916± 0.060 0 .941± 0.038
+connection to oxygen tolerance; a high AUC on nitrogenase
+is therefore not evidence about nitrogenase. Nor does this
+depend on a weak feature set: CKSAAP on RpoB reaching
+0.982 means the features read organism identity with high
+fidelity. The problem is not an underperforming model but a
+well-performing model answering a different question from
+the one asked.
+Under genus-disjoint splitting the picture changes slightly
+but not qualitatively. The target leads the controls by 0.029–
+0.034 AUC on the Full corpus and by 0.023–0.043 on the
+Strict corpus (Fig. 2c,d), and a nested cross-validation gives a
+gap of the same order ( +0.03 to +0.06). This is the one place
+in the study where a target-specific component is visible. It
+is also an order of magnitude smaller than the gap a single
+split had suggested in our earlier analysis ( 0.856 vs. 0.723),
+which is a direct illustration of why single draws should not
+be reported: the standard deviations here reach 0.065.
+C. Permutation testing separates “significant” from “spe-
+cific”
+Against a global label shuffle, both target and control
+reject the null at the resolution of the test ( p = 0 .001,
+1,000 permutations), which is unsurprising and uninformative.
+Against the genus-block null, which preserves the taxonomic
+structure of the labels, the null distribution shifts from a mean
+0.4 0.5 0.6 0.7 0.8 0.9 1.0
+AUC under permuted labels (mean ± 2 SD)
+Nif, Full
+RecA, Full
+Nif, Strict
+RecA, Strict
+0.974
+0.973
+0.982
+0.969
+global null genus-block null observed AUC
+Fig. 3. Permutation test, 1,000 permutations, two nulls. Bands give mean ±
+2 SD of the null AUC distribution; diamonds give the observed AUC. Moving
+from the global null to the genus-block null raises the null mean from 0.50
+to about 0.60 identically for target and control. Bands are drawn from the
+reported summary statistics of the null distributions.
+of 0.50 to about 0.60 for both proteins and both corpora
+(Fig. 3). A fifth of the distance from chance to a perfect
+score is therefore manufactured by taxonomic structure alone,
+identically for nitrogenase and for RecA. Significance against
+a shuffled label says nothing about mechanism when the labels
+are clade-structured.
+D. The taxonomic decay curve, and where it stops being
+informative
+Under splits of increasing taxonomic rank on the Full
+corpus, nitrogenase AUC falls from 0.974 ± 0.007 (random)
+to 0.945 ± 0.030 (genus), 0.946 (family) and 0.910 (order),
+with RecA tracking below it throughout (Fig. 4a). The decline
+is real but shallow, and the shallowness is itself the finding:
+in this corpus 89% of families and 95% of orders contain a
+single class, so removing an entire group removes almost no
+decision boundary. A split that looks strict on paper can be
+nearly free in practice.
+
+===== PAGE 6 =====
+rand.genusfamilyorder
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+AUC
+(a) Disjoint-group splits
+Nif
+RecA
+Full
+Strict
+Nif RecA
+0.549
+0.560
+(b) LOGO
+genusfamilyorder
+0
+20
+40
+60
+80
+100
+single-class (%)
+98
+89
+95
+(c) Group purity
+Fig. 4. (a) Decay across random, genus-, family- and order-disjoint splits,
+20 repetitions, both corpora. (b) Leave-one-genus-out: mean per-genus AUC
+with 95% bootstrap interval, over the only 8 of 328 genera that contain both
+classes; target and control are both compatible with chance and with each
+other. (c) Share of single-class groups by rank on the Full corpus (every
+genus of the Strict corpus is single-class): withholding such a group removes
+no decision boundary, which is why the curve in (a) is shallow.
+Leave-one-genus-out genuinely blocks the confound, and it
+is also where the corpus runs out. Of 328 genera only 8 contain
+both classes and are evaluable; on the Strict corpus none do, so
+the exercise is undefined there. On those 8 genera the mean
+AUC is 0.549 for nitrogenase, with a bootstrap interval of
+[0.367, 0.753], and 0.560 for RecA (Fig. 4b). The reading is
+symmetric: generalisation to an unseen mixed genus is not
+demonstrated, and neither is its absence; eight genera cannot
+support a conclusion in either direction.
+E. Phylogeny alone, and 22 numbers, reproduce most of the
+score
+A k-nearest-neighbour classifier on GTDB patristic dis-
+tances — a model with no access to any sequence feature
+— reaches AUC 0.972 under a random split on the Full
+corpus, against 0.974 for the full CKSAAP model (Fig. 5a).
+Relatedness alone reproduces essentially the whole of the
+reported performance.
+The second baseline bounds the descriptor from the other
+side: 22 trivial covariates reach 0.957, so the 1,600 CKSAAP
+dimensions buy about one point of AUC (Fig. 5b). Finally,
+NifH, NifD and NifK taken separately perform comparably to
+their combination, with no subunit standing out — difficult
+to reconcile with a mechanistic reading in which a specific
+structural element carries the signal [8].
+F . A protein language model reads the organism better, not
+the trait
+The obvious objection to everything above is that CKSAAP
+is a crude descriptor and that a modern representation would
+separate trait from lineage. It does not. Frozen ESM-2 650M
+embeddings [20] under the identical protocol give, for the
+target on the Full corpus, AUC 0.946 (random) and 0.915
+(genus-disjoint), against 0.974 and 0.945 for CKSAAP —
+lower on both. More tellingly, under a random split the
+RecA control embedded by ESM-2 reaches 0.965, above the
+nitrogenase target at 0.946 (Fig. 5c). A richer representation
+reads organism identity better still, without separating trait
+signal from phylogenetic signal. The diagnosis is a property
+of the task and the corpus, not of the descriptor.
+G. The hardness of a split is a property of the corpus
+Three independent observations converge on the same point
+(Fig. 4c). First, 98% of genera in the Full corpus and all genera
+in the Strict corpus are single-class, so group-disjoint splitting
+at genus rank withholds mostly homogeneous blocks; 89% of
+families and 95% of orders behave likewise. Second, only 8
+genera support a LOGO evaluation at all. Third, sequence-
+identity clustering fails for a structural reason rather than a
+technical one: MMseqs2 run over all 6,710 sequences at 30%
+and 50% identity yields a giant component containing 99.9%
+of strains, because the conserved domains shared by these
+proteins link nearly every strain to every other. Rebuilding
+the clustering protein by protein (NifH, NifD, NifK, RecA
+separately) at 30% identity still leaves only one to three
+inseparable components; the 50% evaluation is in progress.
+We therefore report no performance figures from the clustered
+protocol.
+This is also what resolves an artefact we reported from a
+single split in an earlier version of this analysis, where genus-
+disjoint AUC on the Strict corpus exceeded random-split AUC.
+Under 20 repetitions the inversion disappears ( 0.970 ± 0.025
+against 0.982 ± 0.015), but the underlying cause it pointed to
+is confirmed by the group-composition statistics: on a curated
+subset in which every genus is single-class, genus-disjoint
+splitting does not block the confound at all.
+H. Nothing depends on the learner or on the imbalance
+treatment
+On the Full corpus under a random split, accuracy is 0.886
+(ExtraTrees), 0.873 (Random Forest), 0.899 (XGBoost) and
+0.911 (HGB), all near the published 0.9225 reference, and
+the spread between best and worst learner is smaller than the
+drop any single learner suffers from hardening the split. The
+four imbalance treatments — SMOTE, no resampling, class
+weighting and scale_pos_weight — give AUCs identical
+to the third decimal, so SMOTE was dropped on this near-
+balanced corpus. The limiting factor is the protocol, not the
+learner or the sampler.
+V. D ISCUSSION
+A. What the evidence supports, and what it does not
+Four claims are supported. The published performance
+level is reproducible and is not specific to nitrogenase: three
+proteins with no mechanistic connection to oxygen tolerance
+match or exceed the target under random splitting, on both
+corpora and under two representations. The performance is
+contingent on the evaluation protocol : it declines monoton-
+ically with the strictness of the split, and generalisation to an
+unseen mixed genus is not demonstrated. Trivial baselines
+bound what the descriptor may claim : relatedness alone
+reaches 0.972 and 22 covariates reach 0.957. The hardness
+
+===== PAGE 7 =====
+Full
+random
+Full
+genus
+Strict
+random
+Strict
+genus
+0.70
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+AUC
+(a) Phylogeny alone
+GTDB k-NN (k=5) Nif CKSAAP
+Full
+random
+Full
+genus
+Strict
+random
+Strict
+genus
+0.70
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+(b) Length + composition
+22 trivial covariates CKSAAP (1 600 d)
+Nif
+random
+Nif
+genus
+RecA
+random
+RecA
+genus
+0.70
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+(c) ESM-2 vs. CKSAAP (Full)
+ESM-2 650M CKSAAP
+Fig. 5. Reference baselines and a richer representation, all under the identical protocol, 20 repetitions. (a) A GTDB nearest-neighbour classifier that sees only
+relatedness nearly equals the sequence model. (b) Twenty-two trivial covariates leave about one AUC point for 1,600 CKSAAP dimensions. (c) Frozen ESM-2
+650M embeddings do not exceed CKSAAP, and under a random split the RecA control embedded by ESM-2 (0.965) again scores above the nitrogenase target
+(0.946).
+of a split is a property of the corpus , not of the splitting
+rule.
+Two claims are explicitly not supported in either direction.
+We have not shown that nitrogenase sequence carries no
+oxygen-related information: the target leads the controls by
+0.03–0.06 AUC under repeated genus-disjoint splitting and
+under nested cross-validation, which is compatible with a weak
+specific component, and the association of the NifK N-terminal
+extension with oxygen-tolerant diazotrophs [8] supplies a
+mechanism by which one could exist. Nor have we shown
+that such a model fails on an unseen genus: we have shown
+that this corpus cannot answer the question, eight evaluable
+genera being too few.
+B. Relation to prior work
+Our finding is no surprise to the part of the field that
+already controls for phylogeny [3], [4], [5]. What is new
+is threefold. (i) The matched-housekeeping-protein control
+has, to our knowledge, not been applied to a nitrogenase-
+based or any protein-family-targeted trait model, and it is
+a sharper instrument than a phylogenetic split, because it
+does not require the split to work. (ii) The decay curve with
+repetitions and a two-null permutation test turns “there is some
+confounding” into a number on the same model and corpus,
+and separates significance from specificity. (iii) The corpus-
+structure analysis identifies a practical trap we have not seen
+reported: a group-aware split that silently stops working once
+the groups are mostly single-class, which will recur wherever
+a conserved trait is curated down to a cleaner subset.
+The contrast with Flamholz et al. remains instructive:
+their annotation-free classifiers retained better-than-random
+accuracy on withheld groups, whereas ours return to chance
+at LOGO. Whole-proteome composition integrates genuinely
+physiological signal [4], whereas three structural subunits do
+not. The trait signal recoverable from sequence depends on
+how much of the organism you look at , and narrowing to
+the mechanistically “obvious” protein can remove the signal
+rather than concentrate it.
+C. Limitations
+The label conflates two things : the trait is the organism’s
+oxygen relationship, not the conditions under which it fixes
+nitrogen, and for rhizobia, Azospirillum and heterocystous
+cyanobacteria these differ. The four-level label derived here
+describes the organism, not the fixation condition; a fixation-
+condition label with recorded evidence type, strain by strain,
+is the correct target and is in preparation. The corpus bounds
+the strictest protocol : with 8 evaluable genera, LOGO yields
+an interval too wide to rank anything, and sequence-identity
+clustering yields no usable partition at all. No external vali-
+dation: everything is internal to one strain collection, so the
+conclusions are about what this widely reused dataset supports.
+Class imbalance introduced by curation : the filter removed
+aerobes preferentially, making the dataset cleaner and less
+balanced at once, and it removed the intermediate physiologies
+entirely. One sequence-count discrepancy remains open (6,710
+against an inherited 6,335). Finally, the negative controls
+are not perfect negatives : amino-acid usage in housekeeping
+proteins responds weakly to aerobic metabolism, so the con-
+trol bounds the phylogenetic contribution slightly generously.
+This works against us — the true phylogeny-only baseline
+may be marginally lower, leaving slightly more room for a
+nitrogenase-specific signal than we report.
+D. A minimum evaluation standard
+The protocol used here is cheap and generalises to any
+phylogenetically conserved microbial trait. We state it as five
+requirements.
+(1) Report label provenance, not just sample size: how
+many labels are supported by an independent record, how
+many conflict, how many are absent, and whether attrition
+is class-dependent. (2) Run a matched control protein:
+a conserved protein with no mechanistic link to the trait,
+
+===== PAGE 8 =====
+from the same organisms, through the identical pipeline; if
+it matches the target, the target is not the source of the
+signal. This is a few hours of work and it is diagnostic. (3)
+Report a decay curve with repetitions, not a single split:
+random, group-disjoint and leave-one-group-out at minimum,
+with means, dispersions and intervals — the shape of the
+curve, not any single point, is the result, and in our case
+a single draw overstated the target–control gap by a factor
+of four. (4) Verify that the hard split is actually hard:
+report the class composition of the held-out groups, because
+if most are single-class, group-disjoint splitting does not block
+the confound and must not be reported as though it did. (5)
+Report the two free baselines: a nearest-neighbour classifier
+on a published phylogeny, and a handful of trivial covariates.
+If either matches the proposed model, the proposed model has
+not been shown to add anything.
+The cost in our case was a few weeks of compute and
+curation; the benefit was learning that the headline number
+meant something different from what it appeared to mean,
+which unchecked would have propagated into an interpretation
+of SHAP values as oxygen-protection determinants. Two im-
+plications follow. For diazotroph biology, if oxygen tolerance
+is to be predicted from sequence, the accessory repertoire
+— fesII, cydAB, cox, fdxH, rnf, vnf, nifW, hetR/patS — is
+the place to look, not the structural subunits [6], [7]. For
+the machine-learning side, a frozen protein language model
+reading lineage better than a composition descriptor is a
+caution worth generalising: representation quality and trait
+specificity are different axes, and improving the former can
+worsen the identifiability problem rather than solve it.
+VI. C ONCLUSION
+A sequence-composition model that classifies diazotroph
+oxygen niche from nitrogenase with AUC 0.974 under a
+random split is matched by housekeeping proteins run through
+the identical pipeline, is nearly equalled by a classifier that
+sees only phylogenetic distance, and declines steadily as splits
+harden until, on the only eight genera that permit the test, it is
+indistinguishable from chance. Replacing the descriptor with a
+protein language model makes the problem worse, not better.
+The performance is real; its interpretation as a mechanistic
+signal in nitrogenase is not supported, and a weak specific
+component of a few AUC points can be neither confirmed
+nor excluded by this corpus. We do not claim nitrogenase
+sequence is uninformative about oxygen niche — we claim
+the published experiments cannot tell, and we give a cheap
+five-item protocol that can.
+ACKNOWLEDGMENT
+The authors thank the URIFIA Research Unit for computing
+support, and acknowledge BacDive, UniProt and GTDB as
+data sources.
+REFERENCES
+[1] L. C. Reimer, J. Sard `a Carbasse, J. Koblitz, C. Ebeling, A. Podstawka,
+and J. Overmann, “BacDive in 2022: the knowledge base for standard-
+ized bacterial and archaeal data,” Nucleic Acids Res. , vol. 50, no. D1,
+pp. D741–D746, 2022, doi: 10.1093/nar/gkab961.
+[2] A. C. Martiny, K. Treseder, and G. Pusch, “Phylogenetic conservatism
+of functional traits in microorganisms,” ISME J. , vol. 7, pp. 830–838,
+2013.
+[3] A. I. Flamholz, J. E. Goldford, P. A. Richter, E. M. Larsson et al. ,
+“Annotation-free prediction of microbial dioxygen utilization,” mSys-
+tems, vol. 9, no. 10, 2024, doi: 10.1128/msystems.00763-24.
+[4] T. P. Barnum et al., “Predicting microbial growth conditions from amino
+acid composition,” bioRxiv, 2024, doi: 10.1101/2024.03.22.586313.
+Software: GenomeSPOT.
+[5] T. Liao, S. Chen, S. Wang, Y . Huang, S. K. W. Tsui, E. E. St ¨ueken,
+Q. Cao, and H. Luo, “Noncanonical genetic markers resolve the pre-
+GOE emergence of aerobic bacteria in Earth’s history,” Proc. Natl.
+Acad. Sci. USA , vol. 123, no. 4, 2026, Art. no. e2515709123, doi:
+10.1073/pnas.2515709123.
+[6] A. Nonaka, H. Yamamoto, N. Kamiya, H. Kotani, H. Yamakawa,
+R. Tsujimoto, and Y . Fujita, “Accessory proteins of the nitrogenase
+assembly, NifW, NifX/NafY , and NifZ, are essential for diazotrophic
+growth in the nonheterocystous cyanobacterium Leptolyngbya boryana,”
+Front. Microbiol., vol. 10, p. 495, 2019.
+[7] J. Young, L. Gu, and R. Zhou, “Predicting FOX gene candidates for oxic
+nitrogen fixation using multi-omic machine learning and comparative
+bioinformatics,” Sci. Rep., vol. 16, p. 11412, 2026, doi: 10.1038/s41598-
+026-41873-w.
+[8] B. Cuevas-Zuvir ´ıa, F. Detemple, K. Amritkar, A. K. Garcia, L. C.
+Seefeldt, O. Einsle, and B. Kac ¸ar, “Structural evolution of nitrogenase
+over 3 billion years,” eLife, vol. 14, 2025, Art. no. RP105613, doi:
+10.7554/eLife.105613.
+[9] J. A. Tankeu Kuebove, “Identification par apprentissage automatique des
+d´eterminants g ´en´etiques de la fixation d’azote en conditions a ´erobies,”
+M.S. thesis, URIFIA, Univ. of Dschang, Cameroon, 2026.
+[10] K. Chen, L. A. Kurgan, and J. Ruan, “Prediction of flexible/rigid regions
+from protein sequences using k-spaced amino acid pairs,” BMC Struct.
+Biol., vol. 7, p. 25, 2007.
+[11] Z. Chen, X. Liu, P. Zhao, C. Li, Y . Wang, F. Li et al., “iFeatureOmega:
+an integrative platform for engineering, visualization and analysis of
+features from molecular sequences, structural and ligand data sets,”
+Nucleic Acids Res. , vol. 50, no. W1, pp. W434–W447, 2022.
+[12] S. M. Lundberg and S.-I. Lee, “A unified approach to interpreting model
+predictions,” in Adv. Neural Inf. Process. Syst. 30, 2017, pp. 4765–4774.
+[13] A. Ye, J. Zhang, Q. Xu, H. Guo, Z. Liao, H. Cui, D. Zhang, and F.-
+B. Guo, “Carmna: classification and regression models for nitrogenase
+activity based on a pretrained large protein language model,” Briefings
+Bioinf., vol. 26, no. 2, 2025, Art. no. bbaf197, doi: 10.1093/bib/bbaf197.
+[14] M. M. I. Nafi and A. Al Mohaimin, “NFEmbed: modeling nitroge-
+nase activity via classification and regression with pretrained protein
+embeddings,” Bioinform. Adv. , vol. 5, no. 1, p. vbaf204, 2025, doi:
+10.1093/bioadv/vbaf204.
+[15] J. Koblitz, L. C. Reimer, R. Pukall, and J. Overmann, “Predicting
+bacterial phenotypic traits through improved machine learning using
+high-quality, curated datasets,” Commun. Biol. , vol. 8, p. 897, 2025,
+doi: 10.1038/s42003-025-08313-3.
+[16] The UniProt Consortium, “UniProt: the universal protein knowledgebase
+in 2023,” Nucleic Acids Res. , vol. 51, no. D1, pp. D523–D531, 2023.
+[17] T. Chen and C. Guestrin, “XGBoost: a scalable tree boosting system,” in
+Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discov. Data Min. , 2016,
+pp. 785–794.
+[18] F. Pedregosa, G. Varoquaux, A. Gramfort et al., “Scikit-learn: machine
+learning in Python,” J. Mach. Learn. Res., vol. 12, pp. 2825–2830, 2011.
+[19] N. V . Chawla et al. , “SMOTE: synthetic minority over-sampling tech-
+nique,” J. Artif. Intell. Res. , vol. 16, pp. 321–357, 2002.
+[20] Z. Lin, H. Akin, R. Rao, B. Hie et al., “Evolutionary-scale prediction of
+atomic-level protein structure with a language model,” Science, vol. 379,
+no. 6637, pp. 1123–1130, 2023.
+[21] M. Steinegger and J. S ¨oding, “MMseqs2 enables sensitive protein se-
+quence searching for the analysis of massive data sets,” Nat. Biotechnol.,
+vol. 35, pp. 1026–1028, 2017.
+[22] D. H. Parks et al., “GTDB: an ongoing census of bacterial and archaeal
+diversity through a phylogenetically consistent, rank normalized and
+complete genome-based taxonomy,” Nucleic Acids Res., vol. 50, no. D1,
+pp. D785–D794, 2022.

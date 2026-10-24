@@ -1,0 +1,33 @@
+PHASE 10 — SPLITS PAR CLUSTERS MMseqs2 (30 % et 50 % d'identité, 20 tirages)
+Groupes = composantes de souches reliées par un cluster de séquences commun.
+
+⚠️ RÉSULTAT DÉGÉNÉRÉ — NE PAS CITER COMME UNE PERFORMANCE.
+
+Constat (phase10_mmseqs_summary.csv) :
+- Aux deux seuils (30 % et 50 %), le graphe de souches reliées par un
+  cluster commun ne forme que 2 composantes, dont une géante réunissant
+  99,9 % des souches (Full comme Strict, Nif comme RecA).
+- Cause : le clustering porte sur les 6 705 séquences du cluster nif
+  complet ; à 30–50 % d'identité (couverture 0,8), des domaines très
+  conservés chaînent pratiquement toutes les souches entre elles.
+- Conséquence mécanique : à chaque tirage, le train est réduit à la
+  composante minuscule (une poignée de souches, souvent une seule
+  classe) et le test contient la composante géante. Le classifieur ne
+  peut rien apprendre : AUC = 0,500 exacte, écart-type 0, partout.
+  Ce 0,500 est un artefact du découpage, PAS la mesure d'un modèle
+  « au hasard » sur un test honnête.
+
+Lecture correcte :
+- Tel que construit (union sur toutes les protéines du cluster), le
+  split par cluster MMseqs demandé par l'Annexe B est inapplicable :
+  il ne laisse aucun train viable. C'est un résultat sur la structure
+  du corpus (connexité quasi totale à ces seuils), pas sur le modèle.
+- Protocole correct à substituer (à lancer après accord) : clusterer
+  séparément les séquences de chaque protéine descripteur (NifH, NifD,
+  NifK, RecA), relier les souches uniquement via les clusters de cette
+  protéine, puis découper par composantes ainsi obtenues.
+
+Durée du run dégénéré : 5260 s (conservé pour traçabilité).
+Par répétition : results/metrics/phase10_mmseqs_per_repeat.csv
+Synthèse : results/metrics/phase10_mmseqs_summary.csv
+Figure : results/figures/phase10_mmseqs_decay.png (montre l'artefact ; à régénérer après correction du protocole)

@@ -1,0 +1,61 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.pkl
+*.joblib
+.env
+.venv/
+venv/
+
+# Office / livrables (ne pas pousser)
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+*.odt
+*.odp
+*.ods
+~$*
+
+# PDF générés / docs locaux
+*.pdf
+
+# LaTeX auxiliaire
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+
+# Dossier docs / littérature locale (hors code)
+CONCERNANT OXYFIX/
+
+# Temporaires
+_tmp_*
+tmp_*
+*.tmp
+
+# Topo temporaire film
+OXYFIX_TOPO_PROJET_POUR_FILMER.pdf
+_make_topo_filmer.py
+
+# Caches / binaires lourds (backup privé allégé)
+results/provenance/bacdive_cache/
+results/models/
+tools/mmseqs/
+*.npz
+*.pt
+*.bin
+
+# Descripteurs bruts très lourds (à déposer plus tard sur Zenodo / release)
+data/raw/Resultats/
+notebooks/
+
+# Données externes / binaires (GTDB ~300 Mo, MMseqs zip)
+data/external/
+tools/
+

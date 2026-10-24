@@ -1,0 +1,18 @@
+PHASE 9 — SPLITS PAR FAMILLE ET PAR ORDRE (20 tirages, composition rapportée)
+
+AUC moyenne (20 splits) :
+  Nif_CKSAAP   full        famille=0.946 | ordre=0.910
+  Nif_CKSAAP   strict_489  famille=0.964 | ordre=0.925
+  RecA_CKSAAP  full        famille=0.904 | ordre=0.864
+  RecA_CKSAAP  strict_489  famille=0.905 | ordre=0.804
+
+LECTURE : prolonge la courbe de décroissance au-delà du genre.
+La part de groupes mono-classe et la composition de chaque test sont
+dans phase9_family_order_per_repeat.csv (preuve de dureté des splits).
+Taxonomie : GTDB via représentant apparié, consensus de genre sinon
+(data/raw/metadata/table_taxonomy_levels.csv).
+
+Durée totale : 14099s
+Par répétition : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase9_family_order_per_repeat.csv
+Synthèse : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase9_family_order_summary.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase9_family_order_decay.png

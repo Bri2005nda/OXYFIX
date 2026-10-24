@@ -1,0 +1,19 @@
+PISTES 2+3 — MODELES PARALLELES + CORPUS DOCUMENTE
+Reference Alida: Acc=0.9225 | AUC=0.9772
+
+MEILLEUR MODELE (corpus 787, aleatoire):
+  HGB | Acc=0.9114 | AUC=0.9710 | dAcc=-0.0111 | dAUC=-0.0062
+  -> Ne depasse pas Alida (normal si le plafond est surtout taxonomique).
+  -> Le resultat reste utile: on a TESTE des modeles plus forts en parallele.
+
+CORPUS DOCUMENTE (n=489), aleatoire — meilleur:
+  ExtraTrees | Acc=0.9286 | AUC=0.9578 | dAcc=+0.0061
+  Lecture: si le score change beaucoup vs 787, les labels flous comptent.
+
+ORIENTATION:
+- OXYFIX (diagnostic parenté) reste le coeur.
+- La piste parallele documente l'essai de gain de performance.
+- Suite: Phase 2 courbe de decroissance + eventuelle nouvelle base.
+
+Fichiers: C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase1b_parallel_models.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase1b_parallel_models_vs_alida.png

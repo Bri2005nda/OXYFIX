@@ -1,0 +1,57 @@
+souche,label_texte,species_query,culture_codes,n_bacdive_hits,bacdive_id_propose,ncbi_taxid_propose,oxygen_tol,statut_propose,preuve_proposee,commentaire,label_alida_inchange
+Clostridium_aceticum,anaerobie,Clostridium aceticum,,1,2528,84022,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2528),taxon,True
+Clostridium_acetobutylicum_(strain_ATCC_824___DSM_792___JCM_1419___IAM_19013___LMG_5710___NBRC_13948___NRRL_B-527___VKM_B-1787___2291___W),anaerobie,Clostridium acetobutylicum,ATCC 824;DSM 792;JCM 1419;IAM 19013;LMG 5710;NBRC 13948,1,2529,1488,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2529),"culturecollection:ATCC 824,DSM 792,JCM 1419",True
+Clostridium_acidisoli_DSM_12555,anaerobie,Clostridium acidisoli,DSM 12555,1,2800,91624,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2800),culturecollection:DSM 12555,True
+Clostridium_algifaecis,anaerobie,Clostridium algifaecis,,1,130248,1472040,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 130248),taxon,True
+Clostridium_aromativorans,anaerobie,Clostridium aromativorans,,1,175779,2836848,,partiel,"BacDive ID 175779 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_autoethanogenum,anaerobie,Clostridium autoethanogenum,,2,174995,84023,,a_verifier,BacDive oxygen tolerance=None (ID 174995; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_autoethanogenum_DSM_10061,anaerobie,Clostridium autoethanogenum,DSM 10061,1,2781,84023,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2781),culturecollection:DSM 10061,True
+Clostridium_beijerinckii,anaerobie,Clostridium beijerinckii,,30,165721,1520,,a_verifier,BacDive oxygen tolerance=None (ID 165721; 30 hits espèce),Ambigu: 30 souches BacDive,True
+Clostridium_beijerinckii_(strain_ATCC_51743___NCIMB_8052),anaerobie,Clostridium beijerinckii,ATCC 51743;NCIMB 8052,1,2529,1488,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2529),"culturecollection:ATCC 51743,NCIMB 8052",True
+Clostridium_boliviensis,anaerobie,Clostridium boliviensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_bornimense,anaerobie,Clostridium bornimense,,1,23860,1216932,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23860),taxon,True
+Clostridium_butyricum,anaerobie,Clostridium butyricum,,10,169215,1492,,a_verifier,BacDive oxygen tolerance=None (ID 169215; 10 hits espèce),Ambigu: 10 souches BacDive,True
+Clostridium_butyricum_E4_str__BoNT_E_BL5262,anaerobie,Clostridium butyricum,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_carnis,anaerobie,Clostridium carnis,,1,2565,1530,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2565),taxon,True
+Clostridium_cellulovorans_(strain_ATCC_35296___DSM_3052___OCM_3___743B),anaerobie,Clostridium cellulovorans,ATCC 35296;DSM 3052,1,2568,1493,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2568),"culturecollection:ATCC 35296,DSM 3052",True
+Clostridium_chromiireducens,anaerobie,Clostridium chromiireducens,,2,169631,225345,,a_verifier,BacDive oxygen tolerance=None (ID 169631; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_cibarium,anaerobie,Clostridium cibarium,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_coskatii,anaerobie,Clostridium coskatii,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_diolis,anaerobie,Clostridium diolis,,30,165721,1520,,a_verifier,BacDive oxygen tolerance=None (ID 165721; 30 hits espèce),Ambigu: 30 souches BacDive,True
+Clostridium_estertheticum,anaerobie,Clostridium estertheticum,,2,2807,238834,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2807; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_estertheticum_subsp__estertheticum,anaerobie,Clostridium estertheticum,,2,2807,238834,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2807; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_felsineum,anaerobie,Clostridium felsineum,,4,2656,36839,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2656; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Clostridium_formicaceticum,anaerobie,Clostridium formicaceticum,,7,2594,1497,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2594; 7 hits espèce),Ambigu: 7 souches BacDive,True
+Clostridium_frigoriphilum,anaerobie,Clostridium frigoriphilum,,1,130245,443253,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 130245),taxon,True
+Clostridium_gelidum,anaerobie,Clostridium gelidum,,1,169423,704125,,partiel,"BacDive ID 169423 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_grantii_DSM_8605,anaerobie,Clostridium grantii,DSM 8605,1,2775,40575,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2775),culturecollection:DSM 8605,True
+Clostridium_homopropionicum_DSM_5847,anaerobie,Clostridium homopropionicum,DSM 5847,1,2753,36844,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2753),culturecollection:DSM 5847,True
+Clostridium_intestinale,anaerobie,Clostridium intestinale,,2,2756,36845,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2756; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_intestinale_DSM_6191,anaerobie,Clostridium intestinale,DSM 6191,1,2755,36845,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2755),culturecollection:DSM 6191,True
+Clostridium_intestinale_URNW,anaerobie,Clostridium intestinale,,2,2756,36845,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2756; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_kluyveri,anaerobie,Clostridium kluyveri,,6,2611,1534,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2611; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Clostridium_kluyveri_(strain_ATCC_8527___DSM_555___NBRC_12016___NCIMB_10680___K1),anaerobie,Clostridium kluyveri,ATCC 8527;DSM 555;NBRC 12016;NCIMB 10680,1,2606,1534,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2606),"culturecollection:ATCC 8527,DSM 555,NBRC 12016",True
+Clostridium_kluyveri_(strain_NBRC_12016),anaerobie,Clostridium kluyveri,NBRC 12016,6,2606,1534,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2606),désambiguïsé via NBRC 12016,True
+Clostridium_ljungdahlii,anaerobie,Clostridium ljungdahlii,,1,2802,1538,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2802),taxon,True
+Clostridium_ljungdahlii_(strain_ATCC_55383___DSM_13528___PETC),anaerobie,Clostridium ljungdahlii,ATCC 55383;DSM 13528,1,2802,1538,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2802),"culturecollection:ATCC 55383,DSM 13528",True
+Clostridium_luticellarii,anaerobie,Clostridium luticellarii,,1,131553,1691940,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 131553),taxon,True
+Clostridium_magnum_DSM_2767,anaerobie,Clostridium magnum,DSM 2767,1,2615,33954,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2615),culturecollection:DSM 2767,True
+Clostridium_manihotivorum,anaerobie,Clostridium manihotivorum,,1,166557,2320868,,partiel,"BacDive ID 166557 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_moutaii,anaerobie,Clostridium moutaii,,1,177749,3240932,,partiel,"BacDive ID 177749 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_neonatale,anaerobie,Clostridium neonatale,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Clostridium_neuense,anaerobie,Clostridium neuense,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_oryzae,anaerobie,Clostridium oryzae,,1,130250,1450648,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 130250),taxon,True
+Clostridium_paridis,anaerobie,Clostridium paridis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_pasteurianum,anaerobie,Clostridium pasteurianum,,4,174397,1501,,a_verifier,BacDive oxygen tolerance=None (ID 174397; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Clostridium_pasteurianum_BC1,anaerobie,Clostridium pasteurianum,,4,174397,1501,,a_verifier,BacDive oxygen tolerance=None (ID 174397; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Clostridium_pasteurianum_DSM_525_=_ATCC_6013,anaerobie,Clostridium pasteurianum,DSM 525;ATCC 6013,1,2626,1501,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2626),"culturecollection:DSM 525,ATCC 6013",True
+Clostridium_polyendosporum,anaerobie,Clostridium polyendosporum,,1,2499,69208,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2499),taxon,True
+Clostridium_puniceum,anaerobie,Clostridium puniceum,,1,2649,29367,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2649),taxon,True
+Clostridium_ragsdalei_P11,anaerobie,Clostridium ragsdalei,,1,2818,217158,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2818),taxon,True
+Clostridium_saccharobutylicum,anaerobie,Clostridium saccharobutylicum,,1,2805,169679,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2805),taxon,True
+Clostridium_saccharoperbutylacetonicum_N1-4(HMT),anaerobie,Clostridium saccharoperbutylacetonicum,,2,2659,36745,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2659; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_thailandense,anaerobie,Clostridium thailandense,,1,168263,2794346,,partiel,"BacDive ID 168263 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_thermosuccinogenes,anaerobie,Clostridium thermosuccinogenes,,4,2752,84032,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2752; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Clostridium_tyrobutyricum_DIVETGP,anaerobie,Clostridium tyrobutyricum,,6,139499,1519,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 139499; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Clostridium_vincentii,anaerobie,Clostridium vincentii,,1,2789,52704,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2789),taxon,True
+Clostridium_zeae,anaerobie,Clostridium zeae,,1,167542,2759022,,partiel,"BacDive ID 167542 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True

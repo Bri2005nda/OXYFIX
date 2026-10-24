@@ -1,0 +1,46 @@
+souche,label_texte,species_query,culture_codes,n_bacdive_hits,bacdive_id_propose,ncbi_taxid_propose,oxygen_tol,statut_propose,preuve_proposee,commentaire,label_alida_inchange
+Paenibacillus_abekawaensis,aerobie,Paenibacillus abekawaensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_albidus,aerobie,Paenibacillus albidus,,1,158574,2041023,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 158574),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_anaericanus,aerobie,Paenibacillus anaericanus,,3,169918,170367,,a_verifier,BacDive oxygen tolerance=None (ID 169918; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Paenibacillus_apii,aerobie,Paenibacillus apii,,1,160177,1850370,,partiel,"BacDive ID 160177 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_apis,aerobie,Paenibacillus apis,,2,164102,1792174,,a_verifier,BacDive oxygen tolerance=None (ID 164102; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paenibacillus_auburnensis,aerobie,Paenibacillus auburnensis,,1,170432,2905649,,partiel,"BacDive ID 170432 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_borealis,aerobie,Paenibacillus borealis,,1,11552,160799,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 11552),taxon,True
+Paenibacillus_brasilensis,aerobie,Paenibacillus brasilensis,,1,11557,128574,,partiel,"BacDive ID 11557 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_donghaensis,aerobie,Paenibacillus donghaensis,,1,11638,414771,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 11638),taxon,True
+Paenibacillus_durus,aerobie,Paenibacillus durus,,1,11503,44251,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11503),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Paenibacillus_durus_ATCC_35681,aerobie,Paenibacillus durus,ATCC 35681,1,11504,44251,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11504),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (culturecollection:ATCC 35681),True
+Paenibacillus_faecis,aerobie,Paenibacillus faecis,,1,131549,862114,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 131549),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_forsythiae,aerobie,Paenibacillus forsythiae,,1,11628,365616,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 11628),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Paenibacillus_fujiensis,aerobie,Paenibacillus fujiensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_graminis,aerobie,Paenibacillus graminis,,1,11559,189425,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11559),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_haidiansis,aerobie,Paenibacillus haidiansis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_helianthi,aerobie,Paenibacillus helianthi,,1,168760,1349432,,partiel,"BacDive ID 168760 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_jilunlii,aerobie,Paenibacillus jilunlii,,1,11658,682956,,partiel,"BacDive ID 11658 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_kribbensis,aerobie,Paenibacillus kribbensis,,1,24279,172713,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 24279),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_macerans,aerobie,Paenibacillus macerans,,11,,,,a_verifier,BacDive multi-hits (11) oxygen_tol diverge ou absente,Ambigu: 11 souches BacDive,True
+Paenibacillus_massiliensis,aerobie,Paenibacillus massiliensis,,3,137952,225917,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137952; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Paenibacillus_mesotrionivorans,aerobie,Paenibacillus mesotrionivorans,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_monticola,aerobie,Paenibacillus monticola,,1,169919,2666075,,partiel,"BacDive ID 169919 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_odorifer,aerobie,Paenibacillus odorifer,,2,161342,189426,,a_verifier,BacDive oxygen tolerance=None (ID 161342; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paenibacillus_oralis,aerobie,Paenibacillus oralis,,1,164567,2490856,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 164567),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_peoriae,aerobie,Paenibacillus peoriae,,2,11507,59893,,a_verifier,BacDive oxygen tolerance=None (ID 11507; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paenibacillus_phytohabitans,aerobie,Paenibacillus phytohabitans,,1,167166,2654978,,partiel,"BacDive ID 167166 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_polymyxa,aerobie,Paenibacillus polymyxa,,37,139222,1406,,a_verifier,BacDive oxygen tolerance=None (ID 139222; 37 hits espèce),Ambigu: 37 souches BacDive,True
+Paenibacillus_rhizophilus,aerobie,Paenibacillus rhizophilus,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_rhizoplanae,aerobie,Paenibacillus rhizoplanae,,1,133089,1917181,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133089),taxon,True
+Paenibacillus_riograndensis,aerobie,Paenibacillus riograndensis,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Paenibacillus_riograndensis_SBR5,aerobie,Paenibacillus riograndensis,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Paenibacillus_sabinae,aerobie,Paenibacillus sabinae,,1,11620,365617,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11620),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Paenibacillus_sabinae_T27,aerobie,Paenibacillus sabinae,,1,11620,365617,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11620),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Paenibacillus_silagei,aerobie,Paenibacillus silagei,,1,132640,1670801,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 132640),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_sonchi,aerobie,Paenibacillus sonchi,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Paenibacillus_sophorae,aerobie,Paenibacillus sophorae,,1,11656,1333845,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11656),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_spiritus,aerobie,Paenibacillus spiritus,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_stellifer,aerobie,Paenibacillus stellifer,,10,153135,169760,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 153135; 10 hits espèce),Ambigu: 10 souches BacDive,True
+Paenibacillus_terrae_(strain_HPL-003),aerobie,Paenibacillus terrae,,2,135094,159743,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 135094; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paenibacillus_tianjinensis,aerobie,Paenibacillus tianjinensis,,1,168398,2810347,,partiel,"BacDive ID 168398 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_timonensis,aerobie,Paenibacillus timonensis,,1,11580,225915,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11580),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_tritici,aerobie,Paenibacillus tritici,,1,140529,1873425,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 140529),taxon,True
+Paenibacillus_typhae,aerobie,Paenibacillus typhae,,1,23180,1174501,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 23180),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_wynnii,aerobie,Paenibacillus wynnii,,1,11601,268407,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11601),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True

@@ -1,0 +1,15 @@
+PHASE 11 — PROVENANCE PUBLIÉE + RÉCONCILIATION DES COMPTAGES
+
+Table de provenance complète : 787 souches -> C:\Users\MK COMPUTER\Desktop\projet\results\provenance\table_provenance_complete.csv
+  identifiants BacDive renseignés : 711/787
+  chaînes d'oxygène retrouvées    : 678/787
+  aucune étiquette modifiée (filtrage uniquement).
+
+Réconciliation des séquences : 6710 séquences comptées dans
+787 fichiers FASTA ; couple hérité A=6710 (concordant),
+couple hérité B=6335 (écart 375, filtre non documenté,
+signalé [À VÉRIFIER] dans RECONCILIATION_SEQUENCES.txt).
+
+Reste ouvert (Annexe B) : niveau de preuve de la fixation d'azote
+elle-même par souche (colonne à construire au moins pour Strict) —
+non inclus ici, faute de source consignée souche par souche.

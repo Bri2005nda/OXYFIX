@@ -1,0 +1,110 @@
+{
+  "best_fusion": [
+    "CKSAAP",
+    "CKSAAGP",
+    "CTDT",
+    "GAAC"
+  ],
+  "experiments": [
+    {
+      "tag": "CKSAAP_alida",
+      "protocol": "alida",
+      "RF": {
+        "accuracy": 0.9059080962800875,
+        "roc_auc": 0.9706784277840437,
+        "mcc": 0.8123614868590812,
+        "n_test": 1371
+      },
+      "HGB": {
+        "accuracy": 0.9073668854850474,
+        "roc_auc": 0.9719201549232832,
+        "mcc": 0.8147420659998729,
+        "n_test": 1371
+      }
+    },
+    {
+      "tag": "CKSAAP_honest",
+      "protocol": "honest_random",
+      "RF": {
+        "accuracy": 0.8986587183308494,
+        "roc_auc": 0.9669066426690665,
+        "mcc": 0.7973146843842591,
+        "n_test": 1342
+      },
+      "HGB": {
+        "accuracy": 0.9023845007451565,
+        "roc_auc": 0.9715961737159617,
+        "mcc": 0.804685281174693,
+        "n_test": 1342
+      }
+    },
+    {
+      "tag": "CKSAAP_genus",
+      "protocol": "genus_group",
+      "n_genres_train": 262,
+      "n_genres_test": 66,
+      "RF": {
+        "accuracy": 0.6014588859416445,
+        "roc_auc": 0.7120051017222772,
+        "mcc": 0.2134074236069035,
+        "n_test": 1508
+      },
+      "HGB": {
+        "accuracy": 0.626657824933687,
+        "roc_auc": 0.7232360260080806,
+        "mcc": 0.2632000731578496,
+        "n_test": 1508
+      }
+    },
+    {
+      "tag": "FUSION_alida",
+      "protocol": "alida",
+      "RF": {
+        "accuracy": 0.9073668854850474,
+        "roc_auc": 0.9703464493200825,
+        "mcc": 0.8148827778356619,
+        "n_test": 1371
+      },
+      "HGB": {
+        "accuracy": 0.9183078045222466,
+        "roc_auc": 0.9737417803409164,
+        "mcc": 0.836648613414287,
+        "n_test": 1371
+      }
+    },
+    {
+      "tag": "FUSION_honest",
+      "protocol": "honest_random",
+      "RF": {
+        "accuracy": 0.8986587183308494,
+        "roc_auc": 0.9663222566632226,
+        "mcc": 0.7975200354989518,
+        "n_test": 1342
+      },
+      "HGB": {
+        "accuracy": 0.9031296572280179,
+        "roc_auc": 0.9697341376973413,
+        "mcc": 0.8061710245975996,
+        "n_test": 1342
+      }
+    },
+    {
+      "tag": "FUSION_genus",
+      "protocol": "genus_group",
+      "n_genres_train": 262,
+      "n_genres_test": 66,
+      "RF": {
+        "accuracy": 0.6114058355437666,
+        "roc_auc": 0.7121594020638785,
+        "mcc": 0.2301461091767674,
+        "n_test": 1508
+      },
+      "HGB": {
+        "accuracy": 0.6478779840848806,
+        "roc_auc": 0.7320133072895764,
+        "mcc": 0.3052949639426423,
+        "n_test": 1508
+      }
+    }
+  ]
+}

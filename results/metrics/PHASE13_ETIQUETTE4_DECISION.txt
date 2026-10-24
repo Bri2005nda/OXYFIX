@@ -1,0 +1,27 @@
+PHASE 13 — ÉTIQUETTE À QUATRE NIVEAUX DEPUIS BacDive (version rapide)
+
+Effectifs par niveau (relation à l'oxygène, BacDive) :
+  full (787)   n=787 : niv. 1 (aérobie) = 160 · niv. 2 (facultatif) = 69 · niv. 3 (microaérophile) = 16 · niv. 4 (anaérobie) = 411 · niv. NR (non renseigné) = 131
+  strict_489   n=489 : niv. 1 (aérobie) = 150 · niv. 2 (facultatif) = 0 · niv. 3 (microaérophile) = 0 · niv. 4 (anaérobie) = 339 · niv. NR (non renseigné) = 0
+
+CHAÎNES BacDive rencontrées :
+  « anaerobe » : 399 souches -> niveau 4
+  « aerobe » : 155 souches -> niveau 1
+  « facultative anaerobe » : 60 souches -> niveau 2
+  « microaerophile » : 16 souches -> niveau 3
+  « obligate anaerobe » : 12 souches -> niveau 4
+  « facultative aerobe » : 9 souches -> niveau 2
+  « obligate aerobe » : 5 souches -> niveau 1
+
+LIMITES (à écrire dans le manuscrit) :
+- Ces niveaux décrivent la relation de l'organisme à l'oxygène,
+  pas encore la condition d'oxygène de la fixation elle-même.
+  Pour les rhizobiums, Azospirillum et cyanobactéries hétérocystées,
+  les deux diffèrent : la colonne preuve_fixation_4_niveaux reste
+  « non consignée » plutôt que remplie par conjecture.
+- Version complète (Annexe B) = preuve de fixation souche par
+  souche (réduction d'acétylène, croissance diazotrophe sous air),
+  au moins pour les 489 souches Strict : chantier de recherche
+  bibliographique, non automatisable proprement.
+
+Table : C:\Users\MK COMPUTER\Desktop\projet\results\provenance\table_etiquette_4_niveaux.csv

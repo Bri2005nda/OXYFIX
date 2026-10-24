@@ -1,0 +1,25 @@
+RÉCONCILIATION DES COMPTAGES DE SÉQUENCES HÉRITÉS
+==================================================
+
+Comptage direct (ce travail) : nombre d'enregistrements (lignes '>')
+dans les fichiers FASTA par souche — tout le cluster nif du fichier,
+sans filtre de famille ni de longueur.
+
+  aerobie    : 356 fichiers, 3426 séquences comptées | hérité A=3426 (écart +0) | hérité B=3194 (écart +232)
+  anaerobie  : 431 fichiers, 3284 séquences comptées | hérité A=3284 (écart +0) | hérité B=3141 (écart +143)
+  TOTAL      : 787 fichiers, 6710 séquences comptées | hérité A=6710 (écart +0) | hérité B=6335 (écart +375)
+
+LECTURE :
+- Le comptage direct (6710) coïncide exactement (écart 0),
+  avec le couple hérité A (6710) : A décrit donc toutes les séquences des
+  fichiers souches (cluster nif complet), ce que confirment les matrices
+  CKSAAP héritées (3 426 + 3 284 = 6 710 lignes).
+- Le couple hérité B (6335) est inférieur de 375 séquences.
+  Aucun document du projet ne consigne le filtre qui produit B.
+  [À VÉRIFIER auprès de l'étude source] Hypothèse la plus probable : B compte
+  les séquences après un nettoyage (longueur, doublons ou sélection des
+  seules sous-unités annotées). En l'état, seul le comptage direct et le
+  couple A sont traçables ; ils sont ceux utilisés dans ce benchmark.
+- Conséquence pour le manuscrit : citer le comptage direct (fichiers,
+  séquences par classe) et mentionner l'écart hérité en une phrase,
+  sans reprendre B comme un effectif établi.

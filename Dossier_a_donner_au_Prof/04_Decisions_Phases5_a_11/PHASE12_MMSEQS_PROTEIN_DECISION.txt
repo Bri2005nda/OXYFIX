@@ -1,0 +1,42 @@
+PHASE 12 — SPLITS PAR CLUSTERS MMseqs PAR PROTÉINE (protocole corrigé, 20 tirages)
+Clustering séparé par protéine descripteur ; souches reliées via les
+clusters de cette protéine uniquement (union-find).
+
+⚠️ ATTENTION : plus grande composante = 98.7% des souches ;
+les blocs concernés restent dégénérés et non citables.
+
+AUC moyenne (20 splits) :
+  NifH         full        id50=nan | id30=nan
+  NifH         strict_489  id50=nan | id30=nan
+  NifD         full        id50=0.650 | id30=nan
+  NifD         strict_489  id50=0.500 | id30=nan
+  NifK         full        id50=0.778 | id30=nan
+  NifK         strict_489  id50=nan | id30=nan
+  Nif_combine  full        id50=0.625 | id30=0.682
+  Nif_combine  strict_489  id50=0.727 | id30=0.885
+  RecA         full        id50=0.883 | id30=0.861
+  RecA         strict_489  id50=0.829 | id30=0.833
+
+BLOCS SANS SPLIT POSSIBLE (composantes insuffisantes) :
+  - NifH|full|id30 : 3 composante(s), split impossible
+  - NifH|strict_489|id30 : 3 composante(s), split impossible
+  - NifD|full|id30 : 3 composante(s), split impossible
+  - NifD|strict_489|id30 : 2 composante(s), split impossible
+  - NifK|full|id30 : 1 composante(s), split impossible
+  - NifK|strict_489|id30 : 1 composante(s), split impossible
+  - NifH|full|id50 : 4 composante(s), split impossible
+  - NifH|strict_489|id50 : 3 composante(s), split impossible
+  - NifK|strict_489|id50 : 4 composante(s), split impossible
+
+LECTURE : comparer chaque protéine à son propre split par cluster,
+et Nif_combine à RecA. Si les AUC restent hautes alors qu'aucun
+cluster de séquences n'est partagé entre train et test, le signal
+ne repose pas sur des séquences quasi identiques ; si elles
+s'effondrent, la reconnaissance de séquences proches portait le score.
+La part de composantes mono-classe et la plus grande composante sont
+dans phase12_mmseqs_protein_summary.csv (garde-fou de dureté).
+
+Durée totale : 5314s
+Par répétition : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase12_mmseqs_protein_per_repeat.csv
+Synthèse : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase12_mmseqs_protein_summary.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase12_mmseqs_by_protein.png

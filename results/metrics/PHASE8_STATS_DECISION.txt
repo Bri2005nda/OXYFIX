@@ -1,0 +1,21 @@
+PHASE 8 — COMPLÉTION STATISTIQUE (bootstrap, permutations, nested CV)
+
+A) Bootstrap 10 000 sur les 20 répétitions Phase 5 : 16 configurations (accuracy, AUC, MCC, AUPRC, rappels) -> phase8_bootstrap_all_metrics.csv
+B) Permutations (statistique LR CV3, plis fixes) :
+   Nif_CKSAAP full nulle=global: vraie AUC=0.958, moyenne nulle=0.501, p=0.0010 (n=1000)
+   Nif_CKSAAP full nulle=genus_block: vraie AUC=0.958, moyenne nulle=0.601, p=0.0010 (n=1000)
+   Nif_CKSAAP strict_489 nulle=global: vraie AUC=0.981, moyenne nulle=0.498, p=0.0010 (n=1000)
+   Nif_CKSAAP strict_489 nulle=genus_block: vraie AUC=0.981, moyenne nulle=0.607, p=0.0010 (n=1000)
+   RecA_CKSAAP full nulle=global: vraie AUC=0.925, moyenne nulle=0.501, p=0.0010 (n=1000)
+   RecA_CKSAAP full nulle=genus_block: vraie AUC=0.925, moyenne nulle=0.566, p=0.0010 (n=1000)
+   RecA_CKSAAP strict_489 nulle=global: vraie AUC=0.947, moyenne nulle=0.500, p=0.0010 (n=1000)
+   RecA_CKSAAP strict_489 nulle=genus_block: vraie AUC=0.947, moyenne nulle=0.605, p=0.0010 (n=1000)
+   Lecture : la nulle par blocs de genres conserve la structure taxonomique des étiquettes ; un p faible sous cette nulle ne démontre toujours pas un mécanisme (le contrôle RecA est soumis au même test).
+C) Validation imbriquée (externe genre GroupKFold 5, interne GroupKFold 3) :
+   Nif_CKSAAP full: AUC externe=0.951 ± 0.011, MCC=0.732, AUPRC=0.941
+   Nif_CKSAAP strict_489: AUC externe=0.972 ± 0.023, MCC=0.868, AUPRC=0.961
+   RecA_CKSAAP full: AUC externe=0.891 ± 0.113, MCC=0.626, AUPRC=0.848
+   RecA_CKSAAP strict_489: AUC externe=0.914 ± 0.061, MCC=0.607, AUPRC=0.807
+   Le test externe n'est touché qu'après sélection interne des hyperparamètres.
+
+Durée totale : 26414s

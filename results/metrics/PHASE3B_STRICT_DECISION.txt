@@ -1,0 +1,32 @@
+PHASE 3b — CONTROLES + DECROISSANCE SUR CORPUS STRICT
+Corpus strict = 489 documentes BacDive (labels Alida inchanges)
+
+1) CONTROLES (AUC aleatoire, Strict 489)
+  Nif  = 0.955
+  RecA = 0.969
+  GyrB = 0.958
+  RpoB = 0.970
+
+2) COURBE DE DECROISSANCE (AUC)
+  Full 787:
+    Nif  A=0.971 G=0.856 L=0.549
+    RecA A=0.969 G=0.723 L=0.560
+  Strict 489:
+    Nif  A=0.955 G=0.978 L=nan
+    RecA A=0.969 G=0.928 L=nan
+
+LECTURE:
+- Sous Strict, en aleatoire, les controles >= nif (RecA 0.969, RpoB 0.970 vs Nif 0.955).
+  => le diagnostic TAXONOMIQUE de Phase 1 EST ROBUSTE sur corpus defendable.
+- LOGO Strict = nan / impossible: parmi 41 genres de taille >=3, TOUS sont mono-classe
+  (un genre = uniquement aerobie OU uniquement anaerobie). On ne peut pas calculer
+  une AUC leave-one-genus-out s'il n'y a qu'une seule etiquette dans le test.
+  => finding important: sur les labels documentes, le trait O2 est tres niche
+  dans la taxonomie (confondant phylogenetique encore plus visible).
+- Split genre Strict reste eleve (Nif 0.978, RecA 0.928) mais corpus desequilibre
+  (150/339) + genres purs: a interpreter avec prudence; le Full 787 + LOGO Full
+  restent la reference pour la courbe de decroissance jusqu'au hasard.
+
+CSV    : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase3b_strict_controls_decay.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase3b_strict_decay.png
+Figure2: C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase3b_strict_controls_random.png

@@ -1,0 +1,67 @@
+souche,label_texte,species_query,culture_codes,n_bacdive_hits,bacdive_id_propose,ncbi_taxid_propose,oxygen_tol,statut_propose,preuve_proposee,commentaire,label_alida_inchange
+Bradyrhizobium_amphicarpaeae,aerobie,Bradyrhizobium amphicarpaeae,,1,166188,1404768,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166188),bacdive_id_existant,True
+Bradyrhizobium_cajani,aerobie,Bradyrhizobium cajani,,1,140541,1928661,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 140541),taxon,True
+Bradyrhizobium_canariense,aerobie,Bradyrhizobium canariense,,1,1812,255045,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1812),taxon,True
+Bradyrhizobium_cytisi,aerobie,Bradyrhizobium cytisi,,1,1817,515489,obligate aerobe,documente,BacDive oxygen tolerance=obligate aerobe (ID 1817),taxon,True
+Bradyrhizobium_daqingense,aerobie,Bradyrhizobium daqingense,,1,133740,993502,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133740),taxon,True
+Bradyrhizobium_denitrificans,aerobie,Bradyrhizobium denitrificans,,5,155406,2734912,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 155406; 5 hits espèce),Ambigu: 5 souches BacDive,True
+Bradyrhizobium_diazoefficiens,aerobie,Bradyrhizobium diazoefficiens,,1,133983,1355477,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133983),taxon,True
+Bradyrhizobium_diazoefficiens_(strain_JCM_10833___BCRC_13528___IAM_13628___NBRC_14792___USDA_110),aerobie,Bradyrhizobium diazoefficiens,JCM 10833;IAM 13628;NBRC 14792,1,133983,1355477,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133983),"culturecollection:JCM 10833,IAM 13628,NBRC 14792",True
+Bradyrhizobium_diazoefficiens_SEMIA_5080,aerobie,Bradyrhizobium diazoefficiens,,1,133983,1355477,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133983),taxon,True
+Bradyrhizobium_frederickii,aerobie,Bradyrhizobium frederickii,,1,166287,2560054,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166287),taxon,True
+Bradyrhizobium_huanghuaihaiense,aerobie,Bradyrhizobium huanghuaihaiense,,1,133742,990078,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133742),taxon,True
+Bradyrhizobium_niftali,aerobie,Bradyrhizobium niftali,,1,166262,2560055,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166262),taxon,True
+Bradyrhizobium_pachyrhizi,aerobie,Bradyrhizobium pachyrhizi,,1,1815,280333,obligate aerobe,documente,BacDive oxygen tolerance=obligate aerobe (ID 1815),taxon,True
+Bradyrhizobium_uaiense,aerobie,Bradyrhizobium uaiense,,1,166133,2594946,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166133),taxon,True
+Bradyrhizobium_vignae,aerobie,Bradyrhizobium vignae,,1,132365,1549949,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 132365),taxon,True
+Mesorhizobium_caraganae,aerobie,Mesorhizobium caraganae,,1,134371,483206,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 134371),bacdive_id_existant,True
+Mesorhizobium_helmanticense,aerobie,Mesorhizobium helmanticense,,1,140544,1776423,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 140544),taxon,True
+Mesorhizobium_japonicum,aerobie,Mesorhizobium japonicum,,1,133271,2066070,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133271),taxon,True
+Mesorhizobium_japonicum_(strain_LMG_29417___CECT_9101___MAFF_303099),aerobie,Mesorhizobium japonicum,LMG 29417,1,133271,2066070,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133271),culturecollection:LMG 29417,True
+Mesorhizobium_japonicum_R7A,aerobie,Mesorhizobium japonicum,,1,133271,2066070,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133271),taxon,True
+Mesorhizobium_metallidurans_STM_2683,aerobie,Mesorhizobium metallidurans,,1,133439,489722,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133439),taxon,True
+Mesorhizobium_muleiense,aerobie,Mesorhizobium muleiense,,1,130530,1004279,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 130530),taxon,True
+Mesorhizobium_qingshengii,aerobie,Mesorhizobium qingshengii,,1,130532,1165689,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 130532),taxon,True
+Mesorhizobium_robiniae,aerobie,Mesorhizobium robiniae,,1,130527,559315,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 130527),taxon,True
+Mesorhizobium_sangaii,aerobie,Mesorhizobium sangaii,,1,130533,505389,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 130533),taxon,True
+Mesorhizobium_sanjuanii,aerobie,Mesorhizobium sanjuanii,,1,159737,2037900,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 159737),taxon,True
+Mesorhizobium_septentrionale,aerobie,Mesorhizobium septentrionale,,1,133664,241413,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133664),taxon,True
+Mesorhizobium_shangrilense,aerobie,Mesorhizobium shangrilense,,1,11895,460060,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 11895),taxon,True
+Mesorhizobium_wenxiniae,aerobie,Mesorhizobium wenxiniae,,1,158821,2014805,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 158821),taxon,True
+Rhizobium_acidisoli,aerobie,Rhizobium acidisoli,,1,141093,1538158,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 141093),bacdive_id_existant,True
+Rhizobium_altiplani,aerobie,Rhizobium altiplani,,1,133176,1864509,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133176),taxon,True
+Rhizobium_calliandrae,aerobie,Rhizobium calliandrae,,1,132154,1312182,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 132154),taxon,True
+Rhizobium_chutanense,aerobie,Rhizobium chutanense,,1,166529,2035448,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166529),taxon,True
+Rhizobium_esperanzae,aerobie,Rhizobium esperanzae,,1,141049,1967781,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 141049),taxon,True
+Rhizobium_etli,aerobie,Rhizobium etli,,2,137722,29449,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137722; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhizobium_etli_(strain_ATCC_51251___DSM_11541___JCM_21823___NBRC_15573___CFN_42),aerobie,Rhizobium etli,ATCC 51251;DSM 11541;JCM 21823;NBRC 15573,1,13625,29449,,partiel,"BacDive ID 13625 trouvé, oxygen tolerance absente","Pas de champ oxygen tolerance; culturecollection:ATCC 51251,DSM 11541,JCM 21823",True
+Rhizobium_etli_(strain_CIAT_652),aerobie,Rhizobium etli,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Rhizobium_etli_8C-3,aerobie,Rhizobium etli,,2,137722,29449,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137722; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhizobium_etli_bv__mimosae_str__IE4771,aerobie,Rhizobium etli,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Rhizobium_freirei_PRF_81,aerobie,Rhizobium freirei,,1,134045,1353277,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 134045),taxon,True
+Rhizobium_grahamii,aerobie,Rhizobium grahamii,,1,133733,1120045,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133733),taxon,True
+Rhizobium_grahamii_CCGE_502,aerobie,Rhizobium grahamii,,1,133733,1120045,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133733),taxon,True
+Rhizobium_indicum,aerobie,Rhizobium indicum,,1,170906,2583231,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 170906),taxon,True
+Rhizobium_lusitanum,aerobie,Rhizobium lusitanum,,1,137407,293958,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137407),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Rhizobium_mayense,aerobie,Rhizobium mayense,,1,132155,1312184,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 132155),taxon,True
+Rhizobium_mesoamericanum_STM3625,aerobie,Rhizobium mesoamericanum,,1,24485,1079800,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 24485),taxon,True
+Rhizobium_yanglingense,aerobie,Rhizobium yanglingense,,1,137364,61013,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137364),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Sinorhizobium_alkalisoli,aerobie,Sinorhizobium alkalisoli,,1,133290,1752398,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133290),bacdive_id_existant,True
+Sinorhizobium_americanum,aerobie,Sinorhizobium americanum,,1,13570,194963,,partiel,"BacDive ID 13570 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Sinorhizobium_chiapasense,aerobie,Sinorhizobium chiapasense,,1,138761,501572,obligate aerobe,documente,BacDive oxygen tolerance=obligate aerobe (ID 138761),taxon,True
+Sinorhizobium_fredii_(strain_NBRC_101917___NGR234),aerobie,Sinorhizobium fredii,NBRC 101917,5,,,,a_verifier,BacDive multi-hits (5) oxygen_tol diverge ou absente,Ambigu: 5 souches BacDive,True
+Sinorhizobium_fredii_(strain_USDA_257),aerobie,Sinorhizobium fredii,,5,,,,a_verifier,BacDive multi-hits (5) oxygen_tol diverge ou absente,Ambigu: 5 souches BacDive,True
+Sinorhizobium_garamanticum,aerobie,Sinorhizobium garamanticum,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Sinorhizobium_glycinis,aerobie,Sinorhizobium glycinis,,1,140805,1472378,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 140805),taxon,True
+Sinorhizobium_kostiense,aerobie,Sinorhizobium kostiense,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Sinorhizobium_kummerowiae,aerobie,Sinorhizobium kummerowiae,,13,162896,382,,a_verifier,BacDive oxygen tolerance=None (ID 162896; 13 hits espèce),Ambigu: 13 souches BacDive,True
+Sinorhizobium_medicae,aerobie,Sinorhizobium medicae,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Sinorhizobium_medicae_(strain_WSM419),aerobie,Sinorhizobium medicae,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Sinorhizobium_meliloti_(strain_SM11),aerobie,Sinorhizobium meliloti,,13,162896,382,,a_verifier,BacDive oxygen tolerance=None (ID 162896; 13 hits espèce),Ambigu: 13 souches BacDive,True
+Sinorhizobium_meliloti_CCNWSX0020,aerobie,Sinorhizobium meliloti,,13,162896,382,,a_verifier,BacDive oxygen tolerance=None (ID 162896; 13 hits espèce),Ambigu: 13 souches BacDive,True
+Sinorhizobium_mexicanum,aerobie,Sinorhizobium mexicanum,,1,13559,375549,,partiel,"BacDive ID 13559 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Sinorhizobium_numidicum,aerobie,Sinorhizobium numidicum,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Sinorhizobium_psoraleae,aerobie,Sinorhizobium psoraleae,,1,168290,520838,,partiel,"BacDive ID 168290 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Sinorhizobium_saheli,aerobie,Sinorhizobium saheli,,1,13551,36856,,partiel,"BacDive ID 13551 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Sinorhizobium_sojae_CCBAU_05684,aerobie,Sinorhizobium sojae,,1,13562,716925,,partiel,"BacDive ID 13562 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Sinorhizobium_terangae,aerobie,Sinorhizobium terangae,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True

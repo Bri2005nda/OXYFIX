@@ -1,0 +1,24 @@
+PHASE 6c — NifH / NifD / NifK SÉPARÉMENT (CKSAAP, protocole Phase 5 répété)
+
+Tableau famille x classe : voir phase6c_nif_family_counts.csv
+
+AUC moyenne (20 splits) :
+  NifH_CKSAAP full        aléatoire=0.969 | genre=0.921
+  NifH_CKSAAP strict_489  aléatoire=0.979 | genre=0.950
+  NifD_CKSAAP full        aléatoire=0.966 | genre=0.899
+  NifD_CKSAAP strict_489  aléatoire=0.967 | genre=0.913
+  NifK_CKSAAP full        aléatoire=0.964 | genre=0.933
+  NifK_CKSAAP strict_489  aléatoire=0.956 | genre=0.937
+
+LECTURE :
+- Comparer chaque famille au Nif combiné (Phase 5) et, mentalement, aux
+  contrôles housekeeping : une famille seule qui égale le combiné indique
+  où se concentre le signal (ou la confusion) lu par le modèle.
+- Classification des séquences par produit annoté UniProt, anf/vnf/bch
+  exclus, biosynthèse du cofacteur exclue ; copies moyennées par souche.
+
+Durée totale : 3892s
+Comptages : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6c_nif_family_counts.csv
+Par répétition : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6c_nif_families_per_repeat.csv
+Synthèse : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6c_nif_families_summary.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase6c_nif_families.png

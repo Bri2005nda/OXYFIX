@@ -1,0 +1,31 @@
+souche,label_texte,species_query,culture_codes,n_bacdive_hits,bacdive_id_propose,ncbi_taxid_propose,oxygen_tol,statut_propose,preuve_proposee,commentaire,label_alida_inchange
+Paraburkholderia_aromaticivorans,aerobie,Paraburkholderia aromaticivorans,,1,158708,2026199,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 158708),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Paraburkholderia_atlantica,aerobie,Paraburkholderia atlantica,,1,166311,2654982,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166311),taxon,True
+Paraburkholderia_azotifigens,aerobie,Paraburkholderia azotifigens,,1,158593,2057004,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 158593),taxon,True
+Paraburkholderia_caballeronis,aerobie,Paraburkholderia caballeronis,,1,132166,416943,obligate aerobe,documente,BacDive oxygen tolerance=obligate aerobe (ID 132166),taxon,True
+Paraburkholderia_caribensis,aerobie,Paraburkholderia caribensis,,2,150958,75105,,a_verifier,BacDive oxygen tolerance=None (ID 150958; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paraburkholderia_diazotrophica,aerobie,Paraburkholderia diazotrophica,,1,130228,667676,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 130228),taxon,True
+Paraburkholderia_dioscoreae,aerobie,Paraburkholderia dioscoreae,,1,166838,2604047,,partiel,"BacDive ID 166838 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_dipogonis,aerobie,Paraburkholderia dipogonis,,1,168132,1211383,,partiel,"BacDive ID 168132 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_ferrariae,aerobie,Paraburkholderia ferrariae,,1,1969,386056,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1969),taxon,True
+Paraburkholderia_franconis,aerobie,Paraburkholderia franconis,,1,166312,2654983,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166312),taxon,True
+Paraburkholderia_guartelaensis,aerobie,Paraburkholderia guartelaensis,,1,166943,2546446,,partiel,"BacDive ID 166943 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_kururiensis,aerobie,Paraburkholderia kururiensis,,1,1943,984307,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1943),taxon,True
+Paraburkholderia_lycopersici,aerobie,Paraburkholderia lycopersici,,1,167929,416944,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 167929),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Paraburkholderia_phenoliruptrix,aerobie,Paraburkholderia phenoliruptrix,,1,1967,252970,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1967),taxon,True
+Paraburkholderia_phenoliruptrix_BR3459a,aerobie,Paraburkholderia phenoliruptrix,,1,1967,252970,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1967),taxon,True
+Paraburkholderia_phymatum,aerobie,Paraburkholderia phymatum,,2,100240,148447,,a_verifier,BacDive oxygen tolerance=None (ID 100240; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paraburkholderia_phymatum_(strain_DSM_17167___CIP_108236___LMG_21445___STM815),aerobie,Paraburkholderia phymatum,DSM 17167;CIP 108236;LMG 21445,1,1960,148447,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1960),"culturecollection:DSM 17167,CIP 108236,LMG 21445",True
+Paraburkholderia_piptadeniae,aerobie,Paraburkholderia piptadeniae,,1,133350,1701573,,partiel,"BacDive ID 133350 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_podalyriae,aerobie,Paraburkholderia podalyriae,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paraburkholderia_rhynchosiae,aerobie,Paraburkholderia rhynchosiae,,1,133968,487049,,partiel,"BacDive ID 133968 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_ribeironis,aerobie,Paraburkholderia ribeironis,,1,133351,1247936,,partiel,"BacDive ID 133351 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_sabiae,aerobie,Paraburkholderia sabiae,,1,1988,273251,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1988),taxon,True
+Paraburkholderia_silvatlantica,aerobie,Paraburkholderia silvatlantica,,1,1973,321895,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1973),taxon,True
+Paraburkholderia_sprentiae_WSM5005,aerobie,Paraburkholderia sprentiae,,1,133969,948107,,partiel,"BacDive ID 133969 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_steynii,aerobie,Paraburkholderia steynii,,1,167653,1245441,,partiel,"BacDive ID 167653 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_tropica,aerobie,Paraburkholderia tropica,,1,1944,92647,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1944),taxon,True
+Paraburkholderia_tuberum,aerobie,Paraburkholderia tuberum,,1,1971,157910,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1971),taxon,True
+Paraburkholderia_unamae,aerobie,Paraburkholderia unamae,,3,139568,219649,obligate aerobe,a_verifier,BacDive oxygen tolerance=obligate aerobe (ID 139568; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Paraburkholderia_xenovorans_(strain_LB400),aerobie,Paraburkholderia xenovorans,,3,152503,36873,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 152503; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Paraburkholderia_youngii,aerobie,Paraburkholderia youngii,,1,166988,2782701,,partiel,"BacDive ID 166988 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True

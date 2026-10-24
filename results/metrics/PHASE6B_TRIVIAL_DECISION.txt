@@ -1,0 +1,21 @@
+PHASE 6b — BASELINES TRIVIALES RÉPÉTÉES (longueur + composition AAC)
+HGB, SMOTE train uniquement, 20 graines, descripteurs = 21 nombres.
+
+AUC moyenne (20 splits) :
+  Nif_trivial_len_AAC    full        aléatoire=0.959 | genre=0.919
+  Nif_trivial_len_AAC    strict_489  aléatoire=0.970 | genre=0.946
+  RecA_trivial_len_AAC   full        aléatoire=0.948 | genre=0.863
+  RecA_trivial_len_AAC   strict_489  aléatoire=0.948 | genre=0.882
+
+LECTURE :
+- Comparer chaque valeur à la CKSAAP de la même protéine (Phase 5) :
+  si la baseline triviale suit CKSAAP de près, l'ordre local des acides
+  aminés (CKSAAP) n'apporte qu'un supplément limité sur cette tâche.
+- GC % génomique : non inclus ici ; extraction depuis les métadonnées
+  GTDB des génomes représentatifs appariés (Phase 6) en cours, à ajouter
+  comme variante GC+longueur+AAC dès disponibilité.
+
+Durée totale : 1759s
+Par répétition : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6b_trivial_per_repeat.csv
+Synthèse : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6b_trivial_summary.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase6b_trivial_vs_cksaap.png

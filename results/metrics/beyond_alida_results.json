@@ -1,0 +1,153 @@
+{
+  "alida_reference": {
+    "accuracy": 0.9225,
+    "roc_auc": 0.9772
+  },
+  "note": "HGB = HistGradientBoosting (sklearn), proxy XGBoost; RF = m\u00eame famille qu'Alida",
+  "experiments": [
+    {
+      "tag": "CKSAAP_alida",
+      "protocol": "alida_smote_global",
+      "n_before": 6710,
+      "n_after_smote": 6852,
+      "RF": {
+        "accuracy": 0.9059080962800875,
+        "roc_auc": 0.9706784277840437,
+        "f1_weighted": 0.9058780520068814,
+        "precision_weighted": 0.9064511674035913,
+        "recall_weighted": 0.9059080962800875,
+        "mcc": 0.8123614868590812,
+        "n_test": 1371
+      },
+      "HGB": {
+        "accuracy": 0.9073668854850474,
+        "roc_auc": 0.9719201549232832,
+        "f1_weighted": 0.9073665897903536,
+        "precision_weighted": 0.9073749834191812,
+        "recall_weighted": 0.9073668854850474,
+        "mcc": 0.8147420659998729,
+        "n_test": 1371
+      }
+    },
+    {
+      "tag": "CKSAAP_honest",
+      "protocol": "smote_train_only_random",
+      "n_test": 1342,
+      "RF": {
+        "accuracy": 0.8986587183308494,
+        "roc_auc": 0.9669066426690665,
+        "f1_weighted": 0.898625598792376,
+        "precision_weighted": 0.8987883730421693,
+        "recall_weighted": 0.8986587183308494,
+        "mcc": 0.7973146843842591,
+        "n_test": 1342
+      },
+      "HGB": {
+        "accuracy": 0.9023845007451565,
+        "roc_auc": 0.9715961737159617,
+        "f1_weighted": 0.9023712122642615,
+        "precision_weighted": 0.9024070674895085,
+        "recall_weighted": 0.9023845007451565,
+        "mcc": 0.804685281174693,
+        "n_test": 1342
+      }
+    },
+    {
+      "tag": "CKSAAP_genus",
+      "protocol": "genus_group",
+      "n_genres_train": 262,
+      "n_genres_test": 66,
+      "n_test": 1508,
+      "RF": {
+        "accuracy": 0.6014588859416445,
+        "roc_auc": 0.7120051017222772,
+        "f1_weighted": 0.6023365100390232,
+        "precision_weighted": 0.6140949635888181,
+        "recall_weighted": 0.6014588859416445,
+        "mcc": 0.2134074236069035,
+        "n_test": 1508
+      },
+      "HGB": {
+        "accuracy": 0.626657824933687,
+        "roc_auc": 0.7232360260080806,
+        "f1_weighted": 0.6275806724454609,
+        "precision_weighted": 0.638896000487656,
+        "recall_weighted": 0.626657824933687,
+        "mcc": 0.2632000731578496,
+        "n_test": 1508
+      }
+    },
+    {
+      "tag": "FUSION_alida",
+      "protocol": "alida_smote_global",
+      "n_before": 6710,
+      "n_after_smote": 6852,
+      "RF": {
+        "accuracy": 0.9102844638949672,
+        "roc_auc": 0.9713370645442745,
+        "f1_weighted": 0.9102792132997571,
+        "precision_weighted": 0.9103911855969252,
+        "recall_weighted": 0.9102844638949672,
+        "mcc": 0.820676597337098,
+        "n_test": 1371
+      },
+      "HGB": {
+        "accuracy": 0.9102844638949672,
+        "roc_auc": 0.9723181034666213,
+        "f1_weighted": 0.9102844638949672,
+        "precision_weighted": 0.9102854324681661,
+        "recall_weighted": 0.9102844638949672,
+        "mcc": 0.8205698963631334,
+        "n_test": 1371
+      }
+    },
+    {
+      "tag": "FUSION_honest",
+      "protocol": "smote_train_only_random",
+      "n_test": 1342,
+      "RF": {
+        "accuracy": 0.9023845007451565,
+        "roc_auc": 0.968820895688209,
+        "f1_weighted": 0.9023360390920495,
+        "precision_weighted": 0.9026501014370542,
+        "recall_weighted": 0.9023845007451565,
+        "mcc": 0.8048918723122287,
+        "n_test": 1342
+      },
+      "HGB": {
+        "accuracy": 0.8971684053651267,
+        "roc_auc": 0.969629703696297,
+        "f1_weighted": 0.8971713755804039,
+        "precision_weighted": 0.8971783320215391,
+        "recall_weighted": 0.8971684053651267,
+        "mcc": 0.7942635730728842,
+        "n_test": 1342
+      }
+    },
+    {
+      "tag": "FUSION_genus",
+      "protocol": "genus_group",
+      "n_genres_train": 262,
+      "n_genres_test": 66,
+      "n_test": 1508,
+      "RF": {
+        "accuracy": 0.5994694960212201,
+        "roc_auc": 0.706122066732668,
+        "f1_weighted": 0.6002094964244749,
+        "precision_weighted": 0.6128994057913034,
+        "recall_weighted": 0.5994694960212201,
+        "mcc": 0.21064666551443942,
+        "n_test": 1508
+      },
+      "HGB": {
+        "accuracy": 0.6153846153846154,
+        "roc_auc": 0.710000981100438,
+        "f1_weighted": 0.6158230530525817,
+        "precision_weighted": 0.6306078688715362,
+        "recall_weighted": 0.6153846153846154,
+        "mcc": 0.2450535179598284,
+        "n_test": 1508
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+souche,label_texte,species_query,culture_codes,n_bacdive_hits,bacdive_id_propose,ncbi_taxid_propose,oxygen_tol,statut_propose,preuve_proposee,commentaire,label_alida_inchange
+Acidithiobacillus_ferrianus,aerobie,Acidithiobacillus ferrianus,,1,160797,2678518,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 160797),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Brenneria_rubrifaciens,aerobie,Brenneria rubrifaciens,,1,4307,55213,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 4307),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Corallincola_platygyrae,aerobie,Corallincola platygyrae,,1,162297,1193278,,partiel,"BacDive ID 162297 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Dickeya_zeae,aerobie,Dickeya zeae,,1,4352,204042,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 4352),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Gynuella_sunshinyii_YC6258,aerobie,Gynuella sunshinyii,,1,140661,1445505,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 140661),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Klebsiella_indica,aerobie,Klebsiella indica,,1,164637,2582917,,partiel,"BacDive ID 164637 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Labilibaculum_euxinus,aerobie,Labilibaculum euxinus,,1,164274,2686357,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 164274),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Labilibaculum_manganireducens,aerobie,Labilibaculum manganireducens,,1,158271,1940525,,partiel,"BacDive ID 158271 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Mangrovibacter_plantisponsor,aerobie,Mangrovibacter plantisponsor,,1,5243,451513,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 5243),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Marinilabilia_rubra,aerobie,Marinilabilia rubra,,1,166463,2162893,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 166463),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_faecis,aerobie,Paenibacillus faecis,,1,131549,862114,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 131549),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_jilunlii,aerobie,Paenibacillus jilunlii,,1,11658,682956,,partiel,"BacDive ID 11658 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_kribbensis,aerobie,Paenibacillus kribbensis,,1,24279,172713,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 24279),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_monticola,aerobie,Paenibacillus monticola,,1,169919,2666075,,partiel,"BacDive ID 169919 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_sabinae_T27,aerobie,Paenibacillus sabinae,,1,11620,365617,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11620),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Sinorhizobium_saheli,aerobie,Sinorhizobium saheli,,1,13551,36856,,partiel,"BacDive ID 13551 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Sinorhizobium_sojae_CCBAU_05684,aerobie,Sinorhizobium sojae,,1,13562,716925,,partiel,"BacDive ID 13562 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True

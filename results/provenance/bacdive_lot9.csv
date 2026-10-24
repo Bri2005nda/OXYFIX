@@ -1,0 +1,607 @@
+souche,label_texte,species_query,culture_codes,n_bacdive_hits,bacdive_id_propose,ncbi_taxid_propose,oxygen_tol,statut_propose,preuve_proposee,commentaire,label_alida_inchange
+Acidithiobacillus_ferrianus,aerobie,Acidithiobacillus ferrianus,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Acidithiobacillus_ferridurans,aerobie,Acidithiobacillus ferridurans,,1,130138,1232575,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 130138),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Acidithiobacillus_sulfuriphilus,aerobie,Acidithiobacillus sulfuriphilus,,1,159192,1867749,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 159192),taxon,True
+Acuticoccus_sediminis,aerobie,Acuticoccus sediminis,,1,166457,2184697,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166457),taxon,True
+Agarivorans_aestuarii,aerobie,Agarivorans aestuarii,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Agarivorans_gilvus,aerobie,Agarivorans gilvus,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Alloyangia_pacifica,aerobie,Alloyangia pacifica,,1,23231,311180,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 23231),taxon,True
+Alteraurantiacibacter_aquimixticola,aerobie,Alteraurantiacibacter aquimixticola,,1,166167,2489173,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166167),taxon,True
+Amphritea_atlantica,aerobie,Amphritea atlantica,,1,11296,355243,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 11296),taxon,True
+Anaerobacillus_alkalidiazotrophicus,aerobie,Anaerobacillus alkalidiazotrophicus,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Aquabacter_spiritensis,aerobie,Aquabacter spiritensis,,1,6157,933073,,partiel,"BacDive ID 6157 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Arcobacter_defluvii,aerobie,Arcobacter defluvii,,1,22945,873191,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 22945),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Arcticibacter_svalbardensis_MN12-7,aerobie,Arcticibacter svalbardensis,,1,140651,1288027,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 140651),taxon,True
+Azoarcus_indigens,aerobie,Azoarcus indigens,,1,13885,29545,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 13885),taxon,True
+Azonexus_fungiphilus,aerobie,Azonexus fungiphilus,,1,13888,146940,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 13888),taxon,True
+Azonexus_hydrophilus,aerobie,Azonexus hydrophilus,,1,13889,418702,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 13889),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Azorhizobium_oxalatiphilum,aerobie,Azorhizobium oxalatiphilum,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Azospira_oryzae,aerobie,Azospira oryzae,,6,,,,a_verifier,BacDive multi-hits (6) oxygen_tol diverge ou absente,Ambigu: 6 souches BacDive,True
+Azospira_oryzae_(strain_ATCC_BAA-33___DSM_13638___PS),aerobie,Azospira oryzae,DSM 13638,1,13891,146939,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 13891),culturecollection:DSM 13638,True
+Azospira_restricta,aerobie,Azospira restricta,,1,13893,404405,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 13893),taxon,True
+Azospirillum_humicireducens,aerobie,Azospirillum humicireducens,,1,140653,1226968,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 140653),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Azospirillum_melinis,aerobie,Azospirillum melinis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Azospirillum_oleiclasticum,aerobie,Azospirillum oleiclasticum,,1,170908,2735135,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 170908),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Azospirillum_oryzae,aerobie,Azospirillum oryzae,,1,134118,286727,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 134118),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Azotobacter_bryophylli,aerobie,Azotobacter bryophylli,,1,166141,1986537,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166141),taxon,True
+Billgrantia_endophytica,aerobie,Billgrantia endophytica,,1,158800,2033802,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 158800),taxon,True
+Bradyrhizobium_denitrificans,aerobie,Bradyrhizobium denitrificans,,5,,,,a_verifier,BacDive multi-hits (5) oxygen_tol diverge ou absente,Ambigu: 5 souches BacDive,True
+Brenneria_corticis,aerobie,Brenneria corticis,,1,166420,2173106,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 166420),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Brenneria_goodwinii,aerobie,Brenneria goodwinii,,1,22995,1109412,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 22995),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Brenneria_populi,aerobie,Brenneria populi,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Brenneria_rubrifaciens,aerobie,Brenneria rubrifaciens,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Brooklawnia_cerclae,aerobie,Brooklawnia cerclae,,1,12669,349934,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 12669),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Burkholderia_ubonensis,aerobie,Burkholderia ubonensis,,1,1964,101571,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 1964),taxon,True
+Celerinatantimonas_diazotrophica,aerobie,Celerinatantimonas diazotrophica,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Celerinatantimonas_yamalensis,aerobie,Celerinatantimonas yamalensis,,1,24746,559956,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 24746),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Cereibacter_changlensis,aerobie,Cereibacter changlensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Cereibacter_changlensis_JA139,aerobie,Cereibacter changlensis,,1,13656,402884,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13656),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Cereibacter_ovatus,aerobie,Cereibacter ovatus,,1,134337,439529,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 134337),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Ciceribacter_lividus,aerobie,Ciceribacter lividus,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Cohaesibacter_marisflavi,aerobie,Cohaesibacter marisflavi,,1,133627,655353,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 133627),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Consotaella_salsifontis,aerobie,Consotaella salsifontis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Coraliomargarita_akajimensis_(strain_DSM_45221___IAM_15411___JCM_23193___KCTC_12865___04OKA010-24),aerobie,Coraliomargarita akajimensis,DSM 45221;IAM 15411;JCM 23193;KCTC 12865,1,17651,395922,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 17651),"culturecollection:DSM 45221,IAM 15411,JCM 23193",True
+Corallincola_holothuriorum,aerobie,Corallincola holothuriorum,,1,166176,2282215,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 166176),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Corallincola_luteus,aerobie,Corallincola luteus,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Corallincola_platygyrae,aerobie,Corallincola platygyrae,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Dechloromonas_denitrificans,aerobie,Dechloromonas denitrificans,,1,13895,281362,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 13895),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Dickeya_dadantii_(strain_3937),aerobie,Dickeya dadantii,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Dickeya_dianthicola,aerobie,Dickeya dianthicola,,1,4351,204039,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 4351),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Dickeya_zeae,aerobie,Dickeya zeae,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Dysgonomonas_capnocytophagoides,aerobie,Dysgonomonas capnocytophagoides,,6,,,,a_verifier,BacDive multi-hits (6) oxygen_tol diverge ou absente,Ambigu: 6 souches BacDive,True
+Dysgonomonas_gadei_ATCC_BAA-286,aerobie,Dysgonomonas gadei,,1,12515,156974,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 12515),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Dysgonomonas_mossii,aerobie,Dysgonomonas mossii,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Ferrigenium_kumadai,aerobie,Ferrigenium kumadai,,1,159721,1682490,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 159721),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Ferriphaselus_amnicola,aerobie,Ferriphaselus amnicola,,1,24052,1188319,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 24052),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Fontibacillus_panacisegetis,aerobie,Fontibacillus panacisegetis,,2,168523,670482,,a_verifier,BacDive oxygen tolerance=None (ID 168523; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Frankia_alni,aerobie,Frankia alni,,1,131722,1859,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 131722),taxon,True
+Frankia_alni_(strain_DSM_45986___CECT_9034___ACN14a),aerobie,Frankia alni,DSM 45986,1,131722,1859,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 131722),taxon,True
+Frankia_casuarinae_(strain_DSM_45818___CECT_9043___HFP020203___CcI3),aerobie,Frankia casuarinae,DSM 45818,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Geofilum_rubicundum_JCM_15548,aerobie,Geofilum rubicundum,JCM 15548,1,133723,472113,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 133723),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (culturecollection:JCM 15548),True
+Geopseudomonas_sagittaria,aerobie,Geopseudomonas sagittaria,,1,24439,1135990,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 24439),taxon,True
+Gluconacetobacter_azotocaptans,aerobie,Gluconacetobacter azotocaptans,,1,43,142834,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 43),taxon,True
+Gluconacetobacter_johannae,aerobie,Gluconacetobacter johannae,,1,44,112140,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 44),taxon,True
+Gynuella_sunshinyii_YC6258,aerobie,Gynuella sunshinyii,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Haloferula_sargassicola,aerobie,Haloferula sargassicola,,1,134083,490096,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 134083),taxon,True
+Herbaspirillum_frisingense_GSF30,aerobie,Herbaspirillum frisingense,,4,154423,92645,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 154423; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Herbaspirillum_seropedicae,aerobie,Herbaspirillum seropedicae,,5,,,,a_verifier,BacDive multi-hits (5) oxygen_tol diverge ou absente,Ambigu: 5 souches BacDive,True
+Herbaspirillum_seropedicae_(strain_SmR1),aerobie,Herbaspirillum seropedicae,,5,,,,a_verifier,BacDive multi-hits (5) oxygen_tol diverge ou absente,Ambigu: 5 souches BacDive,True
+Hydrogenobacter_thermophilus_(strain_DSM_6534___IAM_12695___TK-6),aerobie,Hydrogenobacter thermophilus,DSM 6534;IAM 12695,1,512,940,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 512),"culturecollection:DSM 6534,IAM 12695",True
+Hydrogenophaga_taeniospiralis_CCUG_15921,aerobie,Hydrogenophaga taeniospiralis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Ideonella_azotifigens,aerobie,Ideonella azotifigens,,1,17955,513160,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 17955),taxon,True
+Ideonella_dechloratans,aerobie,Ideonella dechloratans,,1,137263,36863,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 137263),taxon,True
+Immundisolibacter_cernigliae,aerobie,Immundisolibacter cernigliae,,1,133093,1810504,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133093),taxon,True
+Insolitispirillum_peregrinum,aerobie,Insolitispirillum peregrinum,,2,14019,1122127,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 14019; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Klebsiella_electrica,aerobie,Klebsiella electrica,,1,132164,1259973,,partiel,"BacDive ID 132164 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Klebsiella_grimontii,aerobie,Klebsiella grimontii,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Klebsiella_indica,aerobie,Klebsiella indica,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Klebsiella_michiganensis,aerobie,Klebsiella michiganensis,,7,,,,a_verifier,BacDive multi-hits (7) oxygen_tol diverge ou absente,Ambigu: 7 souches BacDive,True
+Klebsiella_michiganensis_(strain_ATCC_8724___DSM_4798___JCM_20051___NBRC_3318___NRRL_B-199___KCTC_1686___BUCSAV_143___CCM_1901),aerobie,Klebsiella michiganensis,ATCC 8724;DSM 4798;JCM 20051;NBRC 3318;KCTC 1686,1,4940,576,,partiel,"BacDive ID 4940 trouvé, oxygen tolerance absente","Pas de champ oxygen tolerance; culturecollection:ATCC 8724,DSM 4798,JCM 20051",True
+Klebsiella_pasteurii,aerobie,Klebsiella pasteurii,,1,167610,2587529,,partiel,"BacDive ID 167610 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Klebsiella_pneumoniae,aerobie,Klebsiella pneumoniae,,100,,,,a_verifier,BacDive multi-hits (100) oxygen_tol diverge ou absente,Ambigu: 100 souches BacDive,True
+Klebsiella_quasipneumoniae,aerobie,Klebsiella quasipneumoniae,,12,173521,1463165,,a_verifier,BacDive oxygen tolerance=None (ID 173521; 12 hits espèce),Ambigu: 12 souches BacDive,True
+Klebsiella_quasipneumoniae_subsp__quasipneumoniae,aerobie,Klebsiella quasipneumoniae,,12,173521,1463165,,a_verifier,BacDive oxygen tolerance=None (ID 173521; 12 hits espèce),Ambigu: 12 souches BacDive,True
+Klebsiella_quasivariicola,aerobie,Klebsiella quasivariicola,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Klebsiella_variicola,aerobie,Klebsiella variicola,,14,,,,a_verifier,BacDive multi-hits (14) oxygen_tol diverge ou absente,Ambigu: 14 souches BacDive,True
+Klebsiella_variicola_(strain_342),aerobie,Klebsiella variicola,,14,,,,a_verifier,BacDive multi-hits (14) oxygen_tol diverge ou absente,Ambigu: 14 souches BacDive,True
+Kluyvera_intermedia,aerobie,Kluyvera intermedia,,6,,,,a_verifier,BacDive multi-hits (6) oxygen_tol diverge ou absente,Ambigu: 6 souches BacDive,True
+Komagataeibacter_swingsii,aerobie,Komagataeibacter swingsii,,1,93,215220,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 93),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Kosakonia_arachidis,aerobie,Kosakonia arachidis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Kosakonia_oryzae,aerobie,Kosakonia oryzae,,1,133472,497725,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 133472),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Kosakonia_quasisacchari,aerobie,Kosakonia quasisacchari,,1,164525,2529380,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 164525),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Labilibaculum_antarcticum,aerobie,Labilibaculum antarcticum,,1,166111,1717717,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 166111),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Labilibaculum_euxinus,aerobie,Labilibaculum euxinus,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Labilibaculum_manganireducens,aerobie,Labilibaculum manganireducens,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Lutibacter_agarilyticus,aerobie,Lutibacter agarilyticus,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Lutibacter_holmesii,aerobie,Lutibacter holmesii,,1,156504,1137985,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 156504),taxon,True
+Magnetococcus_marinus_(strain_ATCC_BAA-1437___JCM_17883___MC-1),aerobie,Magnetococcus marinus,JCM 17883,1,133811,1124597,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 133811),À vérifier: label Alida=aerobie vs BacDive=microaerophile (culturecollection:JCM 17883),True
+Magnetococcus_massalia_(strain_MO-1),aerobie,Magnetococcus massalia,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Magnetospirillum_gryphiswaldense,aerobie,Magnetospirillum gryphiswaldense,,1,13944,55518,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 13944),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Magnetospirillum_gryphiswaldense_(strain_DSM_6361___JCM_21280___NBRC_15271___MSR-1),aerobie,Magnetospirillum gryphiswaldense,DSM 6361;JCM 21280;NBRC 15271,1,13944,55518,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 13944),"À vérifier: label Alida=aerobie vs BacDive=microaerophile (culturecollection:DSM 6361,JCM 21280,NBRC 15271)",True
+Magnetospirillum_moscoviense,aerobie,Magnetospirillum moscoviense,,1,132531,1437059,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 132531),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Mangrovibacter_phragmitis,aerobie,Mangrovibacter phragmitis,,1,140470,1691903,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 140470),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Mangrovibacter_plantisponsor,aerobie,Mangrovibacter plantisponsor,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Marinilabilia_rubra,aerobie,Marinilabilia rubra,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Marinobacterium_zhoushanense,aerobie,Marinobacterium zhoushanense,,1,140627,1679163,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 140627),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Marinospirillum_alkaliphilum_DSM_21637,aerobie,Marinospirillum alkaliphilum,DSM 21637,1,11278,148454,,partiel,"BacDive ID 11278 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; culturecollection:DSM 21637,True
+Martelella_endophytica,aerobie,Martelella endophytica,,1,133970,1486262,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 133970),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Methylobacter_tundripaludum,aerobie,Methylobacter tundripaludum,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Methylobacter_tundripaludum_(strain_ATCC_BAA-1195___DSM_17260___SV96),aerobie,Methylobacter tundripaludum,DSM 17260,1,134145,173365,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 134145),culturecollection:DSM 17260,True
+Methylobacterium_nodulans_(strain_LMG_21967___CNCM_I-2342___ORS_2060),aerobie,Methylobacterium nodulans,LMG 21967,1,133674,114616,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133674),culturecollection:LMG 21967,True
+Methylocapsa_acidiphila,aerobie,Methylocapsa acidiphila,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Methylocystis_bryophila,aerobie,Methylocystis bryophila,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Methylocystis_heyeri,aerobie,Methylocystis heyeri,,1,7216,391905,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 7216),taxon,True
+Methylocystis_hirsuta,aerobie,Methylocystis hirsuta,,1,7218,369798,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 7218),taxon,True
+Methylomagnum_ishizawai,aerobie,Methylomagnum ishizawai,,1,132266,1760988,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 132266),taxon,True
+Methylomonas_paludis,aerobie,Methylomonas paludis,,1,132151,1173101,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 132151),taxon,True
+Methylotuvimicrobium_buryatense,aerobie,Methylotuvimicrobium buryatense,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Methylovulum_psychrotolerans,aerobie,Methylovulum psychrotolerans,,1,140162,1704499,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 140162),taxon,True
+Microvirga_lotononidis,aerobie,Microvirga lotononidis,,1,131253,864069,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 131253),taxon,True
+Microvirga_lupini,aerobie,Microvirga lupini,,1,133752,420324,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133752),taxon,True
+Microvirga_zambiensis_WSM3693,aerobie,Microvirga zambiensis,,1,131254,1402137,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 131254),taxon,True
+Neiella_marina,aerobie,Neiella marina,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Neomesorhizobium_albiziae,aerobie,Neomesorhizobium albiziae,,1,11894,335020,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 11894),taxon,True
+Niallia_nealsonii,aerobie,Niallia nealsonii,,1,1209,115979,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 1209),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Nitrospirillum_amazonense,aerobie,Nitrospirillum amazonense,,3,151838,28077,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 151838; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Nitrospirillum_iridis,aerobie,Nitrospirillum iridis,,1,132394,765888,,partiel,"BacDive ID 132394 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Nitrospirillum_viridazoti_CBAmc,aerobie,Nitrospirillum viridazoti,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Niveibacterium_umoris,aerobie,Niveibacterium umoris,,1,140139,1193620,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 140139),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Novipirellula_artificiosorum,aerobie,Novipirellula artificiosorum,,1,166370,2528016,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166370),taxon,True
+Novosphingobium_nitrogenifigens_DSM_19370,aerobie,Novosphingobium nitrogenifigens,DSM 19370,1,14157,378548,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 14157),taxon,True
+Oharaeibacter_diazotrophicus,aerobie,Oharaeibacter diazotrophicus,,1,133086,1920512,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133086),taxon,True
+Paenibacillus_abekawaensis,aerobie,Paenibacillus abekawaensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_albidus,aerobie,Paenibacillus albidus,,1,158574,2041023,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 158574),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_anaericanus,aerobie,Paenibacillus anaericanus,,3,169918,170367,,a_verifier,BacDive oxygen tolerance=None (ID 169918; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Paenibacillus_apii,aerobie,Paenibacillus apii,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_apis,aerobie,Paenibacillus apis,,2,164102,1792174,,a_verifier,BacDive oxygen tolerance=None (ID 164102; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paenibacillus_auburnensis,aerobie,Paenibacillus auburnensis,,1,170432,2905649,,partiel,"BacDive ID 170432 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_brasilensis,aerobie,Paenibacillus brasilensis,,1,11557,128574,,partiel,"BacDive ID 11557 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_durus,aerobie,Paenibacillus durus,,1,11503,44251,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11503),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Paenibacillus_durus_ATCC_35681,aerobie,Paenibacillus durus,ATCC 35681,1,11503,44251,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11503),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Paenibacillus_faecis,aerobie,Paenibacillus faecis,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Paenibacillus_forsythiae,aerobie,Paenibacillus forsythiae,,1,11628,365616,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 11628),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Paenibacillus_fujiensis,aerobie,Paenibacillus fujiensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_graminis,aerobie,Paenibacillus graminis,,1,11559,189425,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11559),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_haidiansis,aerobie,Paenibacillus haidiansis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_helianthi,aerobie,Paenibacillus helianthi,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_jilunlii,aerobie,Paenibacillus jilunlii,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Paenibacillus_kribbensis,aerobie,Paenibacillus kribbensis,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Paenibacillus_macerans,aerobie,Paenibacillus macerans,,11,,,,a_verifier,BacDive multi-hits (11) oxygen_tol diverge ou absente,Ambigu: 11 souches BacDive,True
+Paenibacillus_massiliensis,aerobie,Paenibacillus massiliensis,,3,137952,225917,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137952; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Paenibacillus_mesotrionivorans,aerobie,Paenibacillus mesotrionivorans,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_monticola,aerobie,Paenibacillus monticola,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Paenibacillus_odorifer,aerobie,Paenibacillus odorifer,,2,161342,189426,,a_verifier,BacDive oxygen tolerance=None (ID 161342; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paenibacillus_oralis,aerobie,Paenibacillus oralis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_peoriae,aerobie,Paenibacillus peoriae,,2,11507,59893,,a_verifier,BacDive oxygen tolerance=None (ID 11507; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paenibacillus_phytohabitans,aerobie,Paenibacillus phytohabitans,,1,167166,2654978,,partiel,"BacDive ID 167166 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_polymyxa,aerobie,Paenibacillus polymyxa,,37,139222,1406,,a_verifier,BacDive oxygen tolerance=None (ID 139222; 37 hits espèce),Ambigu: 37 souches BacDive,True
+Paenibacillus_rhizophilus,aerobie,Paenibacillus rhizophilus,,1,159374,1850366,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 159374),taxon,True
+Paenibacillus_riograndensis,aerobie,Paenibacillus riograndensis,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Paenibacillus_riograndensis_SBR5,aerobie,Paenibacillus riograndensis,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Paenibacillus_sabinae,aerobie,Paenibacillus sabinae,,1,11620,365617,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11620),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Paenibacillus_sabinae_T27,aerobie,Paenibacillus sabinae,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Paenibacillus_silagei,aerobie,Paenibacillus silagei,,1,132640,1670801,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 132640),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_sonchi,aerobie,Paenibacillus sonchi,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Paenibacillus_sophorae,aerobie,Paenibacillus sophorae,,1,11656,1333845,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11656),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_spiritus,aerobie,Paenibacillus spiritus,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paenibacillus_stellifer,aerobie,Paenibacillus stellifer,,10,153135,169760,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 153135; 10 hits espèce),Ambigu: 10 souches BacDive,True
+Paenibacillus_terrae_(strain_HPL-003),aerobie,Paenibacillus terrae,,2,135094,159743,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 135094; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paenibacillus_tianjinensis,aerobie,Paenibacillus tianjinensis,,1,168398,2810347,,partiel,"BacDive ID 168398 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paenibacillus_timonensis,aerobie,Paenibacillus timonensis,,1,11580,225915,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11580),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_typhae,aerobie,Paenibacillus typhae,,1,23180,1174501,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 23180),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paenibacillus_wynnii,aerobie,Paenibacillus wynnii,,1,11601,268407,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11601),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Paraburkholderia_aromaticivorans,aerobie,Paraburkholderia aromaticivorans,,1,158708,2026199,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 158708),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Paraburkholderia_caribensis,aerobie,Paraburkholderia caribensis,,2,150958,75105,,a_verifier,BacDive oxygen tolerance=None (ID 150958; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paraburkholderia_dioscoreae,aerobie,Paraburkholderia dioscoreae,,1,166838,2604047,,partiel,"BacDive ID 166838 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_dipogonis,aerobie,Paraburkholderia dipogonis,,1,168132,1211383,,partiel,"BacDive ID 168132 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_guartelaensis,aerobie,Paraburkholderia guartelaensis,,1,166943,2546446,,partiel,"BacDive ID 166943 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_lycopersici,aerobie,Paraburkholderia lycopersici,,1,167929,416944,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 167929),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Paraburkholderia_phymatum,aerobie,Paraburkholderia phymatum,,2,100240,148447,,a_verifier,BacDive oxygen tolerance=None (ID 100240; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Paraburkholderia_piptadeniae,aerobie,Paraburkholderia piptadeniae,,1,133350,1701573,,partiel,"BacDive ID 133350 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_podalyriae,aerobie,Paraburkholderia podalyriae,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Paraburkholderia_rhynchosiae,aerobie,Paraburkholderia rhynchosiae,,1,133968,487049,,partiel,"BacDive ID 133968 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_ribeironis,aerobie,Paraburkholderia ribeironis,,1,133351,1247936,,partiel,"BacDive ID 133351 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_sprentiae_WSM5005,aerobie,Paraburkholderia sprentiae,,1,133969,948107,,partiel,"BacDive ID 133969 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_steynii,aerobie,Paraburkholderia steynii,,1,167653,1245441,,partiel,"BacDive ID 167653 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Paraburkholderia_unamae,aerobie,Paraburkholderia unamae,,3,139568,219649,obligate aerobe,a_verifier,BacDive oxygen tolerance=obligate aerobe (ID 139568; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Paraburkholderia_xenovorans_(strain_LB400),aerobie,Paraburkholderia xenovorans,,3,152503,36873,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 152503; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Paraburkholderia_youngii,aerobie,Paraburkholderia youngii,,1,166988,2782701,,partiel,"BacDive ID 166988 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Parafrankia_irregularis,aerobie,Parafrankia irregularis,,1,158372,795642,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 158372),taxon,True
+Paramagnetospirillum_caucaseum,aerobie,Paramagnetospirillum caucaseum,,1,132529,1244869,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 132529),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Paramagnetospirillum_kuznetsovii,aerobie,Paramagnetospirillum kuznetsovii,,1,166531,2053833,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 166531),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Paramagnetospirillum_magnetotacticum_MS-1,aerobie,Paramagnetospirillum magnetotacticum,,1,13943,188,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 13943),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Paramagnetospirillum_marisnigri,aerobie,Paramagnetospirillum marisnigri,,1,132530,1285242,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 132530),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Pectobacterium_cacticida,aerobie,Pectobacterium cacticida,,1,5027,69221,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 5027),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Pelagicoccus_albus,aerobie,Pelagicoccus albus,,1,134247,415222,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 134247),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Photobacterium_gaetbulicola_Gung47,aerobie,Photobacterium gaetbulicola,,1,23340,1295392,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 23340),taxon,True
+Phytobacter_diazotrophicus,aerobie,Phytobacter diazotrophicus,,2,155260,395631,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 155260; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Phytobacter_ursingii,aerobie,Phytobacter ursingii,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Plasticicumulans_acidivorans,aerobie,Plasticicumulans acidivorans,,1,17920,886464,,partiel,"BacDive ID 17920 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Pleomorphomonas_diazotrophica,aerobie,Pleomorphomonas diazotrophica,,1,23098,1166257,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 23098),taxon,True
+Polaromonas_hydrogenivorans,aerobie,Polaromonas hydrogenivorans,,1,2983,335476,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 2983),taxon,True
+Polaromonas_naphthalenivorans_(strain_CJ2),aerobie,Polaromonas naphthalenivorans,,1,2982,216465,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 2982),taxon,True
+Propionibacterium_cyclohexanicum,aerobie,Propionibacterium cyclohexanicum,,1,12658,64702,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 12658),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Protofrankia_coriariae,aerobie,Protofrankia coriariae,,1,133112,1562887,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133112),taxon,True
+Pseudacidovorax_intermedius,aerobie,Pseudacidovorax intermedius,,1,3026,433924,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 3026),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Pseudacidovorax_intermedius_NH-1,aerobie,Pseudacidovorax intermedius,,1,3026,433924,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 3026),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Pseudaeromonas_paramecii,aerobie,Pseudaeromonas paramecii,,1,159881,2138166,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 159881),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Pseudaeromonas_sharmana,aerobie,Pseudaeromonas sharmana,,1,271,328412,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 271),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Pseudothauera_lacus,aerobie,Pseudothauera lacus,,1,166272,2136175,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 166272),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Pseudothauera_nasutitermitis,aerobie,Pseudothauera nasutitermitis,,1,164174,2565930,,partiel,"BacDive ID 164174 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Pseudothauera_rhizosphaerae,aerobie,Pseudothauera rhizosphaerae,,1,164175,2565932,,partiel,"BacDive ID 164175 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Puniceicoccus_vermicola,aerobie,Puniceicoccus vermicola,,1,17650,388746,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 17650),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Raoultella_terrigena,aerobie,Raoultella terrigena,,13,154410,577,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 154410; 13 hits espèce),Ambigu: 13 souches BacDive,True
+Reinekea_marinisedimentorum,aerobie,Reinekea marinisedimentorum,,1,11293,230495,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 11293),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Reinekea_thalattae,aerobie,Reinekea thalattae,,1,166392,2593301,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 166392),taxon,True
+Rhizobium_etli,aerobie,Rhizobium etli,,2,137722,29449,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137722; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhizobium_etli_(strain_ATCC_51251___DSM_11541___JCM_21823___NBRC_15573___CFN_42),aerobie,Rhizobium etli,ATCC 51251;DSM 11541;JCM 21823;NBRC 15573,1,13625,29449,,partiel,"BacDive ID 13625 trouvé, oxygen tolerance absente","Pas de champ oxygen tolerance; culturecollection:ATCC 51251,DSM 11541,JCM 21823",True
+Rhizobium_etli_(strain_CIAT_652),aerobie,Rhizobium etli,,2,137722,29449,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137722; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhizobium_etli_8C-3,aerobie,Rhizobium etli,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Rhizobium_etli_bv__mimosae_str__IE4771,aerobie,Rhizobium etli,,2,137722,29449,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137722; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhizobium_lusitanum,aerobie,Rhizobium lusitanum,,1,137407,293958,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137407),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Rhizobium_yanglingense,aerobie,Rhizobium yanglingense,,1,137364,61013,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 137364),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Rhodobacter_maris,aerobie,Rhodobacter maris,,1,134339,446682,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 134339),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Rhodobium_gokarnense,aerobie,Rhodobium gokarnense,,1,13872,364296,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 13872),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Rhodomicrobium_udaipurense,aerobie,Rhodomicrobium udaipurense,,1,133915,1202716,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 133915),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Rhodoplanes_azumiensis,aerobie,Rhodoplanes azumiensis,,1,158540,1897628,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 158540),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Rhodoplanes_serenus,aerobie,Rhodoplanes serenus,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Rhodopseudomonas_telluris,aerobie,Rhodopseudomonas telluris,,1,140728,644215,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 140728),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Rhodovulum_kholense,aerobie,Rhodovulum kholense,,1,13750,453584,obligate anaerobe,a_verifier,BacDive oxygen tolerance=obligate anaerobe (ID 13750),À vérifier: label Alida=aerobie vs BacDive=obligate anaerobe (taxon),True
+Rhodovulum_visakhapatnamense,aerobie,Rhodovulum visakhapatnamense,,1,13749,364297,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 13749),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Roseateles_depolymerans,aerobie,Roseateles depolymerans,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Roseateles_saccharophilus,aerobie,Roseateles saccharophilus,,10,,,,a_verifier,BacDive multi-hits (10) oxygen_tol diverge ou absente,Ambigu: 10 souches BacDive,True
+Roseibium_marinum,aerobie,Roseibium marinum,,1,13835,281252,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 13835),taxon,True
+Roseospira_goensis,aerobie,Roseospira goensis,,1,13962,391922,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13962),À vérifier: label Alida=aerobie vs BacDive=anaerobe (taxon),True
+Roseospira_marina,aerobie,Roseospira marina,,1,13960,140057,,partiel,"BacDive ID 13960 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Roseospira_navarrensis,aerobie,Roseospira navarrensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Roseospira_visakhapatnamensis,aerobie,Roseospira visakhapatnamensis,,1,13963,390880,obligate anaerobe,a_verifier,BacDive oxygen tolerance=obligate anaerobe (ID 13963),À vérifier: label Alida=aerobie vs BacDive=obligate anaerobe (taxon),True
+Rubrivivax_benzoatilyticus,aerobie,Rubrivivax benzoatilyticus,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Ruficoccus_amylovorans,aerobie,Ruficoccus amylovorans,,1,133402,1804625,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133402),taxon,True
+Saccharicrinis_fermentans_DSM_9555_=_JCM_21142,aerobie,Saccharicrinis fermentans,DSM 9555;JCM 21142,1,3773,982,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 3773),"À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (culturecollection:DSM 9555,JCM 21142)",True
+Salipiger_thiooxidans,aerobie,Salipiger thiooxidans,,1,13659,282683,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 13659),taxon,True
+Serratia_sp__(strain_ATCC_39006),aerobie,Serratia sp,ATCC 39006,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Shewanella_dokdonensis,aerobie,Shewanella dokdonensis,,1,23252,712036,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 23252),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Siculibacillus_lacustris,aerobie,Siculibacillus lacustris,,1,164126,1549641,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 164126),taxon,True
+Sinorhizobium_americanum,aerobie,Sinorhizobium americanum,,1,13570,194963,,partiel,"BacDive ID 13570 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Sinorhizobium_fredii_(strain_NBRC_101917___NGR234),aerobie,Sinorhizobium fredii,NBRC 101917,5,,,,a_verifier,BacDive multi-hits (5) oxygen_tol diverge ou absente,Ambigu: 5 souches BacDive,True
+Sinorhizobium_fredii_(strain_USDA_257),aerobie,Sinorhizobium fredii,,5,,,,a_verifier,BacDive multi-hits (5) oxygen_tol diverge ou absente,Ambigu: 5 souches BacDive,True
+Sinorhizobium_garamanticum,aerobie,Sinorhizobium garamanticum,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Sinorhizobium_kostiense,aerobie,Sinorhizobium kostiense,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Sinorhizobium_kummerowiae,aerobie,Sinorhizobium kummerowiae,,13,162896,382,,a_verifier,BacDive oxygen tolerance=None (ID 162896; 13 hits espèce),Ambigu: 13 souches BacDive,True
+Sinorhizobium_medicae,aerobie,Sinorhizobium medicae,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Sinorhizobium_medicae_(strain_WSM419),aerobie,Sinorhizobium medicae,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Sinorhizobium_meliloti_(strain_SM11),aerobie,Sinorhizobium meliloti,,13,,,,a_verifier,BacDive multi-hits (13) oxygen_tol diverge ou absente,Ambigu: 13 souches BacDive,True
+Sinorhizobium_meliloti_CCNWSX0020,aerobie,Sinorhizobium meliloti,,13,162896,382,,a_verifier,BacDive oxygen tolerance=None (ID 162896; 13 hits espèce),Ambigu: 13 souches BacDive,True
+Sinorhizobium_mexicanum,aerobie,Sinorhizobium mexicanum,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Sinorhizobium_numidicum,aerobie,Sinorhizobium numidicum,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Sinorhizobium_psoraleae,aerobie,Sinorhizobium psoraleae,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Sinorhizobium_saheli,aerobie,Sinorhizobium saheli,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Sinorhizobium_sojae_CCBAU_05684,aerobie,Sinorhizobium sojae,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Sinorhizobium_terangae,aerobie,Sinorhizobium terangae,,2,,,,a_verifier,BacDive multi-hits (2) oxygen_tol diverge ou absente,Ambigu: 2 souches BacDive,True
+Skermanella_aerolata,aerobie,Skermanella aerolata,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Skermanella_stibiiresistens_SB22,aerobie,Skermanella stibiiresistens,,1,133736,913326,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133736),taxon,True
+Sporolactobacillus_shoreicorticis,aerobie,Sporolactobacillus shoreicorticis,,1,140530,1923877,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 140530),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Stutzerimonas_azotifigens,aerobie,Stutzerimonas azotifigens,,1,13124,291995,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 13124),À vérifier: label Alida=aerobie vs BacDive=microaerophile (taxon),True
+Stutzerimonas_tarimensis,aerobie,Stutzerimonas tarimensis,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Telmatospirillum_siberiense,aerobie,Telmatospirillum siberiense,,3,14017,382514,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 14017; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Tepidiphilus_baoligensis,aerobie,Tepidiphilus baoligensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Teredinibacter_turnerae_(strain_ATCC_39867___T7901),aerobie,Teredinibacter turnerae,ATCC 39867,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Thermocrinis_albus_(strain_DSM_14484___JCM_11386___HI_11_12),aerobie,Thermocrinis albus,DSM 14484;JCM 11386,1,524,136094,microaerophile,a_verifier,BacDive oxygen tolerance=microaerophile (ID 524),"À vérifier: label Alida=aerobie vs BacDive=microaerophile (culturecollection:DSM 14484,JCM 11386)",True
+Thioalbus_denitrificans,aerobie,Thioalbus denitrificans,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Thiothrix_caldifontis,aerobie,Thiothrix caldifontis,,1,17083,525918,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 17083),taxon,True
+Tolumonas_osonensis,aerobie,Tolumonas osonensis,,1,295,675874,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 295),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Trinickia_symbiotica,aerobie,Trinickia symbiotica,,1,130227,863227,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 130227),taxon,True
+Tropicimonas_isoalkanivorans,aerobie,Tropicimonas isoalkanivorans,,1,13841,441112,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 13841),taxon,True
+Uliginosibacterium_paludis,aerobie,Uliginosibacterium paludis,,1,133283,1615952,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 133283),taxon,True
+Uliginosibacterium_sediminicola,aerobie,Uliginosibacterium sediminicola,,1,158641,2024550,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 158641),taxon,True
+Variovorax_ginsengisoli,aerobie,Variovorax ginsengisoli,,1,3018,363844,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 3018),taxon,True
+Varunaivibrio_sulfuroxidans,aerobie,Varunaivibrio sulfuroxidans,,1,132624,1773489,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 132624),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Vibrio_agarivorans,aerobie,Vibrio agarivorans,,2,17281,153622,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 17281; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Vibrio_albus,aerobie,Vibrio albus,,1,166140,2200953,facultative anaerobe,a_verifier,BacDive oxygen tolerance=facultative anaerobe (ID 166140),À vérifier: label Alida=aerobie vs BacDive=facultative anaerobe (taxon),True
+Vibrio_hangzhouensis,aerobie,Vibrio hangzhouensis,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Vibrio_xiamenensis,aerobie,Vibrio xiamenensis,,1,17368,861298,facultative aerobe,a_verifier,BacDive oxygen tolerance=facultative aerobe (ID 17368),À vérifier: label Alida=aerobie vs BacDive=facultative aerobe (taxon),True
+Zavarzinia_aquatilis,aerobie,Zavarzinia aquatilis,,1,164233,2211142,aerobe,documente,BacDive oxygen tolerance=aerobe (ID 164233),taxon,True
+Zoogloea_oryzae,aerobie,Zoogloea oryzae,,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Acetivibrio_clariflavus_(strain_DSM_19732___NBRC_101661___EBR45),anaerobie,Acetivibrio clariflavus,DSM 19732;NBRC 101661,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Acetivibrio_mesophilus,anaerobie,Acetivibrio mesophilus,,1,157972,2487273,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 157972),taxon,True
+Acetobacterium_malicum,anaerobie,Acetobacterium malicum,,2,5410,1068975,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 5410; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Acetobacterium_tundrae,anaerobie,Acetobacterium tundrae,,2,7537,132932,,a_verifier,BacDive oxygen tolerance=None (ID 7537; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Acetonema_longum_DSM_6540,anaerobie,Acetonema longum,DSM 6540,1,17111,2374,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17111),culturecollection:DSM 6540,True
+Afifella_marina_DSM_2698,anaerobie,Afifella marina,DSM 2698,1,,,,partiel,,"Erreur fetch: {'_error': ""('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))""}",True
+Alkalibacter_saccharofermentans_DSM_14828,anaerobie,Alkalibacter saccharofermentans,DSM 14828,1,5412,235931,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5412),culturecollection:DSM 14828,True
+Alkalidesulfovibrio_alkalitolerans_DSM_16529,anaerobie,Alkalidesulfovibrio alkalitolerans,DSM 16529,1,4159,293256,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4159),culturecollection:DSM 16529,True
+Alkalitalea_saponilacus,anaerobie,Alkalitalea saponilacus,,1,17816,889453,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17816),taxon,True
+Allochromatium_vinosum_(strain_ATCC_17899___DSM_180___NBRC_103801___NCIMB_10441___D),anaerobie,Allochromatium vinosum,ATCC 17899;DSM 180;NBRC 103801;NCIMB 10441,1,2424,1049,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2424),"culturecollection:ATCC 17899,DSM 180,NBRC 103801",True
+Allochromatium_warmingii,anaerobie,Allochromatium warmingii,,2,2436,61595,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2436; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Anaerobacillus_alkalilacustris,anaerobie,Anaerobacillus alkalilacustris,,1,131178,393763,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 131178),taxon,True
+Anaerobacterium_chartisolvens,anaerobie,Anaerobacterium chartisolvens,,1,130804,1297424,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 130804),taxon,True
+Anaerocellum_danielii,anaerobie,Anaerocellum danielii,,1,18030,1387557,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 18030),taxon,True
+Anaerocolumna_cellulosilytica,anaerobie,Anaerocolumna cellulosilytica,,1,132584,433286,obligate anaerobe,documente,BacDive oxygen tolerance=obligate anaerobe (ID 132584),taxon,True
+Anaerocolumna_jejuensis_DSM_15929,anaerobie,Anaerocolumna jejuensis,DSM 15929,1,2829,259063,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2829),culturecollection:DSM 15929,True
+Anaerocolumna_xylanovorans_DSM_12503,anaerobie,Anaerocolumna xylanovorans,DSM 12503,1,2797,100134,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2797),culturecollection:DSM 12503,True
+Anaeromicropila_populeti,anaerobie,Anaeromicropila populeti,,2,2762,37658,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2762; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Anaerosacchariphilus_polymeriproducens,anaerobie,Anaerosacchariphilus polymeriproducens,,1,166544,1812858,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 166544),taxon,True
+Anaerospora_hongkongensis,anaerobie,Anaerospora hongkongensis,,1,23337,244830,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23337),taxon,True
+Anaerosporobacter_mobilis_DSM_15930,anaerobie,Anaerosporobacter mobilis,DSM 15930,1,2868,264463,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2868),culturecollection:DSM 15930,True
+Anaerosporomusa_subterranea,anaerobie,Anaerosporomusa subterranea,,1,132639,1794912,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 132639),taxon,True
+Anaerotignum_neopropionicum,anaerobie,Anaerotignum neopropionicum,,1,2765,36847,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2765),taxon,True
+Anaerovirgula_multivorans,anaerobie,Anaerovirgula multivorans,,1,18065,312168,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 18065),taxon,True
+Aromatoleum_toluolicum,anaerobie,Aromatoleum toluolicum,,1,13881,90060,aerobe,a_verifier,BacDive oxygen tolerance=aerobe (ID 13881),À vérifier: label Alida=anaerobie vs BacDive=aerobe (taxon),True
+Bacteroides_graminisolvens,anaerobie,Bacteroides graminisolvens,,1,1624,477666,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 1624),taxon,True
+Bacteroides_graminisolvens_DSM_19988_=_JCM_15093,anaerobie,Bacteroides graminisolvens,DSM 19988;JCM 15093,1,1624,477666,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 1624),"culturecollection:DSM 19988,JCM 15093",True
+Bacteroides_luti,anaerobie,Bacteroides luti,,1,23776,1297750,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23776),taxon,True
+Blastochloris_sulfoviridis,anaerobie,Blastochloris sulfoviridis,,3,6162,50712,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 6162; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Blastochloris_viridis,anaerobie,Blastochloris viridis,,2,6161,1079,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 6161; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Breznakibacter_xylanolyticus,anaerobie,Breznakibacter xylanolyticus,,1,3772,990,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3772),taxon,True
+Butyrivibrio_fibrisolvens,anaerobie,Butyrivibrio fibrisolvens,,1,6342,831,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6342),taxon,True
+Butyrivibrio_fibrisolvens_DSM_3071,anaerobie,Butyrivibrio fibrisolvens,DSM 3071,1,6342,831,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6342),culturecollection:DSM 3071,True
+Caenispirillum_bisanense,anaerobie,Caenispirillum bisanense,,1,134240,414052,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 134240),taxon,True
+Calderihabitans_maritimus,anaerobie,Calderihabitans maritimus,,1,24651,1246530,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 24651),taxon,True
+Caldicellulosiruptor_acetigenus_6A,anaerobie,Caldicellulosiruptor acetigenus,,3,18026,301953,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 18026; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Calditerrivibrio_nitroreducens_(strain_DSM_19672___NBRC_101217___Yu37-1),anaerobie,Calditerrivibrio nitroreducens,DSM 19672;NBRC 101217,1,3846,477976,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3846),"culturecollection:DSM 19672,NBRC 101217",True
+Carboxydocella_sporoproducens_DSM_16521,anaerobie,Carboxydocella sporoproducens,DSM 16521,1,17980,178899,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17980),culturecollection:DSM 16521,True
+Carboxydothermus_islandicus,anaerobie,Carboxydothermus islandicus,,1,16809,661089,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16809),taxon,True
+Carboxydothermus_pertinax,anaerobie,Carboxydothermus pertinax,,1,16810,870242,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16810),taxon,True
+Cellulosilyticum_lentocellum_(strain_ATCC_49066___DSM_5427___NCIMB_11756___RHM5),anaerobie,Cellulosilyticum lentocellum,ATCC 49066;DSM 5427;NCIMB 11756,1,6375,29360,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6375),"culturecollection:ATCC 49066,DSM 5427,NCIMB 11756",True
+Cereibacter_johrii,anaerobie,Cereibacter johrii,,2,13825,445629,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13825; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Chlorobaculum_thiosulfatiphilum,anaerobie,Chlorobaculum thiosulfatiphilum,,1,2398,115852,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2398),taxon,True
+Chlorobium_limicola,anaerobie,Chlorobium limicola,,3,2405,1092,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2405; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Chlorobium_phaeovibrioides,anaerobie,Chlorobium phaeovibrioides,,5,2412,1094,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2412; 5 hits espèce),Ambigu: 5 souches BacDive,True
+Citrifermentans_bemidjiense_(strain_ATCC_BAA-1014___DSM_16622___JCM_12645___Bem),anaerobie,Citrifermentans bemidjiense,DSM 16622;JCM 12645,1,5803,225194,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5803),"culturecollection:DSM 16622,JCM 12645",True
+Citrifermentans_bremense,anaerobie,Citrifermentans bremense,,1,5801,60035,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5801),taxon,True
+Clostridium_aromativorans,anaerobie,Clostridium aromativorans,,1,175779,2836848,,partiel,"BacDive ID 175779 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_autoethanogenum,anaerobie,Clostridium autoethanogenum,,2,174995,84023,,a_verifier,BacDive oxygen tolerance=None (ID 174995; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_beijerinckii,anaerobie,Clostridium beijerinckii,,30,165721,1520,,a_verifier,BacDive oxygen tolerance=None (ID 165721; 30 hits espèce),Ambigu: 30 souches BacDive,True
+Clostridium_boliviensis,anaerobie,Clostridium boliviensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_butyricum,anaerobie,Clostridium butyricum,,10,169215,1492,,a_verifier,BacDive oxygen tolerance=None (ID 169215; 10 hits espèce),Ambigu: 10 souches BacDive,True
+Clostridium_butyricum_E4_str__BoNT_E_BL5262,anaerobie,Clostridium butyricum,,10,169215,1492,,a_verifier,BacDive oxygen tolerance=None (ID 169215; 10 hits espèce),Ambigu: 10 souches BacDive,True
+Clostridium_chromiireducens,anaerobie,Clostridium chromiireducens,,2,169631,225345,,a_verifier,BacDive oxygen tolerance=None (ID 169631; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_cibarium,anaerobie,Clostridium cibarium,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_coskatii,anaerobie,Clostridium coskatii,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_diolis,anaerobie,Clostridium diolis,,30,165721,1520,,a_verifier,BacDive oxygen tolerance=None (ID 165721; 30 hits espèce),Ambigu: 30 souches BacDive,True
+Clostridium_estertheticum,anaerobie,Clostridium estertheticum,,2,2807,238834,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2807; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_estertheticum_subsp__estertheticum,anaerobie,Clostridium estertheticum,,2,2807,238834,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2807; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_felsineum,anaerobie,Clostridium felsineum,,4,2656,36839,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2656; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Clostridium_formicaceticum,anaerobie,Clostridium formicaceticum,,7,2594,1497,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2594; 7 hits espèce),Ambigu: 7 souches BacDive,True
+Clostridium_gelidum,anaerobie,Clostridium gelidum,,1,169423,704125,,partiel,"BacDive ID 169423 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_intestinale,anaerobie,Clostridium intestinale,,2,2756,36845,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2756; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_intestinale_URNW,anaerobie,Clostridium intestinale,,2,2756,36845,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2756; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_kluyveri,anaerobie,Clostridium kluyveri,,6,2611,1534,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2611; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Clostridium_manihotivorum,anaerobie,Clostridium manihotivorum,,1,166557,2320868,,partiel,"BacDive ID 166557 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_moutaii,anaerobie,Clostridium moutaii,,1,177749,3240932,,partiel,"BacDive ID 177749 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_neonatale,anaerobie,Clostridium neonatale,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Clostridium_neuense,anaerobie,Clostridium neuense,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_paridis,anaerobie,Clostridium paridis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Clostridium_pasteurianum,anaerobie,Clostridium pasteurianum,,4,174397,1501,,a_verifier,BacDive oxygen tolerance=None (ID 174397; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Clostridium_pasteurianum_BC1,anaerobie,Clostridium pasteurianum,,4,174397,1501,,a_verifier,BacDive oxygen tolerance=None (ID 174397; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Clostridium_saccharoperbutylacetonicum_N1-4(HMT),anaerobie,Clostridium saccharoperbutylacetonicum,,2,2659,36745,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2659; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Clostridium_thailandense,anaerobie,Clostridium thailandense,,1,168263,2794346,,partiel,"BacDive ID 168263 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Clostridium_thermosuccinogenes,anaerobie,Clostridium thermosuccinogenes,,4,2752,84032,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2752; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Clostridium_tyrobutyricum_DIVETGP,anaerobie,Clostridium tyrobutyricum,,6,139499,1519,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 139499; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Clostridium_zeae,anaerobie,Clostridium zeae,,1,167542,2759022,,partiel,"BacDive ID 167542 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; taxon,True
+Dechloromonas_aromatica_(strain_RCB),anaerobie,Dechloromonas aromatica,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Dechloromonas_hankyongensis,anaerobie,Dechloromonas hankyongensis,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Dechloromonas_sp__SIUL,anaerobie,Dechloromonas sp,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Defluviitalea_raffinosedens,anaerobie,Defluviitalea raffinosedens,,1,140265,1450156,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 140265),taxon,True
+Dehalococcoides_mccartyi,anaerobie,Dehalococcoides mccartyi,,1,133751,61435,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 133751),taxon,True
+Dehalococcoides_mccartyi_(strain_ATCC_BAA-2266___KCTC_15142___195),anaerobie,Dehalococcoides mccartyi,KCTC 15142,1,133751,61435,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 133751),culturecollection:KCTC 15142,True
+Dendrosporobacter_quercicolus,anaerobie,Dendrosporobacter quercicolus,,1,17120,146817,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17120),taxon,True
+Denitrovibrio_acetiphilus_(strain_DSM_12809___NBRC_114555___N2460),anaerobie,Denitrovibrio acetiphilus,DSM 12809;NBRC 114555,1,3838,118000,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3838),"culturecollection:DSM 12809,NBRC 114555",True
+Desulfacinum_infernum_DSM_9756,anaerobie,Desulfacinum infernum,DSM 9756,1,16672,35837,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16672),culturecollection:DSM 9756,True
+Desulfarculus_baarsii_(strain_ATCC_33931___DSM_2075___LMG_7858___VKM_B-1802___2st14),anaerobie,Desulfarculus baarsii,ATCC 33931;DSM 2075;LMG 7858,1,17627,453230,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17627),"culturecollection:ATCC 33931,DSM 2075,LMG 7858",True
+Desulfatibacillum_aliphaticivorans,anaerobie,Desulfatibacillum aliphaticivorans,,1,3946,218208,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3946),taxon,True
+Desulfatibacillum_alkenivorans_DSM_16219,anaerobie,Desulfatibacillum alkenivorans,DSM 16219,1,3947,259354,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3947),culturecollection:DSM 16219,True
+Desulfitobacterium_hafniense,anaerobie,Desulfitobacterium hafniense,,6,11769,49338,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11769; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Desulfitobacterium_hafniense_(strain_Y51),anaerobie,Desulfitobacterium hafniense,,6,11769,49338,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11769; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Desulfitobacterium_hafniense_DP7,anaerobie,Desulfitobacterium hafniense,,6,11769,49338,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11769; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Desulfobacca_acetoxidans,anaerobie,Desulfobacca acetoxidans,,1,16665,60893,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16665),taxon,True
+Desulfobacca_acetoxidans_(strain_ATCC_700848___DSM_11109___ASRB2),anaerobie,Desulfobacca acetoxidans,ATCC 700848;DSM 11109,1,16665,60893,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16665),"culturecollection:ATCC 700848,DSM 11109",True
+Desulfobacter_hydrogenophilus,anaerobie,Desulfobacter hydrogenophilus,,1,3955,2291,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3955),taxon,True
+Desulfobacter_latus,anaerobie,Desulfobacter latus,,1,3956,2292,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3956),taxon,True
+Desulfobacter_postgatei_2ac9,anaerobie,Desulfobacter postgatei,,2,3958,2293,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 3958; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Desulfobotulus_alkaliphilus,anaerobie,Desulfobotulus alkaliphilus,,1,4000,622671,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4000),taxon,True
+Desulfobulbus_propionicus_(strain_ATCC_33891___DSM_2032___VKM_B-1956___1pr3),anaerobie,Desulfobulbus propionicus,ATCC 33891;DSM 2032,1,4004,894,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4004),"culturecollection:ATCC 33891,DSM 2032",True
+Desulfocapsa_sulfexigens_(strain_DSM_10523___SB164P1),anaerobie,Desulfocapsa sulfexigens,DSM 10523,1,4019,65555,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4019),culturecollection:DSM 10523,True
+Desulfocucumis_palustris,anaerobie,Desulfocucumis palustris,,1,140353,1898651,obligate anaerobe,documente,BacDive oxygen tolerance=obligate anaerobe (ID 140353),taxon,True
+Desulfocurvibacter_africanus_PCS,anaerobie,Desulfocurvibacter africanus,,3,4171,1511599,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4171; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Desulfocurvibacter_africanus_subsp__africanus_str__Walvis_Bay,anaerobie,Desulfocurvibacter africanus,,3,4171,1511599,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4171; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Desulfofarcimen_acetoxidans_(strain_ATCC_49208___DSM_771___KCTC_5769___VKM_B-1644___5575),anaerobie,Desulfofarcimen acetoxidans,ATCC 49208;DSM 771;KCTC 5769,1,11789,58138,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11789),"culturecollection:ATCC 49208,DSM 771,KCTC 5769",True
+Desulfofundulus_luciae,anaerobie,Desulfofundulus luciae,,1,11824,74702,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11824),taxon,True
+Desulfofundulus_thermobenzoicus,anaerobie,Desulfofundulus thermobenzoicus,,2,11826,136399,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 11826; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Desulfofundulus_thermosubterraneus_DSM_16057,anaerobie,Desulfofundulus thermosubterraneus,DSM 16057,1,11830,348840,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11830),culturecollection:DSM 16057,True
+Desulfofustis_glycolicus_DSM_9705,anaerobie,Desulfofustis glycolicus,DSM 9705,1,4020,51195,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4020),culturecollection:DSM 9705,True
+Desulfoglaeba_alkanexedens_ALDC,anaerobie,Desulfoglaeba alkanexedens,,1,16678,361111,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16678),taxon,True
+Desulfoluna_butyratoxydans,anaerobie,Desulfoluna butyratoxydans,,1,3998,231438,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3998),taxon,True
+Desulfolutivibrio_sulfodismutans,anaerobie,Desulfolutivibrio sulfodismutans,,1,4103,63561,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4103),taxon,True
+Desulfomonile_tiedjei,anaerobie,Desulfomonile tiedjei,,1,16666,2358,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16666),taxon,True
+Desulfomonile_tiedjei_(strain_ATCC_49306___DSM_6799___DCB-1),anaerobie,Desulfomonile tiedjei,ATCC 49306;DSM 6799,1,16666,2358,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16666),"culturecollection:ATCC 49306,DSM 6799",True
+Desulfonatronospira_thiodismutans_ASO3-1,anaerobie,Desulfonatronospira thiodismutans,,1,4047,488939,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4047),taxon,True
+Desulfonatronum_thiosulfatophilum,anaerobie,Desulfonatronum thiosulfatophilum,,1,4067,617002,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4067),taxon,True
+Desulfonema_ishimotonii,anaerobie,Desulfonema ishimotonii,,2,3991,45657,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 3991; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Desulfopila_aestuarii_DSM_18488,anaerobie,Desulfopila aestuarii,DSM 18488,1,4031,231440,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4031),culturecollection:DSM 18488,True
+Desulforamulus_reducens_(strain_ATCC_BAA-1160___DSM_100696___MI-1),anaerobie,Desulforamulus reducens,DSM 100696,1,132391,59610,,partiel,"BacDive ID 132391 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; culturecollection:DSM 100696,True
+Desulforapulum_autotrophicum_(strain_ATCC_43914___DSM_3382___VKM_B-1955___HRM2),anaerobie,Desulforapulum autotrophicum,ATCC 43914;DSM 3382,1,3965,2296,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3965),"culturecollection:ATCC 43914,DSM 3382",True
+Desulforhabdus_amnigena,anaerobie,Desulforhabdus amnigena,,1,16675,40218,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16675),taxon,True
+Desulforhopalus_singaporensis,anaerobie,Desulforhopalus singaporensis,,1,4028,91360,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4028),taxon,True
+Desulfosarcina_alkanivorans,anaerobie,Desulfosarcina alkanivorans,,1,140361,571177,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 140361),taxon,True
+Desulfosarcina_widdelii,anaerobie,Desulfosarcina widdelii,,1,140360,947919,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 140360),taxon,True
+Desulfoscipio_geothermicus_DSM_3669,anaerobie,Desulfoscipio geothermicus,DSM 3669,1,11790,39060,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11790),culturecollection:DSM 3669,True
+Desulfoscipio_gibsoniae_DSM_7213,anaerobie,Desulfoscipio gibsoniae,DSM 7213,1,11825,102134,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11825),culturecollection:DSM 7213,True
+Desulfosporosinus_nitroreducens,anaerobie,Desulfosporosinus nitroreducens,,2,140296,2018668,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 140296; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Desulfotalea_psychrophila,anaerobie,Desulfotalea psychrophila,,1,4030,84980,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4030),taxon,True
+Desulfotignum_balticum,anaerobie,Desulfotignum balticum,,2,3951,115781,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 3951; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Desulfotomaculum_nigrificans_(strain_DSM_14880___VKM_B-2319___CO-1-SRB),anaerobie,Desulfotomaculum nigrificans,DSM 14880,1,11828,1565,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11828),culturecollection:DSM 14880,True
+Desulfotruncus_arcticus_DSM_17038,anaerobie,Desulfotruncus arcticus,DSM 17038,1,11829,341036,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11829),culturecollection:DSM 17038,True
+Desulfovibrio_desulfuricans,anaerobie,Desulfovibrio desulfuricans,,10,156946,876,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 156946; 10 hits espèce),Ambigu: 10 souches BacDive,True
+Desulfovibrio_ferrophilus,anaerobie,Desulfovibrio ferrophilus,,1,4144,241368,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4144),taxon,True
+Desulfovibrio_psychrotolerans,anaerobie,Desulfovibrio psychrotolerans,,1,4167,415242,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4167),taxon,True
+Desulfuribacillus_alkaliarsenatis,anaerobie,Desulfuribacillus alkaliarsenatis,,1,18134,766136,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 18134),taxon,True
+Desulfuribacillus_stibiiarsenatis,anaerobie,Desulfuribacillus stibiiarsenatis,,1,133400,1390249,obligate anaerobe,documente,BacDive oxygen tolerance=obligate anaerobe (ID 133400),taxon,True
+Desulfurispira_natronophila,anaerobie,Desulfurispira natronophila,,1,2498,682562,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2498),taxon,True
+Desulfurispirillum_indicum_(strain_ATCC_BAA-1389___DSM_22839___S5),anaerobie,Desulfurispirillum indicum,DSM 22839,1,2497,936456,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2497),culturecollection:DSM 22839,True
+Desulfurivibrio_alkaliphilus_(strain_DSM_19089___UNIQEM_U267___AHT2),anaerobie,Desulfurivibrio alkaliphilus,DSM 19089,1,4033,427923,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4033),culturecollection:DSM 19089,True
+Desulfurobacterium_atlanticum,anaerobie,Desulfurobacterium atlanticum,,1,17643,240169,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17643),taxon,True
+Desulfuromonas_acetoxidans_(strain_DSM_684___11070),anaerobie,Desulfuromonas acetoxidans,DSM 684,1,4226,891,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4226),culturecollection:DSM 684,True
+Desulfuromonas_thiophila,anaerobie,Desulfuromonas thiophila,,2,4234,57664,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4234; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Desulfuromusa_kysingii,anaerobie,Desulfuromusa kysingii,,2,4207,37625,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4207; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Dethiobacter_alkaliphilus_AHT_1,anaerobie,Dethiobacter alkaliphilus,,1,16697,427926,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16697),taxon,True
+Dethiosulfatibacter_aminovorans_DSM_17477,anaerobie,Dethiosulfatibacter aminovorans,DSM 17477,1,17983,332095,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17983),culturecollection:DSM 17477,True
+Dissulfuribacter_thermophilus,anaerobie,Dissulfuribacter thermophilus,,1,23455,1156395,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23455),taxon,True
+Ectothiorhodospira_marina,anaerobie,Ectothiorhodospira marina,,2,4278,1396821,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4278; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Ectothiorhodospira_mobilis,anaerobie,Ectothiorhodospira mobilis,,5,4275,195064,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4275; 5 hits espèce),Ambigu: 5 souches BacDive,True
+Flavonifractor_plautii,anaerobie,Flavonifractor plautii,,1,18082,292800,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 18082),taxon,True
+Formivibrio_citricus,anaerobie,Formivibrio citricus,,1,10459,83765,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 10459),taxon,True
+Fundidesulfovibrio_putealis,anaerobie,Fundidesulfovibrio putealis,,1,4148,270496,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4148),taxon,True
+Fusibacter_paucivorans,anaerobie,Fusibacter paucivorans,,1,18032,76009,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 18032),taxon,True
+Geoalkalibacter_ferrihydriticus,anaerobie,Geoalkalibacter ferrihydriticus,,1,5808,392333,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5808),taxon,True
+Geoalkalibacter_ferrihydriticus_DSM_17813,anaerobie,Geoalkalibacter ferrihydriticus,DSM 17813,1,5808,392333,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5808),culturecollection:DSM 17813,True
+Geoalkalibacter_halelectricus,anaerobie,Geoalkalibacter halelectricus,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Geoanaerobacter_pelophilus,anaerobie,Geoanaerobacter pelophilus,,1,5802,60036,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5802),taxon,True
+Geobacter_hydrogenophilus,anaerobie,Geobacter hydrogenophilus,,1,5800,40983,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5800),taxon,True
+Geobacter_metallireducens,anaerobie,Geobacter metallireducens,,1,5791,28232,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5791),taxon,True
+Geobacter_sulfurreducens_(strain_ATCC_51573___DSM_12127___PCA),anaerobie,Geobacter sulfurreducens,ATCC 51573;DSM 12127,1,5792,35554,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5792),"culturecollection:ATCC 51573,DSM 12127",True
+Geomobilimonas_luticola,anaerobie,Geomobilimonas luticola,,1,23031,1114878,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23031),taxon,True
+Geotalea_daltonii_(strain_DSM_22248___JCM_15807___FRC-32),anaerobie,Geotalea daltonii,DSM 22248;JCM 15807,1,5807,1203471,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5807),"culturecollection:DSM 22248,JCM 15807",True
+Geovibrio_thiophilus,anaerobie,Geovibrio thiophilus,,1,3840,139438,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3840),taxon,True
+Gottschalkia_acidurici_(strain_ATCC_7906___DSM_604___BCRC_14475___CIP_104303___KCTC_5404___NCIMB_10678___9a),anaerobie,Gottschalkia acidurici,ATCC 7906;DSM 604;CIP 104303;KCTC 5404;NCIMB 10678,1,2537,1556,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2537),"culturecollection:ATCC 7906,DSM 604,CIP 104303",True
+Gottschalkia_purinilytica,anaerobie,Gottschalkia purinilytica,,1,2650,1503,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2650),taxon,True
+Halarcobacter_anaerophilus,anaerobie,Halarcobacter anaerophilus,,1,23819,877500,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23819),taxon,True
+Halochromatium_glycolicum,anaerobie,Halochromatium glycolicum,,1,2440,85075,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2440),taxon,True
+Halochromatium_salexigens,anaerobie,Halochromatium salexigens,,1,2439,49447,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2439),taxon,True
+Halodesulfovibrio_aestuarii,anaerobie,Halodesulfovibrio aestuarii,,3,4161,126333,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4161; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Halorhodospira_halochloris,anaerobie,Halorhodospira halochloris,,1,4282,1052,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4282),taxon,True
+Halorhodospira_halophila,anaerobie,Halorhodospira halophila,,1,4283,1053,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4283),taxon,True
+Halorhodospira_halophila_(strain_DSM_244___SL1),anaerobie,Halorhodospira halophila,DSM 244,1,4283,1053,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4283),culturecollection:DSM 244,True
+Halorhodospira_neutriphila,anaerobie,Halorhodospira neutriphila,,2,4285,168379,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4285; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Heliobacterium_chlorum,anaerobie,Heliobacterium chlorum,,1,6121,2698,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6121),taxon,True
+Heliobacterium_mobile,anaerobie,Heliobacterium mobile,,1,6118,28064,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6118),taxon,True
+Heliobacterium_modesticaldum_(strain_ATCC_51547___Ice1),anaerobie,Heliobacterium modesticaldum,ATCC 51547,1,6122,35701,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6122),culturecollection:ATCC 51547,True
+Heliomicrobium_gestii,anaerobie,Heliomicrobium gestii,,1,6123,2699,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6123),taxon,True
+Heliomicrobium_modesticaldum,anaerobie,Heliomicrobium modesticaldum,,1,6122,35701,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6122),taxon,True
+Heliomicrobium_undosum,anaerobie,Heliomicrobium undosum,,1,6124,121734,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6124),taxon,True
+Heliophilum_fasciatum,anaerobie,Heliophilum fasciatum,,1,6119,35700,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6119),taxon,True
+Herbinix_hemicellulosilytica,anaerobie,Herbinix hemicellulosilytica,,1,131395,1564487,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 131395),taxon,True
+Humidesulfovibrio_mexicanus,anaerobie,Humidesulfovibrio mexicanus,,1,4141,147047,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4141),taxon,True
+Hydrogenispora_ethanolica,anaerobie,Hydrogenispora ethanolica,,1,24818,1082276,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 24818),taxon,True
+Ilyobacter_polytropus_(strain_ATCC_51220___DSM_2926___LMG_16218___CuHBu1),anaerobie,Ilyobacter polytropus,ATCC 51220;DSM 2926;LMG 16218,1,5777,167642,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5777),"culturecollection:ATCC 51220,DSM 2926,LMG 16218",True
+Kineothrix_alysoides,anaerobie,Kineothrix alysoides,,1,133070,1469948,obligate anaerobe,documente,BacDive oxygen tolerance=obligate anaerobe (ID 133070),taxon,True
+Lacrimispora_algidixylanolytica,anaerobie,Lacrimispora algidixylanolytica,,1,2794,94868,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2794),taxon,True
+Lacrimispora_xylanisolvens,anaerobie,Lacrimispora xylanisolvens,,1,1603,384636,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 1603),taxon,True
+Lacrimispora_xylanolytica,anaerobie,Lacrimispora xylanolytica,,2,156751,29375,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 156751; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Leadbettera_azotonutricia_(strain_ATCC_BAA-888___DSM_13862___ZAS-9),anaerobie,Leadbettera azotonutricia,DSM 13862,1,14345,150829,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 14345),culturecollection:DSM 13862,True
+Magnetospirillum_fulvum,anaerobie,Magnetospirillum fulvum,,6,13953,1082,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13953; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Magnetospirillum_fulvum_MGU-K5,anaerobie,Magnetospirillum fulvum,,6,13953,1082,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13953; 6 hits espèce),Ambigu: 6 souches BacDive,True
+Magnetovibrio_blakemorei,anaerobie,Magnetovibrio blakemorei,,1,23250,28181,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23250),taxon,True
+Malaciobacter_molluscorum_LMG_25693,anaerobie,Malaciobacter molluscorum,LMG 25693,1,166638,1032072,,partiel,"BacDive ID 166638 trouvé, oxygen tolerance absente",Pas de champ oxygen tolerance; culturecollection:LMG 25693,True
+Malonomonas_rubra_DSM_5091,anaerobie,Malonomonas rubra,DSM 5091,1,4211,57040,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4211),culturecollection:DSM 5091,True
+Marichromatium_bheemlicum,anaerobie,Marichromatium bheemlicum,,1,2452,365339,obligate anaerobe,documente,BacDive oxygen tolerance=obligate anaerobe (ID 2452),taxon,True
+Marichromatium_purpuratum_984,anaerobie,Marichromatium purpuratum,,2,2450,37487,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2450; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Maridesulfovibrio_salexigens_(strain_ATCC_14822___DSM_2638___NCIMB_8403___VKM_B-1763),anaerobie,Maridesulfovibrio salexigens,ATCC 14822;DSM 2638;NCIMB 8403,1,4084,880,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4084),"culturecollection:ATCC 14822,DSM 2638,NCIMB 8403",True
+Megalodesulfovibrio_gigas_(strain_ATCC_19364___DSM_1382___NCIMB_9332___VKM_B-1759),anaerobie,Megalodesulfovibrio gigas,ATCC 19364;DSM 1382;NCIMB 9332,1,4083,879,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4083),"culturecollection:ATCC 19364,DSM 1382,NCIMB 9332",True
+Megasphaera_cerevisiae_DSM_20462,anaerobie,Megasphaera cerevisiae,DSM 20462,1,17129,39029,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17129),culturecollection:DSM 20462,True
+Methylomusa_anaerophila,anaerobie,Methylomusa anaerophila,,1,158647,1930071,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 158647),taxon,True
+Mobilisporobacter_senegalensis,anaerobie,Mobilisporobacter senegalensis,,1,132450,1329262,obligate anaerobe,documente,BacDive oxygen tolerance=obligate anaerobe (ID 132450),taxon,True
+Mobilitalea_sibirica,anaerobie,Mobilitalea sibirica,,1,24121,1462919,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 24121),taxon,True
+Muricomes_intestini,anaerobie,Muricomes intestini,,1,131529,1796634,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 131529),taxon,True
+Natranaerovirga_hydrolytica,anaerobie,Natranaerovirga hydrolytica,,1,18087,680378,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 18087),taxon,True
+Natranaerovirga_pectinivora,anaerobie,Natranaerovirga pectinivora,,1,18086,682400,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 18086),taxon,True
+Natronoflexus_pectinivorans,anaerobie,Natronoflexus pectinivorans,,1,17814,682526,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17814),taxon,True
+Neomoorella_stamsii,anaerobie,Neomoorella stamsii,,1,24648,1266720,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 24648),taxon,True
+Neomoorella_thermoacetica,anaerobie,Neomoorella thermoacetica,,9,166021,1525,,a_verifier,BacDive oxygen tolerance=None (ID 166021; 9 hits espèce),Ambigu: 9 souches BacDive,True
+Nitratidesulfovibrio_oxamicus,anaerobie,Nitratidesulfovibrio oxamicus,,2,155542,32016,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 155542; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Nitratidesulfovibrio_vulgaris_(strain_ATCC_29579___DSM_644___CCUG_34227___NCIMB_8303___VKM_B-1760___Hildenborough),anaerobie,Nitratidesulfovibrio vulgaris,ATCC 29579;DSM 644;NCIMB 8303,1,4105,881,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4105),"culturecollection:ATCC 29579,DSM 644,NCIMB 8303",True
+Nitratidesulfovibrio_vulgaris_(strain_DP4),anaerobie,Nitratidesulfovibrio vulgaris,,12,4163,881,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4163; 12 hits espèce),Ambigu: 12 souches BacDive,True
+Nitratidesulfovibrio_vulgaris_(strain_DSM_19637___Miyazaki_F),anaerobie,Nitratidesulfovibrio vulgaris,DSM 19637,1,4163,881,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4163),culturecollection:DSM 19637,True
+Oceanidesulfovibrio_indonesiensis,anaerobie,Oceanidesulfovibrio indonesiensis,,1,4143,54767,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4143),taxon,True
+Oceanidesulfovibrio_marinus,anaerobie,Oceanidesulfovibrio marinus,,1,4160,370038,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4160),taxon,True
+Oxobacter_pfennigii,anaerobie,Oxobacter pfennigii,,1,2505,36849,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2505),taxon,True
+Paludibacter_propionicigenes_(strain_DSM_17365___JCM_13257___WB4),anaerobie,Paludibacter propionicigenes,DSM 17365;JCM 13257,1,12496,185300,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 12496),"culturecollection:DSM 17365,JCM 13257",True
+Pararhodospirillum_oryzae,anaerobie,Pararhodospirillum oryzae,,1,133978,478448,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 133978),taxon,True
+Pararhodospirillum_photometricum_DSM_122,anaerobie,Pararhodospirillum photometricum,DSM 122,1,14004,1084,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 14004),culturecollection:DSM 122,True
+Parasporobacterium_paucivorans_DSM_15970,anaerobie,Parasporobacterium paucivorans,DSM 15970,1,6361,115544,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6361),culturecollection:DSM 15970,True
+Pectinatus_brassicae,anaerobie,Pectinatus brassicae,,1,17147,862415,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17147),taxon,True
+Pectinatus_cerevisiiphilus,anaerobie,Pectinatus cerevisiiphilus,,4,17139,86956,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 17139; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Pectinatus_haikarae,anaerobie,Pectinatus haikarae,,1,17146,349096,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17146),taxon,True
+Pelobacter_propionicus_(strain_DSM_2379___NBRC_103807___OttBd1),anaerobie,Pelobacter propionicus,DSM 2379;NBRC 103807,1,4219,29543,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4219),"culturecollection:DSM 2379,NBRC 103807",True
+Pelodictyon_luteolum,anaerobie,Pelodictyon luteolum,,2,2407,1100,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2407; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Pelosinus_fermentans_B4,anaerobie,Pelosinus fermentans,,1,17204,365349,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17204),taxon,True
+Pelosinus_fermentans_JBW45,anaerobie,Pelosinus fermentans,,1,17204,365349,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17204),taxon,True
+Pelosinus_propionicus_DSM_13327,anaerobie,Pelosinus propionicus,DSM 13327,1,17203,380084,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17203),culturecollection:DSM 13327,True
+Pelotalea_chapellei,anaerobie,Pelotalea chapellei,,1,5797,44671,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5797),taxon,True
+Pelotomaculum_propionicicum,anaerobie,Pelotomaculum propionicicum,,1,11836,258475,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11836),taxon,True
+Pelotomaculum_schinkii,anaerobie,Pelotomaculum schinkii,,1,11835,78350,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11835),taxon,True
+Phaeospirillum_tilakii,anaerobie,Phaeospirillum tilakii,,1,133722,741673,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 133722),taxon,True
+Phaeovulum_veldkampii_DSM_11550,anaerobie,Phaeovulum veldkampii,DSM 11550,1,13821,33049,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 13821),culturecollection:DSM 11550,True
+Photobacterium_lutimaris,anaerobie,Photobacterium lutimaris,,1,17234,388278,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17234),taxon,True
+Propionispira_arboris,anaerobie,Propionispira arboris,,1,17148,84035,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17148),taxon,True
+Propionispora_hippei_DSM_15287,anaerobie,Propionispora hippei,DSM 15287,1,17150,209080,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17150),culturecollection:DSM 15287,True
+Propionispora_vibrioides,anaerobie,Propionispora vibrioides,,1,17149,112903,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17149),taxon,True
+Propionivibrio_dicarboxylicus,anaerobie,Propionivibrio dicarboxylicus,,1,13897,83767,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 13897),taxon,True
+Prosthecochloris_ethylica,anaerobie,Prosthecochloris ethylica,,1,2402,2743976,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2402),taxon,True
+Prosthecochloris_vibrioformis,anaerobie,Prosthecochloris vibrioformis,,1,2401,1098,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2401),taxon,True
+Pseudobacteroides_cellulosolvens_ATCC_35603_=_DSM_2933,anaerobie,Pseudobacteroides cellulosolvens,ATCC 35603;DSM 2933,1,1581,35825,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 1581),"culturecollection:ATCC 35603,DSM 2933",True
+Rhizomicrobium_electricum,anaerobie,Rhizomicrobium electricum,,1,17878,480070,obligate anaerobe,documente,BacDive oxygen tolerance=obligate anaerobe (ID 17878),taxon,True
+Rhizomicrobium_palustre,anaerobie,Rhizomicrobium palustre,,3,,,,a_verifier,BacDive multi-hits (3) oxygen_tol diverge ou absente,Ambigu: 3 souches BacDive,True
+Rhodobacter_viridis,anaerobie,Rhodobacter viridis,,1,133800,1054202,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 133800),taxon,True
+Rhodobium_orientis,anaerobie,Rhodobium orientis,,2,13871,34017,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13871; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhodoblastus_acidophilus,anaerobie,Rhodoblastus acidophilus,,3,1800,1074,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 1800; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Rhodoblastus_sphagnicola,anaerobie,Rhodoblastus sphagnicola,,1,1801,333368,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 1801),taxon,True
+Rhodocyclus_gracilis,anaerobie,Rhodocyclus gracilis,,1,13927,2929842,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 13927),taxon,True
+Rhodocyclus_tenuis,anaerobie,Rhodocyclus tenuis,,1,13926,1066,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 13926),taxon,True
+Rhodoferax_antarcticus_ANT_BR,anaerobie,Rhodoferax antarcticus,,1,23871,81479,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23871),taxon,True
+Rhodopila_globiformis,anaerobie,Rhodopila globiformis,,1,59,1071,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 59),taxon,True
+Rhodoplanes_roseus,anaerobie,Rhodoplanes roseus,,2,6188,29409,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 6188; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhodospirillum_centenum_(strain_ATCC_51521___SW),anaerobie,Rhodospirillum centenum,ATCC 51521,2,14012,34018,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 14012; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhodothalassium_salexigens_DSM_2132,anaerobie,Rhodothalassium salexigens,DSM 2132,1,13738,1086,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 13738),culturecollection:DSM 2132,True
+Rhodovastum_atsumiense,anaerobie,Rhodovastum atsumiense,,1,133040,504468,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 133040),taxon,True
+Rhodovibrio_salinarum,anaerobie,Rhodovibrio salinarum,,1,13958,1087,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 13958),taxon,True
+Rhodovulum_strictum,anaerobie,Rhodovulum strictum,,2,13744,58314,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13744; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Rhodovulum_sulfidophilum,anaerobie,Rhodovulum sulfidophilum,,2,13742,35806,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 13742; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Roseiflexus_castenholzii_(strain_DSM_13941___HLO8),anaerobie,Roseiflexus castenholzii,DSM 13941,1,2416,120962,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2416),culturecollection:DSM 13941,True
+Roseospirillum_parvum,anaerobie,Roseospirillum parvum,,1,13873,83401,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 13873),taxon,True
+Rubrivivax_gelatinosus,anaerobie,Rubrivivax gelatinosus,,4,17936,28068,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 17936; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Rubrivivax_gelatinosus_(strain_NBRC_100245___IL144),anaerobie,Rubrivivax gelatinosus,NBRC 100245,4,17936,28068,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 17936; 4 hits espèce),Ambigu: 4 souches BacDive,True
+Ruminiclostridium_cellobioparum_subsp__termitidis_CT1112,anaerobie,Ruminiclostridium cellobioparum,,2,2767,29371,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2767; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Ruminiclostridium_cellulolyticum,anaerobie,Ruminiclostridium cellulolyticum,,1,2760,1521,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2760),taxon,True
+Ruminiclostridium_hungatei,anaerobie,Ruminiclostridium hungatei,,1,2803,48256,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2803),taxon,True
+Ruminiclostridium_sufflavum_DSM_19573,anaerobie,Ruminiclostridium sufflavum,DSM 19573,1,2848,396504,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2848),culturecollection:DSM 19573,True
+Sediminispirochaeta_smaragdinae_(strain_DSM_11293___JCM_15392___SEBR_4228),anaerobie,Sediminispirochaeta smaragdinae,DSM 11293;JCM 15392,1,14329,55206,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 14329),"culturecollection:DSM 11293,JCM 15392",True
+Seleniivibrio_woodruffii,anaerobie,Seleniivibrio woodruffii,,1,23885,1078050,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23885),taxon,True
+Selenomonas_artemidis_F0399,anaerobie,Selenomonas artemidis,,1,17161,671224,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17161),taxon,True
+Serpentinicella_alkaliphila,anaerobie,Serpentinicella alkaliphila,,1,132680,1734049,obligate anaerobe,documente,BacDive oxygen tolerance=obligate anaerobe (ID 132680),taxon,True
+Slackia_exigua_(strain_ATCC_700122___DSM_15923___CIP_105133___JCM_11022___KCTC_5966___S-7),anaerobie,Slackia exigua,ATCC 700122;DSM 15923;CIP 105133;JCM 11022;KCTC 5966,1,3064,84109,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 3064),"culturecollection:ATCC 700122,DSM 15923,CIP 105133",True
+Spirochaeta_isovalerica,anaerobie,Spirochaeta isovalerica,,1,14318,150,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 14318),taxon,True
+Sporobacter_termitidis_DSM_10068,anaerobie,Sporobacter termitidis,DSM 10068,1,17687,44749,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 17687),culturecollection:DSM 10068,True
+Sporomusa_ovata,anaerobie,Sporomusa ovata,,3,17191,2378,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 17191; 3 hits espèce),Ambigu: 3 souches BacDive,True
+Sulfuricurvum_kujiense,anaerobie,Sulfuricurvum kujiense,,1,6112,148813,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6112),taxon,True
+Sulfuricurvum_kujiense_(strain_ATCC_BAA-921___DSM_16994___JCM_11577___YK-1),anaerobie,Sulfuricurvum kujiense,DSM 16994;JCM 11577,1,6112,148813,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6112),"culturecollection:DSM 16994,JCM 11577",True
+Sulfurospirillum_barnesii_(strain_ATCC_700032___DSM_10660___SES-3),anaerobie,Sulfurospirillum barnesii,ATCC 700032;DSM 10660,1,2226,44674,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2226),"culturecollection:ATCC 700032,DSM 10660",True
+Sulfurospirillum_halorespirans_DSM_13726,anaerobie,Sulfurospirillum halorespirans,DSM 13726,1,2228,194424,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2228),culturecollection:DSM 13726,True
+Sulfurospirillum_multivorans,anaerobie,Sulfurospirillum multivorans,,2,2230,66821,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2230; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Sulfurospirillum_multivorans_(strain_DM_12446___JCM_15788___NBRC_109480),anaerobie,Sulfurospirillum multivorans,JCM 15788;NBRC 109480,1,2229,66821,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2229),"culturecollection:JCM 15788,NBRC 109480",True
+Syntrophobacter_fumaroxidans_(strain_DSM_10017___MPOB),anaerobie,Syntrophobacter fumaroxidans,DSM 10017,1,16670,119484,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16670),culturecollection:DSM 10017,True
+Syntrophobotulus_glycolicus_(strain_DSM_8271___FlGlyR),anaerobie,Syntrophobotulus glycolicus,DSM 8271,1,11786,51197,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11786),culturecollection:DSM 8271,True
+Syntrophomonas_zehnderi_OL-4,anaerobie,Syntrophomonas zehnderi,,1,16690,404335,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16690),taxon,True
+Syntrophotalea_acetylenica,anaerobie,Syntrophotalea acetylenica,,2,4214,29542,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 4214; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Syntrophotalea_carbinolica_(strain_DSM_2380___NBRC_103641___GraBd1),anaerobie,Syntrophotalea carbinolica,DSM 2380;NBRC 103641,1,4218,19,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4218),"culturecollection:DSM 2380,NBRC 103641",True
+Syntrophothermus_lipocalidus_(strain_DSM_12680___TGB-C1),anaerobie,Syntrophothermus lipocalidus,DSM 12680,1,16695,86170,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16695),culturecollection:DSM 12680,True
+Syntrophus_gentianae,anaerobie,Syntrophus gentianae,,1,16664,43775,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16664),taxon,True
+Teretinema_zuelzerae,anaerobie,Teretinema zuelzerae,,1,14321,156,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 14321),taxon,True
+Thermacetogenium_phaeum_(strain_ATCC_BAA-254___DSM_26808___PB),anaerobie,Thermacetogenium phaeum,DSM 26808,1,23328,85874,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23328),culturecollection:DSM 26808,True
+Thermincola_ferriacetica,anaerobie,Thermincola ferriacetica,,1,11788,278994,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 11788),taxon,True
+Thermincola_potens_(strain_JR),anaerobie,Thermincola potens,,0,,,,partiel,,Aucun hit taxon/culture BacDive,True
+Thermoanaerobacterium_aotearoense_SCUT27,anaerobie,Thermoanaerobacterium aotearoense,,2,18055,47490,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 18055; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Thermoanaerobacterium_thermosaccharolyticum,anaerobie,Thermoanaerobacterium thermosaccharolyticum,,5,18048,1517,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 18048; 5 hits espèce),Ambigu: 5 souches BacDive,True
+Thermoanaerobacterium_thermosaccharolyticum_M0795,anaerobie,Thermoanaerobacterium thermosaccharolyticum,,5,18048,1517,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 18048; 5 hits espèce),Ambigu: 5 souches BacDive,True
+Thermochromatium_tepidum_ATCC_43061,anaerobie,Thermochromatium tepidum,ATCC 43061,1,23848,1050,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23848),culturecollection:ATCC 43061,True
+Thermoclostridium_caenicola,anaerobie,Thermoclostridium caenicola,,1,2854,659425,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2854),taxon,True
+Thermoclostridium_stercorarium_(strain_ATCC_35414___DSM_8532___NCIMB_11754),anaerobie,Thermoclostridium stercorarium,ATCC 35414;DSM 8532;NCIMB 11754,1,2773,1510,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2773),"culturecollection:ATCC 35414,DSM 8532,NCIMB 11754",True
+Thermoclostridium_stercorarium_subsp__leptospartum_DSM_9219,anaerobie,Thermoclostridium stercorarium,DSM 9219,1,2777,1346611,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2777),culturecollection:DSM 9219,True
+Thermoclostridium_stercorarium_subsp__thermolacticum_DSM_2910,anaerobie,Thermoclostridium stercorarium,DSM 2910,1,2733,1121336,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2733),culturecollection:DSM 2910,True
+Thermodesulfatator_atlanticus,anaerobie,Thermodesulfatator atlanticus,,1,16890,501497,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16890),taxon,True
+Thermodesulfatator_autotrophicus,anaerobie,Thermodesulfatator autotrophicus,,1,132647,1795632,obligate anaerobe,documente,BacDive oxygen tolerance=obligate anaerobe (ID 132647),taxon,True
+Thermodesulfatator_indicus_(strain_DSM_15286___JCM_11887___CIR29812),anaerobie,Thermodesulfatator indicus,DSM 15286;JCM 11887,1,16889,171695,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16889),"culturecollection:DSM 15286,JCM 11887",True
+Thermodesulfitimonas_autotrophica,anaerobie,Thermodesulfitimonas autotrophica,,1,133068,1894989,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 133068),taxon,True
+Thermodesulforhabdus_norvegica,anaerobie,Thermodesulforhabdus norvegica,,1,16677,39841,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16677),taxon,True
+Thermodesulfovibrio_aggregans,anaerobie,Thermodesulfovibrio aggregans,,1,10540,86166,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 10540),taxon,True
+Thermodesulfovibrio_yellowstonii,anaerobie,Thermodesulfovibrio yellowstonii,,1,10537,28262,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 10537),taxon,True
+Thermodesulfovibrio_yellowstonii_(strain_ATCC_51303___DSM_11347___YP87),anaerobie,Thermodesulfovibrio yellowstonii,ATCC 51303;DSM 11347,1,10537,28262,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 10537),"culturecollection:ATCC 51303,DSM 11347",True
+Thermosulfurimonas_dismutans,anaerobie,Thermosulfurimonas dismutans,,1,16897,999894,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 16897),taxon,True
+Thiobaca_trueperi,anaerobie,Thiobaca trueperi,,2,2464,127458,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2464; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Thiocapsa_imhoffii,anaerobie,Thiocapsa imhoffii,,1,22961,382777,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 22961),taxon,True
+Thiocapsa_marina_5811,anaerobie,Thiocapsa marina,,1,2481,244573,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2481),taxon,True
+Thiocapsa_rosea,anaerobie,Thiocapsa rosea,,1,2478,69360,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2478),taxon,True
+Thiocapsa_roseopersicina,anaerobie,Thiocapsa roseopersicina,,2,2480,1058,anaerobe,a_verifier,BacDive oxygen tolerance=anaerobe (ID 2480; 2 hits espèce),Ambigu: 2 souches BacDive,True
+Thiocystis_violascens_(strain_ATCC_17096___DSM_198___6111),anaerobie,Thiocystis violascens,ATCC 17096;DSM 198,1,2482,73141,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2482),"culturecollection:ATCC 17096,DSM 198",True
+Thiorhodococcus_fuscus,anaerobie,Thiorhodococcus fuscus,,1,23850,527200,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23850),taxon,True
+Thiorhodococcus_mannitoliphagus,anaerobie,Thiorhodococcus mannitoliphagus,,1,2472,329406,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2472),taxon,True
+Thiorhodococcus_minor,anaerobie,Thiorhodococcus minor,,1,2470,57489,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2470),taxon,True
+Thiorhodovibrio_winogradskyi,anaerobie,Thiorhodovibrio winogradskyi,,1,2475,77007,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 2475),taxon,True
+Thiospirochaeta_perfilievii,anaerobie,Thiospirochaeta perfilievii,,1,14339,252967,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 14339),taxon,True
+Tolumonas_auensis_(strain_DSM_9187___NBRC_110442___TA_4),anaerobie,Tolumonas auensis,DSM 9187;NBRC 110442,1,294,43948,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 294),"culturecollection:DSM 9187,NBRC 110442",True
+Trichlorobacter_lovleyi_(strain_ATCC_BAA-1151___DSM_17278___SZ),anaerobie,Trichlorobacter lovleyi,DSM 17278,1,5805,313985,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 5805),culturecollection:DSM 17278,True
+Trichloromonas_acetexigens,anaerobie,Trichloromonas acetexigens,,1,4229,38815,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 4229),taxon,True
+Vallitalea_pronyensis,anaerobie,Vallitalea pronyensis,,1,24771,1348613,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 24771),taxon,True
+Winmispira_thermophila_(strain_ATCC_49972___DSM_6192___RI_19_B1),anaerobie,Winmispira thermophila,ATCC 49972;DSM 6192,1,14322,154,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 14322),"culturecollection:ATCC 49972,DSM 6192",True
+Wolinella_succinogenes_(strain_ATCC_29543___DSM_1740___CCUG_13145___JCM_31913___LMG_7466___NCTC_11488___FDC_602W),anaerobie,Wolinella succinogenes,ATCC 29543;DSM 1740;JCM 31913;LMG 7466,1,6116,844,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 6116),"culturecollection:ATCC 29543,DSM 1740,JCM 31913",True
+Youngiibacter_fragilis_232_1,anaerobie,Youngiibacter fragilis,,1,23863,1408819,anaerobe,documente,BacDive oxygen tolerance=anaerobe (ID 23863),taxon,True

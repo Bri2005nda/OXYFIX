@@ -1,0 +1,23 @@
+PHASE 4b — MEME COMBO ALIDA (Nif CKSAAP + XGBoost) : FULL vs STRICT 489
+Question : le beau score sur 489 vient-il seulement du fait qu'on a réduit les données ?
+
+Protocole identique : seed=42, SMOTE sur train seulement, XGBoost params Phase 1b.
+Reference publiee Alida (autre run historique) : Acc=0.9225 | AUC=0.9772
+
+SPLIT ALEATOIRE
+  Full   n=787  Acc=0.8987  AUC=0.9702
+  Strict n=489  Acc=0.9082  AUC=0.9559
+  Delta Strict-Full : dAcc=+0.0094  dAUC=-0.0143
+
+SPLIT GENRE
+  Full   Acc=0.7294  AUC=0.8583
+  Strict Acc=0.9167  AUC=0.9698
+  Delta Strict-Full AUC genre : +0.1115
+
+LECTURE
+- En aleatoire, Full et Strict sont proches : on ne peut pas dire que le score vient seulement du fait d'avoir diminue a 489.
+- Comparer a la reference Alida historique reste indicatif (autre code/seed possible).
+- Le point OXYFIX reste : controles housekeeping + splits taxonomiques.
+
+CSV   : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase4b_alida_combo_full_vs_strict.csv
+Figure: C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase4b_alida_combo_full_vs_strict.png

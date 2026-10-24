@@ -1,0 +1,31 @@
+PHASE 4 — MODELES ALTERNATIFS SUR CORPUS STRICT (489)
+Piste parallele: tenter un gain de performance SANS abandonner OXYFIX.
+Embeddings ESM non testes ici (torch/transformers absents).
+
+Reference Alida: Acc=0.9225 | AUC=0.9772
+
+MEILLEUR Nif (aleatoire, Strict):
+  Modele = ExtraTrees
+  Acc=0.9286 | AUC=0.9608 | dAcc=+0.0061 | dAUC=-0.0164
+  Depasse Alida Acc? True | AUC? False
+  RecA meme modele (aleatoire) AUC=0.9760
+
+MEILLEUR Nif (split genre, Strict) selon AUC:
+  Modele = HGB | Acc=0.9271 | AUC=0.9780
+
+LECTURE:
+- Si Acc/AUC aleatoire > Alida MAIS RecA reste comparable: gain non mecanistique.
+- Si le modele reste haut en genre: a discuter (desequilibre Strict 150/339).
+- Phase 4 documente l'essai de modeles plus forts; OXYFIX (diagnostic) reste le coeur.
+
+SUITE POSSIBLE:
+- embeddings proteines (ESM) si environnement DL installe
+- sensibilite corpus Etendu 559
+
+CSV   : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase4_models_strict.csv
+Figure: C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase4_models_strict.png
+
+ATTENTION FIGURE (corrige):
+- Gauche = Accuracy aleatoire vs Alida Acc 0.9225 (meme metrique, meme type de protocole).
+- Droite = AUC split genre vs ligne Alida AUC 0.9772 comme REFERENCE aleatoire seulement.
+- Alida n a PAS fait le split genre. Ne pas lire 0.978 comme Accuracy battant 0.9225.

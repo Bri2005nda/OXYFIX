@@ -1,0 +1,20 @@
+PHASE 1 - DECISION D ORIENTATION
+
+       name   n  n_pos  n_neg  RF_accuracy   RF_auc   RF_mcc  HGB_accuracy  HGB_auc  HGB_mcc
+ Nif_CKSAAP 787    356    431     0.879747 0.967541 0.760101      0.911392 0.971022 0.822938
+RecA_CKSAAP 787    356    431     0.911392 0.968674 0.821679      0.898734 0.969079 0.797458
+GyrB_CKSAAP 787    356    431     0.879747 0.967055 0.760101      0.892405 0.965193 0.785567
+RpoB_CKSAAP 787    356    431     0.892405 0.977254 0.783995      0.911392 0.974421 0.820754
+
+Lecture:
+- Nif CKSAAP HGB AUC = 0.9710
+- Meilleur controle HGB AUC = 0.9744
+- Les proteines sans lien avec la fixation (RecA, GyrB, RpoB) atteignent
+  des performances comparables a nifHDK sous le meme protocole.
+
+DECISION:
+Signal surtout TAXONOMIQUE (controles AUC ~0.90+).
+Orientation: memoire / papier de mise en garde methodologique.
+Phase 2 (evaluation phylogenetique) reste obligatoire pour quantifier la chute.
+
+Figure: results/figures/phase1_nif_vs_controls.png

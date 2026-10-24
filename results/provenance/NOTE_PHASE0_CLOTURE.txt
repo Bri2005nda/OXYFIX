@@ -1,0 +1,34 @@
+NOTE DE CLOTURE FINALE - PHASE 0 (OXYFIX)
+Date: 2026-10-03 07:07
+Statut: PHASE 0 TERMINEE
+
+1. OBJECTIF
+Pipeline herite + table de provenance + reconciliation des comptes.
+Labels Alida non modifies automatiquement.
+
+2. PROVENANCE FINALE (787 souches) — 0 partiel
+statut_provenance
+documente     489
+a_verifier    221
+manquant       77
+
+Definitions:
+- documente : BacDive + oxygen tolerance coherente avec label Alida
+- a_verifier : ambiguite / facultatif / microaerophile (a traiter en Phase 3)
+- manquant : absent BacDive ou sans oxygen tolerance apres lots 0-12
+
+3. RECONCILIATION
+FASTA + table_labels + provenance = 787 / 356 aero / 431 anaero (ecart 0)
+
+4. LIVRABLES
+- data/raw/metadata/table_provenance.csv
+- results/provenance/bacdive_lot0..12.csv + bacdive_cache/
+- backups table_provenance_backup_*.csv
+- scripts src/enrich_provenance_bacdive.py, merge_provenance_bacdive.py
+- cette note
+
+5. ESSAIS PRELIMINAIRES
+Reproduction ~0.91; fusion ~0.918; split genre ~0.65
+
+6. CLOTURE
+Phase 0 CLOSE. Ouverture Phase 1 (controles negatifs) apres validation encadreur.

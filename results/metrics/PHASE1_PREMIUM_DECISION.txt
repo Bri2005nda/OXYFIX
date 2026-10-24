@@ -1,0 +1,51 @@
+PHASE 1 PREMIUM — DECISION D ORIENTATION
+Date: complete selon plan (baselines + permutations + split genre)
+
+1) SPLIT ALEATOIRE (AUC HGB)
+                name           protocol   n  accuracy      auc      mcc
+          Nif_CKSAAP random_80_20_SMOTE 787  0.911392 0.971022 0.822938
+ Nif_trivial_len_AAC random_80_20_SMOTE 787  0.886076 0.946252 0.770637
+         RecA_CKSAAP random_80_20_SMOTE 787  0.898734 0.969079 0.797458
+         GyrB_CKSAAP random_80_20_SMOTE 787  0.892405 0.965193 0.785567
+         RpoB_CKSAAP random_80_20_SMOTE 787  0.911392 0.974421 0.820754
+RecA_trivial_len_AAC random_80_20_SMOTE 787  0.848101 0.937024 0.693055
+
+2) SPLIT PAR GENRE (AUC HGB, SMOTE train-only)
+                name                        protocol   n  n_train  n_test  genres_train  genres_test  genres_overlap  accuracy      auc      mcc
+          Nif_CKSAAP group_shuffle_genus_SMOTE_train 787      617     170           262           66               0  0.752941 0.856048 0.519275
+ Nif_trivial_len_AAC group_shuffle_genus_SMOTE_train 787      617     170           262           66               0  0.664706 0.774108 0.364337
+         RecA_CKSAAP group_shuffle_genus_SMOTE_train 787      617     170           262           66               0  0.582353 0.722965 0.196599
+         GyrB_CKSAAP group_shuffle_genus_SMOTE_train 787      617     170           262           66               0  0.582353 0.707567 0.193239
+         RpoB_CKSAAP group_shuffle_genus_SMOTE_train 787      617     170           262           66               0  0.570588 0.740106 0.171988
+RecA_trivial_len_AAC group_shuffle_genus_SMOTE_train 787      617     170           262           66               0  0.558824 0.662207 0.164865
+
+3) PERMUTATIONS (n=1000, AUC cv=3, LogisticRegression)
+       name  true_auc_cv3  perm_auc_mean  perm_auc_std  perm_auc_p95   pvalue  n_permutations
+ Nif_CKSAAP      0.958312       0.480551      0.027708      0.524841 0.000999            1000
+RecA_CKSAAP      0.924651       0.488828      0.026221      0.529224 0.000999            1000
+
+4) LECTURE PREMIUM (chiffres figes)
+- Nif aleatoire AUC = 0.971 | meilleur controle (RpoB) = 0.974 → egalite
+- Baseline triviale Nif (longueur+AAC) AUC = 0.946 → deja tres haut sans CKSAAP
+- Nif split-genre AUC = 0.856 (chute -0.115 vs aleatoire)
+- Meilleur controle split-genre (RpoB) AUC = 0.740 (chute -0.234)
+- Ecart Nif - controle sous genre = +0.116 → nif garde un residu au-dela de la taxonomie
+- p-value permutation Nif = 0.000999 | RecA = 0.000999 (n=1000) → pas du hasard
+
+DECISION (grille plan + enrichissements premium):
+Sous split ALEATOIRE: controles housekeeping = nif → le score "classique" est
+CONTAMINE par le signal taxonomique (et meme une baseline longueur+AAC suffit).
+Sous split PAR GENRE: tous chutent, mais nif reste au-dessus des controles
+(+0.116 AUC). Donc: (1) une grande part du signal Alida-like est phylogenetique;
+(2) un residu nif-specifique survit au blocage par genre — a quantifier en Phase 2
+(courbe de decroissance complete, splits plus durs).
+Les permutations rejettent le null pour nif ET RecA: significatif ≠ mecanistique.
+
+ORIENTATION: memoire / papier de mise en garde methodologique, avec nuance
+"residu nif sous contrainte taxonomique". Phase 2 = coeur (decroissance).
+
+Figure: C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase1_premium_summary.png
+Fichiers:
+- results/metrics/phase1_premium_random.csv
+- results/metrics/phase1_premium_genus.csv
+- results/metrics/phase1_premium_permutations.csv

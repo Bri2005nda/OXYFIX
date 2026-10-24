@@ -1,0 +1,21 @@
+PHASE 10b — VARIANTES DE RÉÉCHANTILLONNAGE (20 tirages, Nif et RecA)
+
+AUC moyenne Nif (aléatoire | genre) :
+  smote         full        0.974 | 0.945
+  smote         strict_489  0.982 | 0.970
+  none          full        0.974 | 0.944
+  none          strict_489  0.977 | 0.967
+  class_weight  full        0.974 | 0.947
+  class_weight  strict_489  0.978 | 0.964
+  xgb_spw       full        0.975 | 0.947
+  xgb_spw       strict_489  0.979 | 0.967
+
+LECTURE : si 'none' et 'class_weight' donnent les mêmes AUC que
+'smote' (à l'écart-type près), SMOTE n'apporte rien et peut être
+abandonné au profit du protocole le plus simple. 'xgb_spw' teste
+la pondération scale_pos_weight sous le classifieur d'Alida.
+
+Durée totale : 30598s
+Par répétition : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase10_smote_variants_per_repeat.csv
+Synthèse : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase10_smote_variants_summary.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase10_smote_variants.png

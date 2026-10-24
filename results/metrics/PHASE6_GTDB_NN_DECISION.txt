@@ -1,0 +1,23 @@
+PHASE 6 — BASELINE PLUS PROCHE VOISIN PHYLOGÉNÉTIQUE (GTDB)
+Arbres GTDB bac120/ar53 (release latest, téléchargés 2026-10-21).
+Appariement : {'species': 602, 'genus': 144, 'unmapped': 41} (species = même espèce GTDB ; genus = repli genre).
+
+AUC moyenne ± écart-type (20 splits, GTDB-NN k=5 pondéré distance) :
+  full        random_80_20         AUC=0.972 ± 0.012 | Acc=0.934 | MCC=0.868 | couverture test=94.7% | Nif HGB Phase 5 = 0.974
+  full        group_shuffle_genus  AUC=0.920 ± 0.045 | Acc=0.845 | MCC=0.688 | couverture test=95.8% | Nif HGB Phase 5 = 0.945
+  strict_489  random_80_20         AUC=0.968 ± 0.021 | Acc=0.946 | MCC=0.874 | couverture test=95.5% | Nif HGB Phase 5 = 0.982
+  strict_489  group_shuffle_genus  AUC=0.907 ± 0.074 | Acc=0.890 | MCC=0.735 | couverture test=95.6% | Nif HGB Phase 5 = 0.970
+
+LECTURE :
+- Si GTDB-NN approche Nif-HGB en aléatoire puis chute en genre, la parenté
+  suffit à produire l'essentiel du score historique.
+- GTDB-NN ne prédit que les souches appariées (couverture ci-dessus) ;
+  comparaison à HGB faite sur le corpus complet : écart de couverture à garder en tête.
+- Niveau species = même représentant GTDB pour toutes les souches d'une espèce
+  (distance nulle entre elles) ; niveau genus = représentant du genre.
+
+Durée totale : 41s
+Mapping : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6_gtdb_mapping.csv
+Par répétition : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6_gtdb_nn_per_repeat.csv
+Synthèse : C:\Users\MK COMPUTER\Desktop\projet\results\metrics\phase6_gtdb_nn_summary.csv
+Figure : C:\Users\MK COMPUTER\Desktop\projet\results\figures\phase6_gtdb_nn_vs_hgb.png
